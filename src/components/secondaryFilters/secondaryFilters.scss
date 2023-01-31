@@ -1,0 +1,64 @@
+.content {
+    &__main {
+        padding: 0 196px 0 196px;
+        background-color: #CDC5AC;
+        display: grid;
+        grid-template-columns: 286px 361px;
+        column-gap: 29px;
+        align-items: start;
+        min-height: 756px;
+    }
+    &__sec-filters {
+        &__title-country {
+            font-family: 'e-Ukraine Head';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 28px;
+            line-height: 34px;
+        }
+        &__buttons-country {
+            margin-top: 15px;
+        }
+        &__button-country {
+            padding: 8px 131px 9px 10px;
+            width: 260px;
+            height: 42px;
+            list-style: none;
+            background-color: #D9D9D9;
+            border-radius: 15px;
+            margin-bottom: 12px;
+            img {
+                width: 25px;
+                height: 25px;
+            }
+            &-name {
+                position: relative;
+                font-family: 'e-Ukraine';
+                font-style: normal;
+                font-weight: 200;
+                font-size: 17px;
+                line-height: 20px;
+                display: inline-block;
+                text-align: center;
+                margin-left: 3px;
+                margin-bottom: 11px;
+                top: -5px;
+            }
+        }
+        &__horizontal {
+            width: 260px;
+            height: 0px;
+            margin-top: 9px;
+            border: 1px solid #000000;
+        }
+        &__vertical {
+            position: relative;
+            width: 260px;
+            height: 0px;
+            border: 1px solid #000000;
+            transform: rotate(90deg);
+            left: 153px;
+            top: -74px
+        }
+    }
+}

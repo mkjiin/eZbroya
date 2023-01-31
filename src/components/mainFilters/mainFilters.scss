@@ -1,0 +1,57 @@
+
+.main_filters {
+    padding: 20px 262px 30px 262px;
+    height: 605px;
+    display: block;
+    background-color: #CDC5AC;
+    &__title {
+        font-family: 'e-Ukraine Head';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+    }
+    &__second-line {
+        width: 917px;
+        margin: 0 auto;
+        margin-top: 20px;
+        border: 1px solid #000000;
+    }
+    &__first-line {
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 15px;
+        border: 1px solid #000000;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(4, 220px);
+        grid-gap: 10px;
+        width: 917px;
+        margin: 0 auto;
+        margin-top: 20px;
+        row-gap: 12px;
+        // margin-left: 43px;
+    }
+    &__item {
+        list-style: none;
+        height: 220px;
+        background-color: #D9D9D9;
+        border-radius: 30px;
+        padding: 37px 53px 56px 60px;
+        img {
+            width: 99px;
+            height: 99px;
+            display: block;
+        }
+        h3 {
+            font-family: 'e-Ukraine Head';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+        }
+    }
+}

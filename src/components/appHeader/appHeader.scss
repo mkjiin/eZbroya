@@ -1,0 +1,19 @@
+.app {
+    &__header {
+    padding: 7px 0 0 0;
+    height: 85px;
+    background: #C2B280;
+    img {
+        width: 146px;
+        height: 61px;
+        display: block;
+        margin: 0 auto;
+    }
+    hr {
+        width: 917px;
+        margin: 0 auto;
+        margin-top: 2px;
+        border: 1px solid #000000;
+    }
+    }
+}
