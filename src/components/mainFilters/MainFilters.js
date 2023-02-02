@@ -1,40 +1,41 @@
 import './mainFilters.scss'
 import icon from '../../imgs/icons/tank.png'
-import { useMemo } from 'react';
-import { useSelector } from 'react-redux';
+import { useEffect, useMemo } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import { useCallback } from 'react';
-
-import { useGetFiltersQuery } from '../../api/apiSlice';
+import { fetchedCategories, activeCategoryChanged } from './mainFilterSlice';
 
 const MainFilters = () => {
 
-    const {
-        data: filters = [],
-        isFetching,
-        isLoading,
-        isError
-    } = useGetFiltersQuery();
+    const { category, categoryLoadingStatus} = useSelector(state => state.categories)
 
-    console.log(filters)
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(fetchedCategories())
+    }, [])
+
+    // console.log(filters)
 
     const renderFiltersList = (arr) => {
         if (arr.lenght === 0) {
             return <h5>Помилка</h5>
         } 
 
-        return arr.map(el => {
-            return <li
+        return arr.map(({id, name, label, img}) => {
+            return <button
             tabIndex={0}
             className='main_filters__item'
-            key={el.id}
+            key={id}
+            onClick={() => dispatch(activeCategoryChanged(name))}
             >
-                <img src={el.img} alt="tank"/>
-                <h3>{el.label}</h3>
-            </li>
+                <img src={img} alt="tank"/>
+                <h3>{label}</h3>
+            </button>
         })
     }
 
-    const elements = renderFiltersList(filters)
+    const elements = renderFiltersList(category)
     return (
         <div className='main_filters'>
             <h2 className='main_filters__title'>Оберіть категорію</h2>

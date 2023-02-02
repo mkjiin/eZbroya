@@ -15,8 +15,8 @@
             list-style: none;
             &_title {
                 display: flex;
-                width: 133px;
-                justify-content: space-between;
+                width: 330px;
+                align-items: center;
             }
             &_name {
                 font-family: 'e-Ukraine Head';
@@ -29,12 +29,14 @@
                 // display: inline-block;
                 width: 25px;
                 height: 25px;
+                margin-left: 5px;
             }
             &_img {
                 margin-top: 10px;
                 width: 323px;
                 height: 198px;
                 border-radius: 10px;
+                object-fit: cover;
             }
             &_buttons {
                 display: flex;

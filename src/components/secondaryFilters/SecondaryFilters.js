@@ -1,7 +1,7 @@
 import './secondaryFilters.scss';
 import ua from '../../imgs/icons/ukraine.png'
 import devil from '../../imgs/icons/devil.png';
-import usa from '../../imgs/icons/usa.png'
+import nato from '../../imgs/icons/nato.png'
 
 const SecondaryFilters = () => {
     return (
@@ -13,7 +13,7 @@ const SecondaryFilters = () => {
                     <div className='content__sec-filters__button-country-name'>Україна</div>
                 </li>
                 <li className='content__sec-filters__button-country'>
-                    <img src={usa} alt="ua" />
+                    <img src={nato} alt="ua" />
                     <div className='content__sec-filters__button-country-name'>Іноземні</div>
                 </li>
                 <li className='content__sec-filters__button-country'>

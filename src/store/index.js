@@ -1,5 +1,7 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 import { apiSlice } from "../api/apiSlice";
+import weapons from '../components/weaponList/weaponSlice'
+import categories from '../components/mainFilters/mainFilterSlice'
 
 const stringMiddleware = () => (next) => (action) => {
     if (typeof action === 'string') {
@@ -11,8 +13,8 @@ const stringMiddleware = () => (next) => (action) => {
 };
 
 const store = configureStore({
-    reducer: { [apiSlice.reducerPath]: apiSlice.reducer},
-    middleware: getDefaultMiddleware => getDefaultMiddleware().concat(stringMiddleware, apiSlice.middleware),
+    reducer: { categories, weapons},
+    middleware: getDefaultMiddleware => getDefaultMiddleware().concat(stringMiddleware),
     devTools: process.env.NODE_ENV !== 'production',
 })
 
