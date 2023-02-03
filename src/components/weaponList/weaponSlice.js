@@ -4,19 +4,23 @@ import { useHttp } from "../../hooks/http.hook";
 const initialState = {
     weaponsLoadingStatus: 'idle',
     weapons: [],
+    activeCategory: 'tanks'
 }
 
 export const fetchedWeapons = createAsyncThunk(
     'weapons/fetchedWeapons',
-    () => {
+    (category) => {
         const {request} = useHttp();
-        return request(`http://localhost:3001/vehicles`)
+        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${category}.json`)
     }
 )
 
 const filtersSlice = createSlice({
     name: 'weapons',
     initialState,
+    reducers: {
+        activeCategoryChanged: (state, action) => {state.activeCategory = action.payload}
+    },
     extraReducers: (builder) => {
     builder
         .addCase(fetchedWeapons.pending, state => {state.weaponsLoadingStatus = 'loading'})
@@ -36,5 +40,6 @@ export default reducer;
 export const {
     weaponsFetching,
     weaponsFetched, 
-    weaponsFetchingError
+    weaponsFetchingError,
+    activeCategoryChanged
 } = actions;

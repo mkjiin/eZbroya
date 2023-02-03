@@ -3,11 +3,19 @@ import icon from '../../imgs/icons/tank.png'
 import { useEffect, useMemo } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useCallback } from 'react';
-import { fetchedCategories, activeCategoryChanged } from './mainFilterSlice';
+import {  useChangeCategoryMutation , useGetWeaponsQuery} from '../../api/apiSlice';
+import { activeCategoryChanged } from '../weaponList/weaponSlice';
+import { fetchedCategories } from './mainFilterSlice';
 
 const MainFilters = () => {
 
+    // const {
+    //     refetch
+    // } = useGetWeaponsQuery();
+
     const { category, categoryLoadingStatus} = useSelector(state => state.categories)
+
+    // const [changeCategory] = useChangeCategoryMutation();
 
     const dispatch = useDispatch();
 

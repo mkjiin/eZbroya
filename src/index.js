@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import App from './components/app/App'
 import './style/style.scss'
 import { Provider } from 'react-redux';
+import './firebase';
 
 import store from './store';
 

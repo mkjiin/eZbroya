@@ -7,26 +7,34 @@ import { useEffect, useState, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchedWeapons } from './weaponSlice';
 import { useHttp } from '../../hooks/http.hook';
+import { useGetWeaponsQuery, useChangeCategoryMutation } from '../../api/apiSlice';
 
 
 const WeaponList = () => {
 
-    const { weapons, weaponsLoadingStatus } = useSelector(state => state.weapons)
-    const { activeCategory } = useSelector(state => state.categories)
+    const { weapons, weaponsLoadingStatus, activeCategory } = useSelector(state => state.weapons)
     const dispatch = useDispatch();
 
-    const filtredWeapons = useMemo(() => {
-        const filtredWeapons = weapons.slice();
+    // const  {
+    //     currentData: weapons = [],
+    //     isLoading
+    // } = useGetWeaponsQuery();
 
-        return filtredWeapons.filter(el => el.type === activeCategory)
+    // const [changeCategory, {data: res = []}] = useChangeCategoryMutation();
+
+    // const filtredWeapons = useMemo(() => {
+    //     const filtredWeapons = weapons.slice();
+
+    //     return filtredWeapons.filter(el => el.type === activeCategory)
         
-    }, [weapons, activeCategory]);
+    // }, [weapons, activeCategory]);
 
     useEffect(() => {
-        dispatch(fetchedWeapons());
-    }, [])
+        dispatch(fetchedWeapons(activeCategory));
+        // console.log(weapons)
+    }, [activeCategory])
 
-    console.log(weapons)
+    // console.log(weapons)
 
     const renderWeapons = (arr) => {
 
@@ -47,7 +55,7 @@ const WeaponList = () => {
         })
     }
 
-    const element = renderWeapons(filtredWeapons)
+    const element = renderWeapons(weapons)
 
     return (
         <div className='content__weapon'>
