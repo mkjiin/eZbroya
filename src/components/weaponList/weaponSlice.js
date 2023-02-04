@@ -4,16 +4,20 @@ import { useHttp } from "../../hooks/http.hook";
 const initialState = {
     weaponsLoadingStatus: 'idle',
     weapons: [],
-    activeCategory: 'tanks'
+    activeCategory: 'tanks',
+    limit: '1'
 }
 
 export const fetchedWeapons = createAsyncThunk(
     'weapons/fetchedWeapons',
-    (category) => {
+    (args) => {
+        const {activeCategory, limit} = args
         const {request} = useHttp();
-        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${category}.json`)
+        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${activeCategory}.json?orderBy="$key"&limitToFirst=${limit}`)
     }
 )
+
+
 
 const filtersSlice = createSlice({
     name: 'weapons',

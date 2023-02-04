@@ -12,7 +12,7 @@ import { useGetWeaponsQuery, useChangeCategoryMutation } from '../../api/apiSlic
 
 const WeaponList = () => {
 
-    const { weapons, weaponsLoadingStatus, activeCategory } = useSelector(state => state.weapons)
+    const { weapons, weaponsLoadingStatus, activeCategory, limit } = useSelector(state => state.weapons)
     const dispatch = useDispatch();
 
     // const  {
@@ -30,11 +30,11 @@ const WeaponList = () => {
     // }, [weapons, activeCategory]);
 
     useEffect(() => {
-        dispatch(fetchedWeapons(activeCategory));
+        dispatch(fetchedWeapons({activeCategory, limit: 1}));
         // console.log(weapons)
     }, [activeCategory])
 
-    // console.log(weapons)
+    console.log(weapons)
 
     const renderWeapons = (arr) => {
 
@@ -62,7 +62,7 @@ const WeaponList = () => {
             <ul className='content__weapon_grid'>
                 {element}
             </ul>
-            <button className='content__weapon_item_paggin' >Більше..</button>
+            <button className='content__weapon_item_paggin' onClick={() => dispatch(fetchedWeapons({activeCategory, limit: 2}))}>Більше..</button>
         </div>
     )
 }
