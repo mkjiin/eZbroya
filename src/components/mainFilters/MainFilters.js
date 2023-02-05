@@ -4,7 +4,7 @@ import { useEffect, useMemo } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useCallback } from 'react';
 import {  useChangeCategoryMutation , useGetWeaponsQuery} from '../../api/apiSlice';
-import { activeCategoryChanged } from '../weaponList/weaponSlice';
+import { activeCategoryChanged, limitReset } from '../weaponList/weaponSlice';
 import { fetchedCategories } from './mainFilterSlice';
 
 const MainFilters = () => {
@@ -25,6 +25,11 @@ const MainFilters = () => {
 
     // console.log(filters)
 
+    const changeStates = (name) => {
+        dispatch(activeCategoryChanged(name));
+        dispatch(limitReset(6))
+    }
+
     const renderFiltersList = (arr) => {
         if (arr.lenght === 0) {
             return <h5>Помилка</h5>
@@ -35,7 +40,7 @@ const MainFilters = () => {
             tabIndex={0}
             className='main_filters__item'
             key={id}
-            onClick={() => dispatch(activeCategoryChanged(name))}
+            onClick={() => changeStates(name)}
             >
                 <img src={img} alt="tank"/>
                 <h3>{label}</h3>

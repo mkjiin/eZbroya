@@ -8,11 +8,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchedWeapons } from './weaponSlice';
 import { useHttp } from '../../hooks/http.hook';
 import { useGetWeaponsQuery, useChangeCategoryMutation } from '../../api/apiSlice';
-
+import { limitChange } from '../weaponList/weaponSlice';
 
 const WeaponList = () => {
 
-    const { weapons, weaponsLoadingStatus, activeCategory, limit } = useSelector(state => state.weapons)
+    const { weapons, weaponsLoadingStatus, activeCategory, limit} = useSelector(state => state.weapons)
     const dispatch = useDispatch();
 
     // const  {
@@ -30,11 +30,11 @@ const WeaponList = () => {
     // }, [weapons, activeCategory]);
 
     useEffect(() => {
-        dispatch(fetchedWeapons({activeCategory, limit: 1}));
+        dispatch(fetchedWeapons({activeCategory, limit}));
         // console.log(weapons)
-    }, [activeCategory])
+    }, [activeCategory, limit])
 
-    console.log(weapons)
+    // console.log(weapons)
 
     const renderWeapons = (arr) => {
 
@@ -62,9 +62,9 @@ const WeaponList = () => {
             <ul className='content__weapon_grid'>
                 {element}
             </ul>
-            <button className='content__weapon_item_paggin' onClick={() => dispatch(fetchedWeapons({activeCategory, limit: 2}))}>Більше..</button>
+            <button className='content__weapon_item_paggin' onClick={() => dispatch(limitChange())}>Більше..</button>
         </div>
     )
-}
+}   
 
 export default WeaponList;
