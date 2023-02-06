@@ -1,4 +1,4 @@
-import './weaponList.scss';
+import './weaponListCopy.scss';
 import usa from '../../imgs/icons/usa.png'
 import tank from '../../imgs/tank.jpg'
 
@@ -8,33 +8,18 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchedWeapons } from './weaponSlice';
 import { useHttp } from '../../hooks/http.hook';
 import { useGetWeaponsQuery, useChangeCategoryMutation } from '../../api/apiSlice';
-import { limitChange } from '../weaponList/weaponSlice';
+import { limitChange, setEnd, weaponsPaginate } from '../weaponList/weaponSlice';
 
 const WeaponList = () => {
 
-    const { weapons, weaponsLoadingStatus, activeCategory, limit} = useSelector(state => state.weapons)
+    const { weapons, weaponsLoadingStatus, activeCategory, limit, weaponsEnded, start, end} = useSelector(state => state.weapons)
     const dispatch = useDispatch();
 
-    // const  {
-    //     currentData: weapons = [],
-    //     isLoading
-    // } = useGetWeaponsQuery();
-
-    // const [changeCategory, {data: res = []}] = useChangeCategoryMutation();
-
-    // const filtredWeapons = useMemo(() => {
-    //     const filtredWeapons = weapons.slice();
-
-    //     return filtredWeapons.filter(el => el.type === activeCategory)
-        
-    // }, [weapons, activeCategory]);
-
     useEffect(() => {
-        dispatch(fetchedWeapons({activeCategory, limit}));
-        // console.log(weapons)
-    }, [activeCategory, limit])
+        dispatch(fetchedWeapons({activeCategory, start, end}));
+    }, [activeCategory])
 
-    // console.log(weapons)
+    console.log(weapons)
 
     const renderWeapons = (arr) => {
 
@@ -47,9 +32,13 @@ const WeaponList = () => {
                             <div className='content__weapon_item_name'>{name}</div>
                             <img src={country_icon} alt={country} className='content__weapon_item_country'/>
                         </div>
-                        <img src={img} alt="tank" className='content__weapon_item_img'/>
-                        <div className='content__weapon_item_buttons'>
-                            <button className='content__weapon_item_more'>Подробиці</button>
+                        <div>
+                        <a href="#" className='content__weapon_item_link'>
+                            <img src={img} alt="tank" className='content__weapon_item_link_img'/>
+                            <div className='content__weapon_item_link_overlay'>
+                                <h2 className='content__weapon_item_more'>Подробиці</h2>
+                            </div>
+                        </a>
                         </div>
                    </li>
         })
@@ -62,7 +51,13 @@ const WeaponList = () => {
             <ul className='content__weapon_grid'>
                 {element}
             </ul>
-            <button className='content__weapon_item_paggin' onClick={() => dispatch(limitChange())}>Більше..</button>
+            <button className='content__weapon_item_paggin' 
+            onClick={async () => {
+                const fetchedData = await dispatch(fetchedWeapons({activeCategory, start, end}));
+                dispatch(weaponsPaginate(fetchedData.payload))
+              }}
+            style={{"display" : weaponsEnded ? 'none' : 'block'}}
+            >Більше..</button>
         </div>
     )
 }   

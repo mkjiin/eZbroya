@@ -1,0 +1,114 @@
+.content {
+    &__weapon {
+        &_grid {
+            display: grid;
+            grid-template-columns: repeat(2, 361px);
+            column-gap: 12px;
+            row-gap: 12px;
+            margin-bottom: 25px;
+        }
+        &_item {
+            padding: 11px 19px 17px 19px;
+            width: 361px;
+            height: 263px;
+            background: #D9D9D9;
+            border-radius: 30px;
+            list-style: none;
+            &_title {
+                display: flex;
+                width: 330px;
+                align-items: center;
+            }
+            &_name {
+                font-family: 'e-Ukraine Head';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 25px;
+                line-height: 30px;
+            }
+            &_country {
+                // display: inline-block;
+                width: 25px;
+                height: 25px;
+                margin-left: 5px;
+            }
+            &_link {
+                position: relative;
+                display: block;
+                margin-top: 10px;
+                width: 323px;
+                height: 198px;
+                text-align: center;
+                &_img {
+                    width: 323px;
+                    height: 198px;
+                    border-radius: 20px;
+                    object-fit: cover;
+                    // transition: filter 0.3s ease-in-out;
+                    cursor: pointer;
+                    transition: .4s all;
+                    // &:hover {
+                    //     filter: blur(5px);
+                    //   }
+                }
+                &_overlay {
+                    transition: .4s all;
+                    border-radius: 3px;
+                    text-align: center;
+                    position: absolute;
+                    border-radius: 20px;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    background: rgba(0, 0, 0, 0.2);
+                    color: #fff;
+                    opacity: 0;
+                    h2 {
+                        padding-top: 25%;
+                        font-family: 'e-Ukraine Head';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-decoration: none; /* remove underline */
+                        color: #D9D9D9;
+                    }
+                }
+                &:hover {
+                    .content__weapon_item_link_overlay {
+                      opacity: 1;
+                    }
+                    img {
+                      -webkit-filter: blur(2px);
+                      filter: blur(2px);
+                    }
+                  }
+            }
+            
+            &_buttons {
+                display: flex;
+                margin-top: 11px;
+                width: 323px;
+                justify-content: space-between;
+            }
+            &_paggin {
+                border: 0;
+                width: 173px;
+                height: 40px;
+                background: #D9D9D9;
+                border-radius: 15px;
+                font-family: 'e-Ukraine Head';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                margin-top: -12px;
+                margin-left: 280px;
+                margin-bottom: 25px;
+            }
+
+        }
+    }
+}

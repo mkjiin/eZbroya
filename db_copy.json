@@ -1,5 +1,3 @@
-
-
 {
   "categories" :
     {
@@ -449,9 +447,137 @@
           "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
         }
       ],
-      "trk": [
+      "howitzer": [
         {
           "id": 50,
+          "name": "2А36 «Гіацинт-Б»",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fpantsir.jpg?alt=media&token=e9a9152f-bd36-482a-aa7f-cb6719143a01",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 51,
+          "name": "Д-30",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd30.jpg?alt=media&token=3e42259e-5c4b-4ff6-9a78-4a2a6ac3eca2",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 52,
+          "name": "M777",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm777.jpg?alt=media&token=3f69123c-a416-49f3-8d68-c92ac6c3d65e",
+          "description": "",
+          "country": "nt",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af"
+        },
+        {
+          "id": 53,
+          "name": "M101",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm101.jpg?alt=media&token=5588f080-2eb8-4a6b-b17d-3568d30a7c19",
+          "description": "",
+          "country": "nt",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11"
+        },
+        {
+          "id": 54,
+          "name": "Д-20",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd20.jpg?alt=media&token=4a2fb33f-a5fe-45ae-92ed-f362ac4a8977",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 55,
+          "name": "M119",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm119.jpg?alt=media&token=59e7bb93-de3f-4d86-acd7-ffa2183cb3b6",
+          "description": "",
+          "country": "nt",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11"
+        },
+        {
+          "id": 56,
+          "name": "L 118",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fl118.jpg?alt=media&token=d2bc77eb-229f-4e64-8aa7-a67c4900dca4",
+          "description": "",
+          "country": "nt",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af"
+        },
+        {
+          "id": 57,
+          "name": "FH70",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2FFH70.jpg?alt=media&token=641c59a5-93de-4b5f-80c6-957890d9b5a5",
+          "description": "",
+          "country": "nt",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/italy.png?alt=media&token=e47e2628-0376-455e-80a1-e1c6017fe175"
+        },
+        {
+          "id": 58,
+          "name": "2Б16 «Нона-К»",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fnona.jpg?alt=media&token=cfbeff96-3bac-4076-93bd-45e51dc06d6e",
+          "description": "",
+          "country": "tr",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92"
+        },
+        {
+          "id": 59,
+          "name": "Д-44",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44.jpg?alt=media&token=a1527f06-0423-4074-bc3e-e08f316708f4",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 60,
+          "name": "M114",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm114.jpg?alt=media&token=aae99cf9-1d1a-4093-8d8c-0cfbc41148b3",
+          "description": "",
+          "country": "nt",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11"
+        },
+        {
+          "id": 61,
+          "name": "М-46",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm46.jpg?alt=media&token=87ac1878-9e06-4332-b61f-04b4e2faa708",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 62,
+          "name": "2А65 «Мста-Б»",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmsta.jpg?alt=media&token=1467ce09-b257-432d-8b8d-e4e4efb98a3e",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 63,
+          "name": "МТ-12 «Рапіра»",
+          "type": "howitzer",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmt12.jpg?alt=media&token=bddffa53-7a14-456a-a299-f0bdfd863b91",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        }
+      ],
+      "trk": [
+        {
+          "id": 64,
           "name": "Точка",
           "type": "trk",
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/trk%2Ftochka.jpg?alt=media&token=09725b5d-bbef-419d-b54d-37fdb4f3b551",
@@ -460,13 +586,98 @@
           "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
         },
         {
-          "id": 51,
+          "id": 65,
           "name": "Вільха",
           "type": "trk",
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/trk%2Fvilkha.jpg?alt=media&token=a49e15b1-4220-4fb0-bb3f-3aa060f71517",
           "description": "",
           "country": "ua",
           "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        }
+      ],
+      "aviation": [
+        {
+          "id": 66,
+          "name": "Су-27",
+          "type": "aviation",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu27.jpg?alt=media&token=58cb4c66-2fbc-478a-86fd-38669c681230",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 67,
+          "name": "Су-24М",
+          "type": "aviation",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu24m.jpg?alt=media&token=57a40f9e-1d79-4593-8fcf-a140fe7bf4cf",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 68,
+          "name": "Су-25",
+          "type": "aviation",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu25.jpg?alt=media&token=e4871b27-91a3-4315-8fda-14c3323d3bb4",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 69,
+          "name": "Мі-8",
+          "type": "aviation",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi8.jpg?alt=media&token=6319c3ea-732c-499e-b571-0ffc29061d07",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 70,
+          "name": "Су-24М",
+          "type": "aviation",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu24mr.jpg?alt=media&token=d936fada-948f-4f17-ad0b-05ea9c495415",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 71,
+          "name": "МіГ-29",
+          "type": "aviation",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmig29.jpg?alt=media&token=da78f44f-dd8d-4993-bb7e-ab41de08a7e7",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        },
+        {
+          "id": 72,
+          "name": "Мі-2",
+          "type": "aviation",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi2.jpg?alt=media&token=d9b62af2-7e90-4a6b-8697-662c46e9e40f",
+          "description": "",
+          "country": "ua",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+        }
+      ],
+      "other": [
+        {
+          "id": 73,
+          "name": "FGM-148 Javelin",
+          "type": "other",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/other%2Fjavelin.jpg?alt=media&token=1eaaa405-f6ab-4cfb-8ed5-da2039731721",
+          "description": "",
+          "country": "nt",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11"
+        },
+        {
+          "id": 74,
+          "name": "FIM-92 Stinger",
+          "type": "other",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/other%2Fstinger.jpg?alt=media&token=b98b3704-4f7a-4cc9-b473-eff08ebef975",
+          "description": "",
+          "country": "nt",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11"
         }
       ]
     },

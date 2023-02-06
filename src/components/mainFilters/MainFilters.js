@@ -27,7 +27,6 @@ const MainFilters = () => {
 
     const changeStates = (name) => {
         dispatch(activeCategoryChanged(name));
-        dispatch(limitReset(6))
     }
 
     const renderFiltersList = (arr) => {
