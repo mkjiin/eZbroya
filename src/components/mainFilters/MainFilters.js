@@ -9,13 +9,8 @@ import { fetchedCategories } from './mainFilterSlice';
 
 const MainFilters = () => {
 
-    // const {
-    //     refetch
-    // } = useGetWeaponsQuery();
-
     const { category, categoryLoadingStatus} = useSelector(state => state.categories)
-
-    // const [changeCategory] = useChangeCategoryMutation();
+    const { activeCategory} = useSelector(state => state.weapons)
 
     const dispatch = useDispatch();
 
@@ -37,8 +32,9 @@ const MainFilters = () => {
         return arr.map(({id, name, label, img}) => {
             return <button
             tabIndex={0}
-            className='main_filters__item'
+            className={`main_filters__item ${activeCategory === name ? 'active' : ''}`}
             key={id}
+            disabled={name === activeCategory}
             onClick={() => changeStates(name)}
             >
                 <img src={img} alt="tank"/>

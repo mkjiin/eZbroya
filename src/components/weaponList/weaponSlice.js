@@ -5,9 +5,11 @@ const initialState = {
     weaponsLoadingStatus: 'idle',
     weapons: [],
     activeCategory: 'tanks',
+    turnedCategory: false,
     start: 0,
     end: 5,
-    weaponsEnded: false
+    weaponsEnded: true,
+    activeFilter: 'all'
 }
 
 export const fetchedWeapons = createAsyncThunk(
@@ -16,7 +18,8 @@ export const fetchedWeapons = createAsyncThunk(
         console.log('fetch')
         const {activeCategory, start, end} = args
         const {request} = useHttp();
-        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${activeCategory}.json?orderBy="$key"&startAt="${start}"&endAt="${end}"`).then(data => Object.values(data));
+        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${activeCategory}.json?orderBy="$key"&startAt="${start}"&endAt="${end}"`)
+            .then(data => Object.values(data));
     }
 )
 
@@ -30,34 +33,45 @@ const filtersSlice = createSlice({
             state.start = 0;
             state.end = 5;
             state.weapons = [];
-            state.weaponsEnded = false;
-            state.activeCategory = action.payload},
-        limitChange: (state) => {state.limit = state.limit + 6},
-        limitReset: (state, action) => {state.limit = action.payload},
+            state.weaponsEnded = true;
+            state.activeFilter = 'all';
+            state.activeCategory = action.payload;},
         weaponsPaginate: (state, action) => {
-            // state.start = state.start + 6;
-            // state.end = state.end + 6
-
-            state.weapons = [...state.weapons, ...action.payload];
 
             if(action.payload.length <= 5) {
                 state.weaponsEnded = true
             }
+
+            state.weapons = [...state.weapons, ...action.payload];
+        },
+        activeFilterChanged: (state, action) => {
+            state.weaponsEnded = true;
+            state.weapons = []
+            state.start = 0;
+            state.end = 15;
+            state.activeFilter = action.payload},
+        activeFilterReset: (state) => {
+            state.weaponsEnded = true;
+            state.start = 0;
+            state.end = 5;
+            state.weapons = [];
+            state.activeFilter = 'all';
         }
     },
     extraReducers: (builder) => {
     builder
         .addCase(fetchedWeapons.pending, state => {state.weaponsLoadingStatus = 'loading'})
         .addCase(fetchedWeapons.fulfilled, (state, action) => {
+            state.weaponsEnded = false;
             state.start = state.start + 6;
             state.end = state.end + 6
 
-            if(action.payload.length < 5) {
-                state.weaponsEnded = true
-            }
+            if (action.payload.length < 5 || action.payload.length > 7) {
+                state.weaponsEnded = true;
+              }
+              
             
             if(state.weapons.length === 0) {
-            console.log('aaaa')    
             state.weapons = action.payload
             }
             state.weaponsLoadingStatus = 'idle';
@@ -76,7 +90,7 @@ export const {
     weaponsFetched, 
     weaponsFetchingError,
     activeCategoryChanged,
-    limitChange,
-    limitReset,
-    weaponsPaginate
+    weaponsPaginate,
+    activeFilterChanged,
+    activeFilterReset
 } = actions;

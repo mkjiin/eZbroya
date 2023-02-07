@@ -11,17 +11,43 @@ import { useGetWeaponsQuery, useChangeCategoryMutation } from '../../api/apiSlic
 import { limitChange, setEnd, weaponsPaginate } from '../weaponList/weaponSlice';
 
 const WeaponList = () => {
-
-    const { weapons, weaponsLoadingStatus, activeCategory, limit, weaponsEnded, start, end} = useSelector(state => state.weapons)
+    const [displayLoading, setDisplayLoading] = useState(false);
+    const { weapons, weaponsLoadingStatus, activeCategory, activeFilter, weaponsEnded, start, end} = useSelector(state => state.weapons)
     const dispatch = useDispatch();
 
     useEffect(() => {
+        setDisplayLoading(true);
         dispatch(fetchedWeapons({activeCategory, start, end}));
-    }, [activeCategory])
+    }, [activeCategory, activeFilter])
 
-    console.log(weapons)
+    const filtredWeapons = useMemo(() => {
+        const filtredWeapons = weapons.slice();
+
+        if (activeFilter === 'all') {
+            return filtredWeapons;
+        } else {
+            return filtredWeapons.filter(el => el.country === activeFilter)
+        }
+    }, [weapons, activeFilter]); 
+
+    console.log(filtredWeapons)
+
+    useEffect(() => {
+        if (weaponsLoadingStatus !== 'loading') {
+          setDisplayLoading(false);
+        }
+      }, [weaponsLoadingStatus])
+
+      if (displayLoading) {
+        return <h5 className='content__weapon_loading'>Завантаження..</h5>
+      }
+    
 
     const renderWeapons = (arr) => {
+        
+        if (arr.length === 0) {
+            return <h5 className='content__weapon_error'>Нажаль, ми знайшли нічого під ваши фільтри</h5>
+        }
 
         return arr.map(({name, id, img, country_icon, country}) => {
             return <li className='content__weapon_item'
@@ -44,7 +70,7 @@ const WeaponList = () => {
         })
     }
 
-    const element = renderWeapons(weapons)
+    const element = renderWeapons(filtredWeapons)
 
     return (
         <div className='content__weapon'>

@@ -7,6 +7,7 @@
         column-gap: 29px;
         align-items: start;
         min-height: 756px;
+        position: relative;
     }
     &__sec-filters {
         &__title-country {
@@ -20,13 +21,19 @@
             margin-top: 15px;
         }
         &__button-country {
-            padding: 8px 131px 9px 10px;
+            padding: 8px 0 9px 10px;
             width: 260px;
             height: 42px;
             list-style: none;
             background-color: #D9D9D9;
             border-radius: 15px;
             margin-bottom: 12px;
+            cursor: pointer;
+            transition: opacity 0.3s ease;
+            &.active {
+                // pointer-events: none;
+                opacity: 0.5;
+            }
             img {
                 width: 25px;
                 height: 25px;
