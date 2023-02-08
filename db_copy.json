@@ -9,7 +9,9 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/oplot.jpg?alt=media&token=923ec622-ab81-4170-9905-370a674bbaa2",
           "description": "",
           "country": "ua",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"        
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+          "year": "1999",
+          "yearValue": 60    
         },
         {
           "id": 2,
@@ -18,7 +20,9 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/abrams.jpg?alt=media&token=fee54ca0-9a71-4518-89e5-760bcccb6ea5",
           "description": "",
           "country": "nt",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11"
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
+          "year": "1981",
+          "yearValue": 40     
         },
         {
           "id": 3,
@@ -27,7 +31,10 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/bulat.jpg?alt=media&token=d7d4b4eb-f30e-4335-b661-a167bcb05753",
           "description": "",
           "country": "ua",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"        },
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+          "year": "2003",
+          "yearValue": 80      
+        },
         {
           "id": 4,
           "name": "T-72",
@@ -35,7 +42,10 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t72.jpg?alt=media&token=6cdee999-f399-4107-8ca0-cbbdb63b3a15",
           "description": "",
           "country": "ua",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"        },
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+          "year": "1973",
+          "yearValue": 20     
+        },
         {
           "id": 5,
           "name": "PT-91 Twardy",
@@ -43,7 +53,9 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/pt91.jpg?alt=media&token=f047a689-7241-4395-a64b-230dc7b15e14",
           "description": "",
           "country": "nt",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/poland.png?alt=media&token=c9307ffc-dcd2-49ea-9c19-ec6eeaf839e4"
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/poland.png?alt=media&token=c9307ffc-dcd2-49ea-9c19-ec6eeaf839e4",
+          "year": "1995",
+          "yearValue": 60     
         },
         {
           "id": 6,
@@ -52,7 +64,10 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t80.jpg?alt=media&token=4de83c46-561e-4fb1-bcb7-1bc01edda158",
           "description": "",
           "country": "ua",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"        },
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+          "year": "1976",
+          "yearValue": 20              
+        },
         {
           "id": 7,
           "name": "T-55",
@@ -60,7 +75,9 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t55.jpg?alt=media&token=5de80ffe-26a0-4303-ab44-7d3e6cea1dd9",
           "description": "",
           "country": "ua",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+          "year": "1958",
+          "yearValue": 1      
         },
         {
           "id": 8,
@@ -69,7 +86,9 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/leopard.jpg?alt=media&token=fe574069-58e3-4e94-9b4e-e9e80afdc65a",
           "description": "",
           "country": "nt",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9"
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
+          "year": "1979",
+          "yearValue": 20
         },
         {
           "id": 9,
@@ -78,7 +97,9 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/challenger2.jpg?alt=media&token=fe119977-35b2-4e18-8715-2533d1a9977b",
           "description": "",
           "country": "nt",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af"
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af",
+          "year": "1994",
+          "yearValue": 60
         },
         {
           "id": 10,
@@ -87,7 +108,9 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t64.jpg?alt=media&token=857b8682-b259-4937-9b72-3259d7d67999",
           "description": "",
           "country": "ua",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40"        
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+          "year": "1984",
+          "yearValue": 40       
         },
         {
           "id": 11,
@@ -96,7 +119,9 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t62tr.jpg?alt=media&token=a997d9f9-48cf-409b-9b64-98e705c61ec6",
           "description": "",
           "country": "tr",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92"
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+          "year": "1961",
+          "yearValue": 1
         }, 
         {
           "id": 12,
@@ -105,7 +130,20 @@
           "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t90tr.jpg?alt=media&token=d80d9770-9061-405b-b209-e69a96053ff1",
           "description": "",
           "country": "tr",
-          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92"
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+          "year": "1992",
+          "yearValue": 60
+        },
+        {
+          "id": 75,
+          "name": "Leopard 1",
+          "type": "tank",
+          "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/leopard1.jpg?alt=media&token=5f973b13-ffd3-419d-b8c8-7ccdd7791c2d",
+          "description": "",
+          "country": "nt",
+          "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
+          "year": "1965",
+          "yearValue": 1
         }
       ],
       "ahs": [

@@ -40,11 +40,12 @@
         background-color: #D9D9D9;
         border-radius: 30px;
         padding: 37px 53px 56px 60px;
-        transition: opacity 0.4s ease;
+        transition: all 0.4s ease;
         cursor: pointer;
         &.active {
             pointer-events: none;
             opacity: 0.5;
+            background-color: #C2B280;
         }
         img {
             width: 99px;
@@ -61,6 +62,12 @@
         }
         &:active {
             background-color: #C2B280;
+        }
+        &:hover {
+            transform: scale(1.02);
+            transition: transform 10s ease;
+            box-shadow: 0px 0px 20px #000000; 
+            transition: box-shadow 0.4s ease;
         }
     }
 }

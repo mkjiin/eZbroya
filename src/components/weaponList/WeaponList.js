@@ -11,26 +11,47 @@ import { useGetWeaponsQuery, useChangeCategoryMutation } from '../../api/apiSlic
 import { limitChange, setEnd, weaponsPaginate } from '../weaponList/weaponSlice';
 
 const WeaponList = () => {
+    // console.log('WeaponList component rendered');
+
     const [displayLoading, setDisplayLoading] = useState(false);
-    const { weapons, weaponsLoadingStatus, activeCategory, activeFilter, weaponsEnded, start, end} = useSelector(state => state.weapons)
+    const { weapons, weaponsLoadingStatus, activeCategory, activeFilter, weaponsEnded, start, end, yearValue} = useSelector(state => state.weapons)
     const dispatch = useDispatch();
 
     useEffect(() => {
         setDisplayLoading(true);
         dispatch(fetchedWeapons({activeCategory, start, end}));
-    }, [activeCategory, activeFilter])
+    }, [activeCategory, activeFilter, yearValue])
+
+    // const filtredWeapons = useMemo(() => {
+    //     const filtredWeapons = weapons.slice();
+
+    //     if (activeFilter === 'all' && yearValue === null) {
+    //         return filtredWeapons;
+    //     } else {
+    //         return filtredWeapons.filter(el => el.yearValue === yearValue || el.country === activeFilter)
+    //     }
+    // }, [weapons, activeFilter, yearValue]); 
 
     const filtredWeapons = useMemo(() => {
-        const filtredWeapons = weapons.slice();
-
-        if (activeFilter === 'all') {
-            return filtredWeapons;
-        } else {
-            return filtredWeapons.filter(el => el.country === activeFilter)
+        let filtredWeapons = weapons.slice();
+      
+        if (activeFilter !== 'all' || yearValue) {
+            filtredWeapons = filtredWeapons.filter(el => {
+            if (activeFilter === 'all') {
+              return el.yearValue === yearValue;
+            } else if (yearValue === null) {
+              return el.country === activeFilter;
+            } else {
+              return el.yearValue === yearValue && el.country === activeFilter;
+            }
+          });
         }
-    }, [weapons, activeFilter]); 
+      
+        return filtredWeapons;
+      }, [weapons, activeFilter, yearValue]);
+      
+    
 
-    console.log(filtredWeapons)
 
     useEffect(() => {
         if (weaponsLoadingStatus !== 'loading') {
@@ -45,8 +66,8 @@ const WeaponList = () => {
 
     const renderWeapons = (arr) => {
         
-        if (arr.length === 0) {
-            return <h5 className='content__weapon_error'>Нажаль, ми знайшли нічого під ваши фільтри</h5>
+        if (arr.length === 0 && weaponsLoadingStatus === 'idle') {
+            return <h5 className='content__weapon_error'>Нажаль, ми не знайшли нічого під ваши фільтри</h5>
         }
 
         return arr.map(({name, id, img, country_icon, country}) => {

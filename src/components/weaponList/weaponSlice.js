@@ -9,7 +9,8 @@ const initialState = {
     start: 0,
     end: 5,
     weaponsEnded: true,
-    activeFilter: 'all'
+    activeFilter: 'all',
+    yearValue: null
 }
 
 export const fetchedWeapons = createAsyncThunk(
@@ -54,9 +55,25 @@ const filtersSlice = createSlice({
             state.weaponsEnded = true;
             state.start = 0;
             state.end = 5;
+            if(state.yearValue !== null) {
+                state.start = 0;
+                state.end = 15;
+            }
             state.weapons = [];
             state.activeFilter = 'all';
-        }
+        },
+        yearChanging: (state, action) => {
+            state.weaponsEnded = true;
+            state.start = 0;
+            state.end = 15;
+            if(state.yearValue !== action.payload) {
+                state.weapons = []
+            }
+            state.yearValue = action.payload
+            if(state.yearValue === null) {
+                state.start = 0;
+                state.end = 6;
+            }}
     },
     extraReducers: (builder) => {
     builder
@@ -68,11 +85,11 @@ const filtersSlice = createSlice({
 
             if (action.payload.length < 5 || action.payload.length > 7) {
                 state.weaponsEnded = true;
-              }
+            }
               
             
             if(state.weapons.length === 0) {
-            state.weapons = action.payload
+                state.weapons = action.payload
             }
             state.weaponsLoadingStatus = 'idle';
         })
@@ -92,5 +109,6 @@ export const {
     activeCategoryChanged,
     weaponsPaginate,
     activeFilterChanged,
-    activeFilterReset
+    activeFilterReset,
+    yearChanging
 } = actions;

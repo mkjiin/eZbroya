@@ -3,6 +3,7 @@ import ua from '../../imgs/icons/ukraine.png'
 import devil from '../../imgs/icons/devil.png';
 import nato from '../../imgs/icons/nato.png'
 
+import SearchForm from '../searchForm/SearchForm';
 import { activeFilterChanged, activeFilterReset } from '../weaponList/weaponSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -42,6 +43,7 @@ const SecondaryFilters = () => {
             </ul>
             <hr className='content__sec-filters__horizontal'/>
             <hr className='content__sec-filters__vertical'/>
+            <SearchForm/>
         </div>
     )
 }
