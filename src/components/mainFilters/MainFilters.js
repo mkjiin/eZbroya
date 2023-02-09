@@ -42,7 +42,7 @@ const MainFilters = () => {
             </button>
         })
     }
-
+    
     const elements = renderFiltersList(category)
     return (
         <div className='main_filters'>

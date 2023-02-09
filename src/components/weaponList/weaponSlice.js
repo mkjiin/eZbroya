@@ -36,6 +36,7 @@ const filtersSlice = createSlice({
             state.weapons = [];
             state.weaponsEnded = true;
             state.activeFilter = 'all';
+            state.yearValue = null;
             state.activeCategory = action.payload;},
         weaponsPaginate: (state, action) => {
 
@@ -83,7 +84,7 @@ const filtersSlice = createSlice({
             state.start = state.start + 6;
             state.end = state.end + 6
 
-            if (action.payload.length < 5 || action.payload.length > 7) {
+            if (action.payload.length < 6 || action.payload.length > 6) {
                 state.weaponsEnded = true;
             }
               

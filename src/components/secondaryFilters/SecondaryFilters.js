@@ -3,46 +3,39 @@ import ua from '../../imgs/icons/ukraine.png'
 import devil from '../../imgs/icons/devil.png';
 import nato from '../../imgs/icons/nato.png'
 
+import Countries from './countries/Countires';
 import SearchForm from '../searchForm/SearchForm';
+import Calibres from './calibres/Calibres';
+import AdditionalFiltres from './additionalFilter';
 import { activeFilterChanged, activeFilterReset } from '../weaponList/weaponSlice';
 import { useDispatch, useSelector } from 'react-redux';
+import { fetchedAdditionalFiltres } from './secondaryFiltresSlice'
+import { useEffect } from 'react';
+
 
 const SecondaryFilters = () => {
     
-    const dispatch = useDispatch();
-    const { activeFilter, weaponsLoadingStatus } = useSelector(state => state.weapons)
+    const { activeCategory } = useSelector(state => state.weapons)
+    // const dispatch = useDispatch();
 
-    const handleFilterClick = (filter) => {
-        if (filter === activeFilter) {
-            dispatch(activeFilterReset())
-        } else {
-            dispatch(activeFilterChanged(filter))
-        }
-    }
+    // useEffect(() => {
+    //     dispatch(fetchedAdditionalFiltres(1))
+    // }, [])
 
     return (
         <div className='content__sec-filters'>
-            <h2 className='content__sec-filters__title-country'>Країна виробник</h2>
-            <ul className='content__sec-filters__buttons-country'>
-                <li className={`content__sec-filters__button-country ${activeFilter === 'ua' ? 'active' : ''}`}
-                onClick={() => handleFilterClick('ua')}
-                disabled={weaponsLoadingStatus === 'loading' ? true : false}>
-                    <img src={ua} alt="ua" />
-                    <div className='content__sec-filters__button-country-name'>Україна</div>
-                </li>
-                <li className={`content__sec-filters__button-country ${activeFilter === 'nt' ? 'active' : ''}`}
-                onClick={() => handleFilterClick('nt')}>
-                    <img src={nato} alt="ua" />
-                    <div className='content__sec-filters__button-country-name'>Іноземні</div>
-                </li>
-                <li className={`content__sec-filters__button-country ${activeFilter === 'tr' ? 'active' : ''}`}
-                onClick={() => handleFilterClick('tr')}>
-                    <img src='https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92' alt="ua" />
-                    <div className='content__sec-filters__button-country-name'>Трофейні</div>
-                </li>
-            </ul>
-            <hr className='content__sec-filters__horizontal'/>
-            <hr className='content__sec-filters__vertical'/>
+            <Countries/>
+            {/* {
+                (activeCategory === "tanks" ||
+                activeCategory === "ahs" ||
+                activeCategory === "mrl" ||
+                activeCategory === "av" ||
+                activeCategory === "howitzer")
+                ? <Calibres />
+                : ''
+            } */}
+            {/* <Calibres/> */}
+            <AdditionalFiltres/>
             <SearchForm/>
         </div>
     )
