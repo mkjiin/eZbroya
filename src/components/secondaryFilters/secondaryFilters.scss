@@ -1,6 +1,6 @@
 .content {
     &__main {
-        padding: 0 196px 0 196px;
+        padding: 0 50px 0 50px;
         background-color: #CDC5AC;
         display: grid;
         grid-template-columns: 286px 361px;
@@ -43,10 +43,18 @@
             border-radius: 15px;
             margin-bottom: 12px;
             cursor: pointer;
-            transition: opacity 0.3s ease;
+            transition: all 0.3s ease;
             &.active {
                 // pointer-events: none;
-                opacity: 0.5;
+                border: #000000 solid 1px;
+                transform: scale(1.02);
+                box-shadow: 0px 0px 20px #000000; 
+            }
+            &:hover {
+                transform: scale(1.02);
+                transition: transform 10s ease;
+                box-shadow: 0px 0px 20px #000000; 
+                transition: box-shadow 0.4s ease;
             }
             img {
                 width: 25px;
@@ -73,12 +81,12 @@
         }
         &__vertical {
             position: relative;
-            width: 260px;
+            width: 350px;
             height: 0px;
             border: 1px solid #000000;
             transform: rotate(90deg);
-            left: 153px;
-            top: -74px
+            left: 111px;
+            bottom: 38px;
         }
     }
 }

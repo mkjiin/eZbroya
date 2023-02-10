@@ -6,6 +6,8 @@ import { useCallback } from 'react';
 import {  useChangeCategoryMutation , useGetWeaponsQuery} from '../../api/apiSlice';
 import { activeCategoryChanged, limitReset } from '../weaponList/weaponSlice';
 import { fetchedCategories } from './mainFilterSlice';
+import { additionalFiltresIdChange } from '../secondaryFilters/secondaryFiltresSlice'
+import { fetchedAdditionalFiltres } from '../secondaryFilters/secondaryFiltresSlice';
 
 const MainFilters = () => {
 
@@ -20,8 +22,9 @@ const MainFilters = () => {
 
     // console.log(filters)
 
-    const changeStates = (name) => {
+    const onClick = (name, id) => {
         dispatch(activeCategoryChanged(name));
+        dispatch(additionalFiltresIdChange(id));
     }
 
     const renderFiltersList = (arr) => {
@@ -35,7 +38,7 @@ const MainFilters = () => {
             className={`main_filters__item ${activeCategory === name ? 'active' : ''}`}
             key={id}
             disabled={name === activeCategory}
-            onClick={() => changeStates(name)}
+            onClick={() => onClick(name, id)}
             >
                 <img src={img} alt="tank"/>
                 <h3>{label}</h3>

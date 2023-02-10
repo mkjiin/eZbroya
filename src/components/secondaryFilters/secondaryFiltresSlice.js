@@ -3,22 +3,27 @@ import { useHttp } from "../../hooks/http.hook";
 
 const initialState = {
     additionalFiltresdata: {
-        filters: []
+        filters: [],
+        filtersLabels: []
     },
-    additionalFiltresLoadingStatus: 'idle'
+    additionalFiltresLoadingStatus: 'idle',
+    additionalFiltresId: 0
 }
 
 export const fetchedAdditionalFiltres = createAsyncThunk(
     'additionalFlitres/fetchedAdditionalFiltres',
-    () => {
+    (id) => {
         const { request } = useHttp();
-        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/additionalFiltres/0.json`)
+        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/additionalFiltres/${id}.json`)
     }
 )
 
 const additionalFiltresSlice = createSlice({
     name: 'additionalFiltres',
     initialState,
+    reducers: {
+        additionalFiltresIdChange: (state, action) => {state.additionalFiltresId = action.payload}
+    },
     extraReducers: (builder) => {
         builder
             .addCase(fetchedAdditionalFiltres.pending, state => {state.additionalFiltresLoadingStatus = 'loading'})
@@ -39,5 +44,6 @@ export default reducer;
 export const {
     additionalFiltresFetching,
     additionalFiltresFetched,
-    additionalFiltresFetchingError
+    additionalFiltresFetchingError,
+    additionalFiltresIdChange,
 } = actions;

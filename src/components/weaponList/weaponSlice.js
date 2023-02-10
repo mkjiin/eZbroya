@@ -7,9 +7,10 @@ const initialState = {
     activeCategory: 'tanks',
     turnedCategory: false,
     start: 0,
-    end: 5,
+    end: 8,
     weaponsEnded: true,
     activeFilter: 'all',
+    activeAdditionalFilter: 'all',
     yearValue: null
 }
 
@@ -32,12 +33,14 @@ const filtersSlice = createSlice({
     reducers: {
         activeCategoryChanged: (state, action) => {
             state.start = 0;
-            state.end = 5;
+            state.end = 8;
             state.weapons = [];
             state.weaponsEnded = true;
             state.activeFilter = 'all';
+            state.activeAdditionalFilter = 'all'
             state.yearValue = null;
-            state.activeCategory = action.payload;},
+            state.activeCategory = action.payload;
+        },
         weaponsPaginate: (state, action) => {
 
             if(action.payload.length <= 5) {
@@ -51,12 +54,17 @@ const filtersSlice = createSlice({
             state.weapons = []
             state.start = 0;
             state.end = 15;
-            state.activeFilter = action.payload},
+            state.activeFilter = action.payload
+        },
         activeFilterReset: (state) => {
             state.weaponsEnded = true;
             state.start = 0;
-            state.end = 5;
+            state.end = 8;
             if(state.yearValue !== null) {
+                state.start = 0;
+                state.end = 15;
+            }
+            if(state.activeAdditionalFilter !== 'all') {
                 state.start = 0;
                 state.end = 15;
             }
@@ -71,20 +79,43 @@ const filtersSlice = createSlice({
                 state.weapons = []
             }
             state.yearValue = action.payload
-            if(state.yearValue === null) {
+            // if(state.yearValue === null) {
+            //     state.start = 0;
+            //     state.end = 6;
+            // }
+        },
+        additionalFilterChanged: (state, action) => {
+            state.weaponsEnded = true;
+            state.weapons = []
+            state.start = 0;
+            state.end = 15
+            state.activeAdditionalFilter = action.payload
+        },
+        activeAdditionalFilterReset: (state) => {
+            state.weaponsEnded = true;
+            state.start = 0;
+            state.end = 8;
+            if(state.yearValue !== null) {
                 state.start = 0;
-                state.end = 6;
-            }}
+                state.end = 15;
+            }
+            if(state.activeFilter !== 'all') {
+                state.start = 0;
+                state.end = 15;
+            }
+            state.weapons = [];
+            state.activeAdditionalFilter = 'all';
+        }
     },
     extraReducers: (builder) => {
     builder
         .addCase(fetchedWeapons.pending, state => {state.weaponsLoadingStatus = 'loading'})
         .addCase(fetchedWeapons.fulfilled, (state, action) => {
             state.weaponsEnded = false;
-            state.start = state.start + 6;
-            state.end = state.end + 6
+            state.start = state.start + 9;
+            state.end = state.end + 9
 
-            if (action.payload.length < 6 || action.payload.length > 6) {
+            if (action.payload.length < 9 || action.payload.length > 9) {
                 state.weaponsEnded = true;
             }
               
@@ -111,5 +142,7 @@ export const {
     weaponsPaginate,
     activeFilterChanged,
     activeFilterReset,
-    yearChanging
+    yearChanging,
+    additionalFilterChanged,
+    activeAdditionalFilterReset
 } = actions;

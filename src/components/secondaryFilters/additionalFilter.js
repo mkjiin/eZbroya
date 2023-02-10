@@ -1,25 +1,41 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchedAdditionalFiltres } from './secondaryFiltresSlice'
 import { useEffect } from 'react';
+import { additionalFilterChanged, activeAdditionalFilterReset } from '../weaponList/weaponSlice';
 
 const AdditionalFiltres = () => {
-    const { additionalFiltresdata } = useSelector(state => state.additionalFiltres)
+    const { additionalFiltresdata, additionalFiltresId } = useSelector(state => state.additionalFiltres)
+    const { activeAdditionalFilter, activeCategory } = useSelector(state => state.weapons);
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(fetchedAdditionalFiltres())
-    }, [])
+        dispatch(fetchedAdditionalFiltres(additionalFiltresId))
+    }, [additionalFiltresId])
+
+    const handleFilterClick = (el) => {
+      if (el === activeAdditionalFilter) {
+          dispatch(activeAdditionalFilterReset())
+      } else {
+          dispatch(additionalFilterChanged(el))
+      }
+  }
 
     const renderAdditionalFiltresList = (arr) => {
-        // console.log(arr)
         return arr.map(el => {
-            return <li className={`content__sec-filters__button-country`}>
-                        <div className='content__sec-filters__button-country-name'>{el}</div>
-                    </li>
-        })
-    }
-    const filters = additionalFiltresdata['filters'];
-    // console.log(filters);
+          return (
+            <li className={`content__sec-filters__button-country ${activeAdditionalFilter === el ? 'active' : ''}`}
+            key={el}
+            onClick={() => handleFilterClick(el)}
+            >
+              <div className="content__sec-filters__button-country-name">
+              {(activeCategory === 'trk' || activeCategory === 'mrl') ? el + ' km' : (activeCategory === 'aviation') ? el : el + ' mm'}
+              </div>
+            </li>
+          );
+        });
+      };
+
+    const filters = additionalFiltresdata['filters']
     const elements = renderAdditionalFiltresList(filters)
     
     return (
@@ -27,12 +43,9 @@ const AdditionalFiltres = () => {
         <h2 className='content__sec-filters__title-country'>{additionalFiltresdata['mainLabel']}</h2>
         <ul className='content__sec-filters__buttons-country'>
             {elements}
-            {/* <li className={`content__sec-filters__button-country`}>
-                    <div className='content__sec-filters__button-country-name'>Україна</div>
-            </li> */}
+           
         </ul>
         <hr className='content__sec-filters__horizontal'/>
-        <hr className='content__sec-filters__vertical'/>
         </div>
     )
 } 

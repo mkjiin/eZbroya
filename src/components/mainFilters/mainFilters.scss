@@ -44,8 +44,12 @@
         cursor: pointer;
         &.active {
             pointer-events: none;
-            opacity: 0.5;
-            background-color: #C2B280;
+            // opacity: 0.5;
+            // background-color: #C2B280;
+            transform: scale(1.03);
+            box-shadow: 0px 0px 30px #000000;
+            color:#000000;
+            border: 1px solid #000000;
         }
         img {
             width: 99px;
@@ -61,7 +65,7 @@
             text-align: center;
         }
         &:active {
-            background-color: #C2B280;
+            background-color: #CDC5AC;
         }
         &:hover {
             transform: scale(1.02);

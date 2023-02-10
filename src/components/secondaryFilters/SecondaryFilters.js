@@ -35,8 +35,9 @@ const SecondaryFilters = () => {
                 : ''
             } */}
             {/* <Calibres/> */}
-            <AdditionalFiltres/>
+            {activeCategory === 'other' ? '' : <AdditionalFiltres/>}
             <SearchForm/>
+            {/* <button className='content__sec-filters__button-country'></button> */}
         </div>
     )
 }
