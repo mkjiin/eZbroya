@@ -18,7 +18,7 @@ const Countries = () => {
 
     return (
         <div className='content__sec-filters__country'>
-        <h2 className='content__sec-filters__title-country'>Країна виробник</h2>
+        <h2 className='content__sec-filters__title-country'>Країна постачальник</h2>
             <ul className='content__sec-filters__buttons-country'>
                 <li className={`content__sec-filters__button-country ${activeFilter === 'ua' ? 'active' : ''}`}
                 onClick={() => handleFilterClick('ua')}
@@ -29,12 +29,12 @@ const Countries = () => {
                 <li className={`content__sec-filters__button-country ${activeFilter === 'nt' ? 'active' : ''}`}
                 onClick={() => handleFilterClick('nt')}>
                     <img src={nato} alt="ua" />
-                    <div className='content__sec-filters__button-country-name'>Іноземні</div>
+                    <div className='content__sec-filters__button-country-name'>Країни - партнери</div>
                 </li>
                 <li className={`content__sec-filters__button-country ${activeFilter === 'tr' ? 'active' : ''}`}
                 onClick={() => handleFilterClick('tr')}>
                     <img src='https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92' alt="ua" />
-                    <div className='content__sec-filters__button-country-name'>Трофейні</div>
+                    <div className='content__sec-filters__button-country-name'>Трофеї</div>
                 </li>
             </ul>
             <hr className='content__sec-filters__horizontal'/>

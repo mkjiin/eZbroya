@@ -23,6 +23,9 @@
         &__addfilter {
             margin-top: 13px;
         }
+        &__status {
+            margin-top: 13px;
+        }
         &__title-country {
             font-family: 'e-Ukraine Head';
             font-style: normal;
@@ -81,12 +84,12 @@
         }
         &__vertical {
             position: relative;
-            width: 350px;
+            width: 500px;
             height: 0px;
             border: 1px solid #000000;
             transform: rotate(90deg);
-            left: 111px;
-            bottom: 38px;
+            left: 38px;
+            bottom: -5px;
         }
     }
 }

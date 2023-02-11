@@ -11,7 +11,8 @@ const initialState = {
     weaponsEnded: true,
     activeFilter: 'all',
     activeAdditionalFilter: 'all',
-    yearValue: null
+    activeStatus: 'all',
+    yearValue: null,
 }
 
 export const fetchedWeapons = createAsyncThunk(
@@ -68,6 +69,10 @@ const filtersSlice = createSlice({
                 state.start = 0;
                 state.end = 15;
             }
+            if(state.activeStatus !== 'all') {
+                state.start = 0;
+                state.end = 15;
+            }
             state.weapons = [];
             state.activeFilter = 'all';
         },
@@ -103,8 +108,38 @@ const filtersSlice = createSlice({
                 state.start = 0;
                 state.end = 15;
             }
+            if(state.activeStatus !== 'all') {
+                state.start = 0;
+                state.end = 15;
+            }
             state.weapons = [];
             state.activeAdditionalFilter = 'all';
+        },
+        activeStatusChange: (state, action) => {
+            state.weaponsEnded = true;
+            state.weapons = []
+            state.start = 0;
+            state.end = 15;
+            state.activeStatus = action.payload
+        },
+        activeStatusReset: (state) => {
+            state.weaponsEnded = true;
+            state.start = 0;
+            state.end = 8;
+            if(state.yearValue !== null) {
+                state.start = 0;
+                state.end = 15;
+            }
+            if(state.activeFilter !== 'all') {
+                state.start = 0;
+                state.end = 15;
+            }
+            if(state.activeAdditionalFilter !== 'all') {
+                state.start = 0;
+                state.end = 15;
+            }
+            state.weapons = [];
+            state.activeStatus = 'all';
         }
     },
     extraReducers: (builder) => {
@@ -144,5 +179,7 @@ export const {
     activeFilterReset,
     yearChanging,
     additionalFilterChanged,
-    activeAdditionalFilterReset
+    activeAdditionalFilterReset,
+    activeStatusChange,
+    activeStatusReset
 } = actions;

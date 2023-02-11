@@ -2,7 +2,7 @@
   "additionalFiltres": [
     {
       "filters": [
-        100,
+        105,
         115,
         120,
         125
@@ -63,7 +63,7 @@
       "filters": [
         100,
         120
-      ],            
+      ],
       "mainLabel": "Максимальна глибина",
       "type": "trk"
     },
@@ -73,14 +73,11 @@
         "Штурмовики",
         "Розвідувальні",
         "Гелікоптери"
-      ],          
+      ],
       "mainLabel": "Тип авіації",
       "type": "aviation"
     },
     {
-      "filters": [
-        
-      ],            
       "mainLabel": "Тип авіації",
       "type": "other"
     }
@@ -282,6 +279,7 @@
     ],
     "av": [
       {
+        "additionalFiltres": 30,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -290,10 +288,10 @@
         "name": "БМД-2",
         "type": "av",
         "year": "1985",
-        "yearValue": 40,
-        "additionalFiltres": 30
+        "yearValue": 40
       },
       {
+        "additionalFiltres": 25,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
         "description": "",
@@ -302,10 +300,10 @@
         "name": "M2 Bradley",
         "type": "av",
         "year": "1981",
-        "yearValue": 40,
-        "additionalFiltres": 25
+        "yearValue": 40
       },
       {
+        "additionalFiltres": 100,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
@@ -314,10 +312,10 @@
         "name": "БМД-4",
         "type": "av",
         "year": "2016",
-        "yearValue": 100,
-        "additionalFiltres": 100
+        "yearValue": 100
       },
       {
+        "additionalFiltres": 20,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
         "description": "",
@@ -326,10 +324,10 @@
         "name": "Marder",
         "type": "av",
         "year": "1971",
-        "yearValue": 20,
-        "additionalFiltres": 20
+        "yearValue": 20
       },
       {
+        "additionalFiltres": 40,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/sweden.png?alt=media&token=4cb899a5-4ba0-481a-801e-ca865865b1c8",
         "description": "",
@@ -338,10 +336,10 @@
         "name": "CV 90",
         "type": "av",
         "year": "1993",
-        "yearValue": 60,
-        "additionalFiltres": 40
+        "yearValue": 60
       },
       {
+        "additionalFiltres": 73,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -350,10 +348,10 @@
         "name": "БМД-1",
         "type": "av",
         "year": "1969",
-        "yearValue": 1,
-        "additionalFiltres": 73
+        "yearValue": 1
       },
       {
+        "additionalFiltres": 20,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slovenia.png?alt=media&token=cdff8f53-d71f-4599-a95a-400f8ffe4444",
         "description": "",
@@ -362,10 +360,10 @@
         "name": "М-80А",
         "type": "av",
         "year": "1979",
-        "yearValue": 20,
-        "additionalFiltres": 20
+        "yearValue": 20
       },
       {
+        "additionalFiltres": 73,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -374,10 +372,10 @@
         "name": "БМП-1",
         "type": "av",
         "year": "1966",
-        "yearValue": 1,
-        "additionalFiltres": 73
+        "yearValue": 1
       },
       {
+        "additionalFiltres": 30,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -386,10 +384,10 @@
         "name": "БМП-2",
         "type": "av",
         "year": "1980",
-        "yearValue": 40,
-        "additionalFiltres": 30
+        "yearValue": 40
       },
       {
+        "additionalFiltres": 100,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -398,12 +396,12 @@
         "name": "БМП-3",
         "type": "av",
         "year": "1987",
-        "yearValue": 40,
-        "additionalFiltres": 100
+        "yearValue": 40
       }
     ],
     "aviation": [
       {
+        "additionalFiltres": "Винищувачи",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -412,10 +410,10 @@
         "name": "Су-27",
         "type": "aviation",
         "year": "1982",
-        "yearValue": 40,
-        "additionalFiltres": "Винищувачи"
+        "yearValue": 40
       },
       {
+        "additionalFiltres": "Штурмовики",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -424,10 +422,10 @@
         "name": "Су-24М",
         "type": "aviation",
         "year": "1972",
-        "yearValue": 20,
-        "additionalFiltres": "Штурмовики"
+        "yearValue": 20
       },
       {
+        "additionalFiltres": "Штурмовики",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -436,10 +434,10 @@
         "name": "Су-25",
         "type": "aviation",
         "year": "1981",
-        "yearValue": 40,
-        "additionalFiltres": "Штурмовики"
+        "yearValue": 40
       },
       {
+        "additionalFiltres": "Гелікоптери",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -448,10 +446,10 @@
         "name": "Мі-8",
         "type": "aviation",
         "year": "1965",
-        "yearValue": 1,
-        "additionalFiltres": "Гелікоптери"
+        "yearValue": 1
       },
       {
+        "additionalFiltres": "Розвідувальні",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -460,10 +458,10 @@
         "name": "Су-24МР",
         "type": "aviation",
         "year": "1984",
-        "yearValue": 40,
-        "additionalFiltres": "Розвідувальні"
+        "yearValue": 40
       },
       {
+        "additionalFiltres": "Винищувачи",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -472,10 +470,10 @@
         "name": "МіГ-29",
         "type": "aviation",
         "year": "1983",
-        "yearValue": 40,
-        "additionalFiltres": "Винищувачи"
+        "yearValue": 40
       },
       {
+        "additionalFiltres": "Гелікоптери",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -484,12 +482,12 @@
         "name": "Мі-2",
         "type": "aviation",
         "year": "1965",
-        "yearValue": 1,
-        "additionalFiltres": "Гелікоптери"
+        "yearValue": 1
       }
     ],
     "howitzer": [
       {
+        "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -498,10 +496,10 @@
         "name": "2А36 «Гіацинт-Б»",
         "type": "howitzer",
         "year": "1976",
-        "yearValue": 20,
-        "additionalFiltres": 152
+        "yearValue": 20
       },
       {
+        "additionalFiltres": 122,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -510,22 +508,22 @@
         "name": "Д-30",
         "type": "howitzer",
         "year": "1963",
-        "yearValue": 1,
-        "additionalFiltres": 122
+        "yearValue": 1
       },
       {
+        "additionalFiltres": 155,
         "country": "nt",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
         "description": "",
         "id": 52,
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm777.jpg?alt=media&token=3f69123c-a416-49f3-8d68-c92ac6c3d65e",
         "name": "M777",
         "type": "howitzer",
         "year": "2005",
-        "yearValue": 80,
-        "additionalFiltres": 155
+        "yearValue": 80
       },
       {
+        "additionalFiltres": 105,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
         "description": "",
@@ -534,10 +532,10 @@
         "name": "M101",
         "type": "howitzer",
         "year": "1941",
-        "yearValue": 1,
-        "additionalFiltres": 105
+        "yearValue": 1
       },
       {
+        "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -546,10 +544,10 @@
         "name": "Д-20",
         "type": "howitzer",
         "year": "1947",
-        "yearValue": 1,
-        "additionalFiltres": 152
+        "yearValue": 1
       },
       {
+        "additionalFiltres": 105,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
         "description": "",
@@ -558,10 +556,10 @@
         "name": "M119",
         "type": "howitzer",
         "year": "1976",
-        "yearValue": 20,
-        "additionalFiltres": 105
+        "yearValue": 20
       },
       {
+        "additionalFiltres": 105,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af",
         "description": "",
@@ -570,10 +568,10 @@
         "name": "L 118",
         "type": "howitzer",
         "year": "1976",
-        "yearValue": 20,
-        "additionalFiltres": 105
+        "yearValue": 20
       },
       {
+        "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/italy.png?alt=media&token=e47e2628-0376-455e-80a1-e1c6017fe175",
         "description": "",
@@ -582,10 +580,10 @@
         "name": "FH70",
         "type": "howitzer",
         "year": "1978",
-        "yearValue": 20,
-        "additionalFiltres": 155
+        "yearValue": 20
       },
       {
+        "additionalFiltres": 120,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
@@ -594,10 +592,10 @@
         "name": "2Б16 «Нона-К»",
         "type": "howitzer",
         "year": "1986",
-        "yearValue": 40,
-        "additionalFiltres": 120
+        "yearValue": 40
       },
       {
+        "additionalFiltres": 85,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -606,10 +604,10 @@
         "name": "Д-44",
         "type": "howitzer",
         "year": "1946",
-        "yearValue": 1,
-        "additionalFiltres": 85
+        "yearValue": 1
       },
       {
+        "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
         "description": "",
@@ -618,10 +616,10 @@
         "name": "M114",
         "type": "howitzer",
         "year": "1942",
-        "yearValue": 1,
-        "additionalFiltres": 155
+        "yearValue": 1
       },
       {
+        "additionalFiltres": 130,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -630,10 +628,10 @@
         "name": "М-46",
         "type": "howitzer",
         "year": "1951",
-        "yearValue": 1,
-        "additionalFiltres": 130
+        "yearValue": 1
       },
       {
+        "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -642,10 +640,10 @@
         "name": "2А65 «Мста-Б»",
         "type": "howitzer",
         "year": "1987",
-        "yearValue": 40,
-        "additionalFiltres": 152
+        "yearValue": 40
       },
       {
+        "additionalFiltres": 100,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -654,12 +652,12 @@
         "name": "МТ-12 «Рапіра»",
         "type": "howitzer",
         "year": "1970",
-        "yearValue": 20,
-        "additionalFiltres": 100
+        "yearValue": 20
       }
     ],
     "mrl": [
       {
+        "additionalFiltres": 84,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
         "description": "",
@@ -668,10 +666,10 @@
         "name": "HIMARS M142",
         "type": "mrl",
         "year": "1996",
-        "yearValue": 60,
-        "additionalFiltres": 84
+        "yearValue": 60
       },
       {
+        "additionalFiltres": 35,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -680,10 +678,10 @@
         "name": "БМ-27 «Ураган»",
         "type": "mrl",
         "year": "1978",
-        "yearValue": 20,
-        "additionalFiltres": 35
+        "yearValue": 20
       },
       {
+        "additionalFiltres": 35,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -692,10 +690,10 @@
         "name": "Буревій",
         "type": "mrl",
         "year": "2022",
-        "yearValue": 100,
-        "additionalFiltres": 35
+        "yearValue": 100
       },
       {
+        "additionalFiltres": 6,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
@@ -704,10 +702,10 @@
         "name": "ТОС-1",
         "type": "mrl",
         "year": "1988",
-        "yearValue": 60,
-        "additionalFiltres": 6
+        "yearValue": 60
       },
       {
+        "additionalFiltres": 84,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
         "description": "",
@@ -716,10 +714,10 @@
         "name": "M270 MLRS",
         "type": "mrl",
         "year": "1983",
-        "yearValue": 40,
-        "additionalFiltres": 84
+        "yearValue": 40
       },
       {
+        "additionalFiltres": 20,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/czech-republic.png?alt=media&token=7bff0bef-f813-4bb9-8bb8-bf2c456819ee",
         "description": "",
@@ -728,10 +726,10 @@
         "name": "RM-70",
         "type": "mrl",
         "year": "1972",
-        "yearValue": 20,
-        "additionalFiltres": 20
+        "yearValue": 20
       },
       {
+        "additionalFiltres": 70,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -740,10 +738,10 @@
         "name": "БМ-30 «Смерч»",
         "type": "mrl",
         "year": "1987",
-        "yearValue": 40,
-        "additionalFiltres": 70
+        "yearValue": 40
       },
       {
+        "additionalFiltres": 40,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -752,10 +750,10 @@
         "name": "Верба",
         "type": "mrl",
         "year": "2019",
-        "yearValue": 100,
-        "additionalFiltres": 40
+        "yearValue": 100
       },
       {
+        "additionalFiltres": 30,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
@@ -764,10 +762,10 @@
         "name": "«Торнадо-Г»",
         "type": "mrl",
         "year": "2012",
-        "yearValue": 100,
-        "additionalFiltres": 30
+        "yearValue": 100
       },
       {
+        "additionalFiltres": 20,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -776,8 +774,7 @@
         "name": "БМ-21 «Град»",
         "type": "mrl",
         "year": "1963",
-        "yearValue": 1,
-        "additionalFiltres": 20
+        "yearValue": 1
       }
     ],
     "other": [
@@ -806,6 +803,8 @@
     ],
     "tanks": [
       {
+        "status": "yep",
+        "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -814,10 +813,11 @@
         "name": "Т-84У «Оплот»",
         "type": "tank",
         "year": "1999",
-        "yearValue": 60,
-        "additionalFiltres": 125
+        "yearValue": 60
       },
       {
+        "status": "no",
+        "additionalFiltres": 120,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
         "description": "",
@@ -826,10 +826,11 @@
         "name": "M1 Abrams",
         "type": "tank",
         "year": "1981",
-        "yearValue": 40,
-        "additionalFiltres": 120
+        "yearValue": 40
       },
       {
+        "status": "yep",
+        "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -838,10 +839,11 @@
         "name": "БМ 'БУЛАТ'",
         "type": "tank",
         "year": "2003",
-        "yearValue": 80,
-        "additionalFiltres": 125
+        "yearValue": 80
       },
       {
+        "status": "yep",
+        "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -850,10 +852,11 @@
         "name": "T-72",
         "type": "tank",
         "year": "1973",
-        "yearValue": 20,
-        "additionalFiltres": 125
+        "yearValue": 20
       },
       {
+        "status": "yep",
+        "additionalFiltres": 125,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/poland.png?alt=media&token=c9307ffc-dcd2-49ea-9c19-ec6eeaf839e4",
         "description": "",
@@ -862,10 +865,11 @@
         "name": "PT-91 Twardy",
         "type": "tank",
         "year": "1995",
-        "yearValue": 60,
-        "additionalFiltres": 125
+        "yearValue": 60
       },
       {
+        "status": "yep",
+        "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -874,22 +878,24 @@
         "name": "T-80",
         "type": "tank",
         "year": "1976",
-        "yearValue": 20,
-        "additionalFiltres": 125
+        "yearValue": 20
       },
       {
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "status": "yep",
+        "additionalFiltres": 105,
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/icons%2Fslovenia.png?alt=media&token=02696acd-4935-4625-9a00-32201f320bfa",
         "description": "",
         "id": 7,
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t55.jpg?alt=media&token=5de80ffe-26a0-4303-ab44-7d3e6cea1dd9",
-        "name": "T-55",
+        "name": "M-55S",
         "type": "tank",
-        "year": "1958",
-        "yearValue": 1,
-        "additionalFiltres": 100
+        "year": "1999",
+        "yearValue": 60
       },
       {
+        "status": "no",
+        "additionalFiltres": 120,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
         "description": "",
@@ -898,10 +904,11 @@
         "name": "Leopard 2",
         "type": "tank",
         "year": "1979",
-        "yearValue": 20,
-        "additionalFiltres": 120
+        "yearValue": 20
       },
       {
+        "status": "no",
+        "additionalFiltres": 120,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af",
         "description": "",
@@ -910,10 +917,24 @@
         "name": "Challenger 2",
         "type": "tank",
         "year": "1994",
-        "yearValue": 60,
-        "additionalFiltres": 120
+        "yearValue": 60
       },
       {
+        "status": "yep",
+        "additionalFiltres": 125,
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "description": "",
+        "id": 77,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t-80tr.jpg?alt=media&token=c1d2d0b6-0d2e-457a-a744-102045d0b65a",
+        "name": "T-80",
+        "type": "tank",
+        "year": "1976",
+        "yearValue": 20
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -922,10 +943,11 @@
         "name": "T-64БВ",
         "type": "tank",
         "year": "1984",
-        "yearValue": 40,
-        "additionalFiltres": 125
+        "yearValue": 40
       },
       {
+        "status": "yep",
+        "additionalFiltres": 115,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
@@ -934,10 +956,11 @@
         "name": "T-62",
         "type": "tank",
         "year": "1961",
-        "yearValue": 1,
-        "additionalFiltres": 115
+        "yearValue": 1
       },
       {
+        "status": "yep",
+        "additionalFiltres": 125,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
@@ -949,6 +972,8 @@
         "yearValue": 60
       },
       {
+        "status": "no",
+        "additionalFiltres": 105,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
         "description": "",
@@ -958,10 +983,24 @@
         "type": "tank",
         "year": "1965",
         "yearValue": 1
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": 125,
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "description": "",
+        "id": 76,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t72tr.jpg?alt=media&token=6dcfe583-fc3a-40ff-a8fa-0634ca8d37e1",
+        "name": "T-72",
+        "type": "tank",
+        "year": "1973",
+        "yearValue": 20
       }
     ],
     "trk": [
       {
+        "additionalFiltres": 120,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -970,10 +1009,10 @@
         "name": "Точка",
         "type": "trk",
         "year": "1986",
-        "yearValue": 40,
-        "additionalFiltres": 120
+        "yearValue": 40
       },
       {
+        "additionalFiltres": 100,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
@@ -982,8 +1021,7 @@
         "name": "Вільха",
         "type": "trk",
         "year": "2020",
-        "yearValue": 100,
-        "additionalFiltres": 100
+        "yearValue": 100
       }
     ]
   },

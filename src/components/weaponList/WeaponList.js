@@ -14,13 +14,13 @@ const WeaponList = () => {
     // console.log('WeaponList component rendered');
 
     const [displayLoading, setDisplayLoading] = useState(false);
-    const { weapons, weaponsLoadingStatus, activeCategory, activeFilter, weaponsEnded, start, end, yearValue, activeAdditionalFilter} = useSelector(state => state.weapons)
+    const { weapons, weaponsLoadingStatus, activeCategory, activeFilter, weaponsEnded, start, end, yearValue, activeAdditionalFilter, activeStatus} = useSelector(state => state.weapons)
     const dispatch = useDispatch();
 
     useEffect(() => {
         setDisplayLoading(true);
         dispatch(fetchedWeapons({activeCategory, start, end}));
-    }, [activeCategory, activeFilter, yearValue, activeAdditionalFilter])
+    }, [activeCategory, activeFilter, yearValue, activeAdditionalFilter, activeStatus])
 
     // const filtredWeapons = useMemo(() => {
     //     let filtredWeapons = weapons.slice();
@@ -40,32 +40,74 @@ const WeaponList = () => {
     //     return filtredWeapons;
     //   }, [weapons, activeFilter, yearValue]);
       
+    // const filtredWeapons = useMemo(() => {
+    //   let filtredWeapons = weapons.slice();
+    
+    //   if (activeFilter !== 'all' || yearValue || activeAdditionalFilter !== 'all') {
+    //       filtredWeapons = filtredWeapons.filter(el => {
+    //       if (activeFilter === 'all' && activeAdditionalFilter === 'all') {
+    //         return el.yearValue === yearValue;
+    //       } else if (yearValue === null && activeAdditionalFilter === 'all') {
+    //         return el.country === activeFilter;
+    //       } else if (activeFilter === 'all' && yearValue === null) {
+    //         return el.additionalFiltres === activeAdditionalFilter;
+    //       } else if (activeFilter === 'all') {
+    //         return el.yearValue === yearValue && el.additionalFiltres === activeAdditionalFilter;
+    //       } else if (yearValue === null) {
+    //         return el.country === activeFilter && el.additionalFiltres === activeAdditionalFilter;
+    //       } else if (activeAdditionalFilter === 'all') {
+    //         return el.yearValue === yearValue && el.country === activeFilter;
+    //       } else {
+    //         return el.yearValue === yearValue && el.country === activeFilter && el.additionalFiltres === activeAdditionalFilter;
+    //       }
+    //     });
+    //   }
+    
+    //   return filtredWeapons;
+    // }, [weapons]);
+  
     const filtredWeapons = useMemo(() => {
       let filtredWeapons = weapons.slice();
     
-      if (activeFilter !== 'all' || yearValue || activeAdditionalFilter !== 'all') {
+      if (activeFilter !== 'all' || yearValue || activeAdditionalFilter !== 'all' || activeStatus !== 'all') {
           filtredWeapons = filtredWeapons.filter(el => {
-          if (activeFilter === 'all' && activeAdditionalFilter === 'all') {
+          if (activeFilter === 'all' && activeAdditionalFilter === 'all' && activeStatus === 'all') {
             return el.yearValue === yearValue;
-          } else if (yearValue === null && activeAdditionalFilter === 'all') {
+          } else if (yearValue === null && activeAdditionalFilter === 'all' && activeStatus === 'all') {
             return el.country === activeFilter;
-          } else if (activeFilter === 'all' && yearValue === null) {
+          } else if (activeFilter === 'all' && yearValue === null && activeStatus === 'all') {
             return el.additionalFiltres === activeAdditionalFilter;
-          } else if (activeFilter === 'all') {
-            return el.yearValue === yearValue && el.additionalFiltres === activeAdditionalFilter;
-          } else if (yearValue === null) {
+          } else if (activeFilter === 'all' && yearValue === null && activeAdditionalFilter === 'all') {
+            return el.status === activeStatus;
+          } else if (activeFilter === 'all' && activeAdditionalFilter === 'all') {
+            return el.yearValue === yearValue && el.status === activeStatus;
+          } else if (activeFilter === 'all' && yearValue === null) {
+            return el.additionalFiltres === activeAdditionalFilter && el.status === activeStatus;
+          } else if (activeFilter === 'all' && activeStatus === 'all') {
+            return el.additionalFiltres === activeAdditionalFilter && el.yearValue === yearValue;
+          } else if (activeAdditionalFilter === 'all' && yearValue === null) {
+            return el.country === activeFilter && el.status === activeStatus;
+          } else if (activeAdditionalFilter === 'all' && activeStatus === 'all') {
+            return el.country === activeFilter && el.yearValue === yearValue;
+          } else if (yearValue === null && activeStatus === 'all') {
             return el.country === activeFilter && el.additionalFiltres === activeAdditionalFilter;
+          } else if (activeFilter === 'all') {
+            return el.yearValue === yearValue && el.additionalFiltres === activeAdditionalFilter && el.status === activeStatus;
+          }  else if (yearValue === null) {
+            return el.country === activeFilter && el.additionalFiltres === activeAdditionalFilter && el.status === activeStatus;
           } else if (activeAdditionalFilter === 'all') {
-            return el.yearValue === yearValue && el.country === activeFilter;
-          } else {
+            return el.yearValue === yearValue && el.country === activeFilter && el.status === activeStatus;
+          } else if (activeStatus === 'all') {
             return el.yearValue === yearValue && el.country === activeFilter && el.additionalFiltres === activeAdditionalFilter;
+          } else {
+            return el.yearValue === yearValue && el.country === activeFilter && el.additionalFiltres === activeAdditionalFilter && el.status === activeStatus;
           }
         });
       }
     
       return filtredWeapons;
-    }, [weapons, activeFilter, yearValue, activeAdditionalFilter]);
-
+    }, [weapons]);
+    
 
 
     useEffect(() => {
