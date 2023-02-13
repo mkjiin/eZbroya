@@ -18,7 +18,7 @@ const initialState = {
 export const fetchedWeapons = createAsyncThunk(
     'weapons/fetchedWeapons',
     (args) => {
-        console.log('fetch')
+        // console.log('fetch')
         const {activeCategory, start, end} = args
         const {request} = useHttp();
         return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${activeCategory}.json?orderBy="$key"&startAt="${start}"&endAt="${end}"`)

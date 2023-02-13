@@ -1139,5 +1139,12 @@
       "label": "Інше",
       "name": "other"
     }
+  ],
+  "slider": [
+    {
+      "sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2Fslider1.png?alt=media&token=05f4122d-2092-4178-b74c-f523fa7e3d7a"
+    },
+    {"sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2Fslider2.png?alt=media&token=85296fea-c7f8-42e3-8c8d-559dd35d3687"},
+    {"sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2Fslider3.png?alt=media&token=cb445b34-d913-4a07-bf48-84325ab22e19"}
   ]
 }

@@ -20,7 +20,7 @@ const WeaponList = () => {
         dispatch(fetchedWeapons({activeCategory, start, end}));
     }, [activeCategory, activeFilter, yearValue, activeAdditionalFilter, activeStatus])
 
-    console.log(weapons)
+    // console.log(weapons)
     // const filtredWeapons = useMemo(() => {
     //     let filtredWeapons = weapons.slice();
       
