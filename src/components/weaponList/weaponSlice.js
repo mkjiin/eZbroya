@@ -21,7 +21,7 @@ export const fetchedWeapons = createAsyncThunk(
         console.log('fetch')
         const {activeCategory, start, end} = args
         const {request} = useHttp();
-        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${activeCategory}.json?orderBy="$key"&startAt="${start}"&endAt="${end}"&auth=2OXJDuZFkQQP4IZBIODdB9FHvwrCRxK6RQDIUCt1"`)
+        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${activeCategory}.json?orderBy="$key"&startAt="${start}"&endAt="${end}"`)
             .then(data => Object.values(data));
     }
 )

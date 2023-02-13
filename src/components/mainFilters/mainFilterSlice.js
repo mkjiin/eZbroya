@@ -10,7 +10,7 @@ export const fetchedCategories = createAsyncThunk(
     'filters/fetchedCategories',
     () => {
         const {request} = useHttp(); 
-        return request("https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/filters.json?auth=2OXJDuZFkQQP4IZBIODdB9FHvwrCRxK6RQDIUCt1")
+        return request("https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/filters.json")
     }
 )
 

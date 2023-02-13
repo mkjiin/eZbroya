@@ -14,7 +14,7 @@ export const fetchedAdditionalFiltres = createAsyncThunk(
     'additionalFlitres/fetchedAdditionalFiltres',
     (id) => {
         const { request } = useHttp();
-        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/additionalFiltres/${id}.json?auth=2OXJDuZFkQQP4IZBIODdB9FHvwrCRxK6RQDIUCt1"`)
+        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/additionalFiltres/${id}.json`)
     }
 )
 
