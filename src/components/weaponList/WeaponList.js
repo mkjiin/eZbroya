@@ -6,8 +6,6 @@ import tank from '../../imgs/tank.jpg'
 import { useEffect, useState, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchedWeapons } from './weaponSlice';
-import { useHttp } from '../../hooks/http.hook';
-import { useGetWeaponsQuery, useChangeCategoryMutation } from '../../api/apiSlice';
 import { limitChange, setEnd, weaponsPaginate } from '../weaponList/weaponSlice';
 
 const WeaponList = () => {
@@ -22,6 +20,7 @@ const WeaponList = () => {
         dispatch(fetchedWeapons({activeCategory, start, end}));
     }, [activeCategory, activeFilter, yearValue, activeAdditionalFilter, activeStatus])
 
+    console.log(weapons)
     // const filtredWeapons = useMemo(() => {
     //     let filtredWeapons = weapons.slice();
       

@@ -85,6 +85,7 @@
   "categories": {
     "ahs": [
       {
+        "status": "yep",
         "additionalFiltres": 203,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -97,6 +98,7 @@
         "yearValue": 20
       },
       {
+        "status": "yep",
         "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -109,6 +111,7 @@
         "yearValue": 40
       },
       {
+        "status": "yep",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
@@ -121,6 +124,7 @@
         "yearValue": 1
       },
       {
+        "status": "yep",
         "additionalFiltres": 155,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -133,6 +137,7 @@
         "yearValue": 100
       },
       {
+        "status": "no",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af",
@@ -145,6 +150,7 @@
         "yearValue": 60
       },
       {
+        "status": "no",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/sweden.png?alt=media&token=4cb899a5-4ba0-481a-801e-ca865865b1c8",
@@ -157,6 +163,7 @@
         "yearValue": 100
       },
       {
+        "status": "yep",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
@@ -169,6 +176,7 @@
         "yearValue": 60
       },
       {
+        "status": "yep",
         "additionalFiltres": 120,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
@@ -181,6 +189,7 @@
         "yearValue": 80
       },
       {
+        "status": "yep",
         "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -193,6 +202,33 @@
         "yearValue": 20
       },
       {
+        "status": "no",
+        "additionalFiltres": 155,
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
+        "description": "",
+        "id": 84,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Frch155.jpg?alt=media&token=89ee0b2e-e422-479e-a7a2-1caa407c05d8",
+        "name": "RCH 155",
+        "type": "ahs",
+        "year": "2014",
+        "yearValue": 100
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": 152,
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/icons%2Fczech-republic.png?alt=media&token=015b9e0a-ae6a-42e3-bb96-452066932641",
+        "description": "",
+        "id": 82,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fdana.jpg?alt=media&token=501845e2-14f6-498b-9504-fd6e703902e9",
+        "name": "DANA M2",
+        "type": "ahs",
+        "year": "2018",
+        "yearValue": 100
+      },
+      {
+        "status": "yep",
         "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -205,6 +241,7 @@
         "yearValue": 20
       },
       {
+        "status": "yep",
         "additionalFiltres": 122,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -217,6 +254,7 @@
         "yearValue": 20
       },
       {
+        "status": "yep",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slovakia.png?alt=media&token=30b2f890-3db2-4dd4-87a1-fd020aab3e67",
@@ -225,22 +263,24 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fzuzana.jpg?alt=media&token=ebe19694-288c-47b3-b210-e4d9c400af04",
         "name": "Zuzana 2",
         "type": "ahs",
-        "year": "1998",
-        "yearValue": 60
+        "year": "2019",
+        "yearValue": 100
       },
       {
-        "additionalFiltres": 120,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "status": "yep",
+        "additionalFiltres": 152,
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 25,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fnona.jpg?alt=media&token=a79a7154-7c96-473c-9bc3-84b30207e4e7",
-        "name": "2С23 «Нона-СВК»",
+        "id": 80,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2FmstaTr.jpg?alt=media&token=25712162-bd99-4a88-bb0d-3f839eb26ab6",
+        "name": "2С19 «Мста-С»",
         "type": "ahs",
-        "year": "1991",
-        "yearValue": 60
+        "year": "1989",
+        "yearValue": 40
       },
       {
+        "status": "yep",
         "additionalFiltres": 120,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -253,6 +293,7 @@
         "yearValue": 20
       },
       {
+        "status": "yep",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/france.png?alt=media&token=fede07dc-0a09-41bc-a8b5-a8096a832045",
@@ -265,6 +306,20 @@
         "yearValue": 80
       },
       {
+        "status": "yep",
+        "additionalFiltres": 152,
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "description": "",
+        "id": 81,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2FakatsiyaTr.jpg?alt=media&token=0fc00bee-a315-4d43-94e6-698b88f6ff82",
+        "name": "2С3 «Акація»",
+        "type": "ahs",
+        "year": "1971",
+        "yearValue": 20
+      },
+      {
+        "status": "yep",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/poland.png?alt=media&token=c9307ffc-dcd2-49ea-9c19-ec6eeaf839e4",
@@ -279,6 +334,7 @@
     ],
     "av": [
       {
+        "status": "yep",
         "additionalFiltres": 30,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -291,6 +347,7 @@
         "yearValue": 40
       },
       {
+        "status": "no",
         "additionalFiltres": 25,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
@@ -303,6 +360,7 @@
         "yearValue": 40
       },
       {
+        "status": "yep",
         "additionalFiltres": 100,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
@@ -315,6 +373,7 @@
         "yearValue": 100
       },
       {
+        "status": "no",
         "additionalFiltres": 20,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
@@ -327,6 +386,7 @@
         "yearValue": 20
       },
       {
+        "status": "no",
         "additionalFiltres": 40,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/sweden.png?alt=media&token=4cb899a5-4ba0-481a-801e-ca865865b1c8",
@@ -339,6 +399,7 @@
         "yearValue": 60
       },
       {
+        "status": "yep",
         "additionalFiltres": 73,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -351,6 +412,7 @@
         "yearValue": 1
       },
       {
+        "status": "yep",
         "additionalFiltres": 20,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slovenia.png?alt=media&token=cdff8f53-d71f-4599-a95a-400f8ffe4444",
@@ -363,6 +425,7 @@
         "yearValue": 20
       },
       {
+        "status": "yep",
         "additionalFiltres": 73,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -375,6 +438,7 @@
         "yearValue": 1
       },
       {
+        "status": "yep",
         "additionalFiltres": 30,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
@@ -387,6 +451,7 @@
         "yearValue": 40
       },
       {
+        "status": "yep",
         "additionalFiltres": 100,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",

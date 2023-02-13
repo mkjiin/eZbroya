@@ -14,7 +14,7 @@ export const fetchedAdditionalFiltres = createAsyncThunk(
     'additionalFlitres/fetchedAdditionalFiltres',
     (id) => {
         const { request } = useHttp();
-        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/additionalFiltres/${id}.json`)
+        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/additionalFiltres/${id}.json?auth=2OXJDuZFkQQP4IZBIODdB9FHvwrCRxK6RQDIUCt1"`)
     }
 )
 
@@ -28,7 +28,7 @@ const additionalFiltresSlice = createSlice({
         builder
             .addCase(fetchedAdditionalFiltres.pending, state => {state.additionalFiltresLoadingStatus = 'loading'})
             .addCase(fetchedAdditionalFiltres.fulfilled, (state, action) => {
-                console.log(action.payload)
+                // console.log(action.payload)
                 state.additionalFiltresLoadingStatus = 'idle';
                 state.additionalFiltresdata = action.payload
             })

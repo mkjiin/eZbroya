@@ -21,7 +21,7 @@ export const fetchedWeapons = createAsyncThunk(
         console.log('fetch')
         const {activeCategory, start, end} = args
         const {request} = useHttp();
-        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${activeCategory}.json?orderBy="$key"&startAt="${start}"&endAt="${end}"`)
+        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${activeCategory}.json?orderBy="$key"&startAt="${start}"&endAt="${end}"&auth=2OXJDuZFkQQP4IZBIODdB9FHvwrCRxK6RQDIUCt1"`)
             .then(data => Object.values(data));
     }
 )
@@ -38,7 +38,8 @@ const filtersSlice = createSlice({
             state.weapons = [];
             state.weaponsEnded = true;
             state.activeFilter = 'all';
-            state.activeAdditionalFilter = 'all'
+            state.activeAdditionalFilter = 'all';
+            state.activeStatus = 'all'
             state.yearValue = null;
             state.activeCategory = action.payload;
         },

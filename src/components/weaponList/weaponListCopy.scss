@@ -71,7 +71,6 @@
                     height: 198px;
                     border-radius: 20px;
                     object-fit: cover;
-                    // transition: filter 0.3s ease-in-out;
                     cursor: pointer;
                     transition: .4s all;
                     // &:hover {
@@ -79,6 +78,7 @@
                     //   }
                 }
                 &_overlay {
+                    margin: 0 auto;
                     transition: .4s all;
                     border-radius: 3px;
                     text-align: center;
