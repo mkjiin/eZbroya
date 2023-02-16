@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchedAdditionalFiltres } from './secondaryFiltresSlice'
+import { fetchedAdditionalFiltres } from '../secondaryFiltresSlice'
 import { useEffect } from 'react';
-import { additionalFilterChanged, activeAdditionalFilterReset } from '../weaponList/weaponSlice';
+import { additionalFilterChanged, activeAdditionalFilterReset } from '../../weaponList/weaponSlice';
 
 const AdditionalFiltres = () => {
     const { additionalFiltresdata, additionalFiltresId } = useSelector(state => state.additionalFiltres)

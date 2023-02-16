@@ -2,7 +2,7 @@ import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import styled from 'styled-components';
 import { useDispatch } from 'react-redux';
-import { yearChanging } from '../weaponList/weaponSlice';
+import { yearChanging } from '../../weaponList/weaponSlice';
 import { useState } from 'react';
 
 const StyledSlider = styled(Slider)`
@@ -26,7 +26,7 @@ const StyledSlider = styled(Slider)`
 
 `;
   
-const SearchForm = () => {
+const YearFilter = () => {
     const [activeThumb, setActiveThumb] = useState(null);
     const marks = [
         {
@@ -82,7 +82,7 @@ const SearchForm = () => {
     )
 }
 
-export default SearchForm;
+export default YearFilter;
 
 {/* <ul className='content__sec-filters__buttons-country'>
                 <li className={`content__sec-filters__button-country`}>

@@ -40,3 +40,41 @@ const NewsComp = () => {
 }
 
 export default NewsComp;
+
+
+
+// country: {
+//     countryFilter: 'nt',
+//     countryFilterIcon: 'sl.png',
+//     countryOrigin: 'ussr',
+//     countryOriginIcon: 'ussr.png',
+//     countryModification: 'slovenia'
+// }
+
+// country: {
+//     countryFilter: 'ua',
+//     countryFilterIcon: 'ua.png',
+//     countryOrigin: 'ussr',
+//     countryOriginIcon: 'ussr.png',
+//     countryModification: ''
+// }
+
+// country: {
+//     countryFilter: 'ua',
+//     countryFilterIcon: 'ua.png',
+//     countryOrigin: 'ua',
+//     countryOriginIcon: '',
+//     countryModification: ''
+// }
+
+// country: {
+//     countryFilter: 'nt',
+//     countryFilterIcon: 'usa.png',
+//     countryOrigin: 'usa',
+//     countryOriginIcon: '',
+//     countryModification: ''  
+// }
+
+
+
+

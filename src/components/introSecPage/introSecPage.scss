@@ -1,0 +1,98 @@
+.intro {
+    height: 527px;
+    padding: 5px 96px 0px 96px;
+    background-color: #CDC5AC;
+    &__title {
+        font-family: 'e-Ukraine Head';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        color: #000000;
+        display: block;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        &__img {
+            border-radius: 15px;
+        }
+        &__info {
+            width: 457px;
+            height: 452px;
+            background: #D9D9D9;
+            border-radius: 15px;   
+            padding: 6px 11px 0px 11px;
+            &__type {
+                width: 435px;
+                height: 55px;
+                background: #CDC5AC;
+                border-radius: 8px;
+                padding: 6px 0px 7px 11px;
+                display: flex;
+                align-items: center;
+                &-title {
+                    font-family: 'e-Ukraine Head';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 35px;
+                    line-height: 42px;
+                    color: #000000;
+                }
+                &-text {
+                    font-family: 'e-Ukraine';
+                    font-style: normal;
+                    font-weight: 200;
+                    font-size: 35px;
+                    line-height: 42px;
+                    color: #000000;
+                    margin-left: 3px;
+                }
+            }
+            &__list {
+                &__item {
+                    width: 435px;
+                    height: 35px;
+                    background: #CDC5AC;
+                    border-radius: 20px;
+                    list-style: none;
+                    margin-top: 14px;
+                    padding: 2px 0px 3px 11px;
+                    display: flex;
+                    align-items: center;
+                    &-title {
+                        font-family: 'e-Ukraine Head';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #000000;
+                    }
+                    &-text {
+                        font-family: 'e-Ukraine';
+                        font-style: normal;
+                        font-weight: 200;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #000000;
+                        margin-left: 3px;
+                    }
+                }
+            }
+            &__status {
+                font-family: 'e-Ukraine Head';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 29px;
+                text-align: center;
+                margin-top: 10px;
+            }
+            hr {
+                width: 435px;
+                height: 0px;
+                border: 1px solid #000000;
+                margin-top: 14px;
+            }
+        }
+    }
+}

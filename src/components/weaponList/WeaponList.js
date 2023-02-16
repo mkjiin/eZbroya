@@ -9,7 +9,6 @@ import { fetchedWeapons } from './weaponSlice';
 import { limitChange, setEnd, weaponsPaginate } from '../weaponList/weaponSlice';
 
 const WeaponList = () => {
-    // console.log('WeaponList component rendered');
 
     const [displayLoading, setDisplayLoading] = useState(false);
     const { weapons, weaponsLoadingStatus, activeCategory, activeFilter, weaponsEnded, start, end, yearValue, activeAdditionalFilter, activeStatus} = useSelector(state => state.weapons)
@@ -20,7 +19,6 @@ const WeaponList = () => {
         dispatch(fetchedWeapons({activeCategory, start, end}));
     }, [activeCategory, activeFilter, yearValue, activeAdditionalFilter, activeStatus])
 
-    // console.log(weapons)
     // const filtredWeapons = useMemo(() => {
     //     let filtredWeapons = weapons.slice();
       

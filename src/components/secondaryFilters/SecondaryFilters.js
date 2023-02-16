@@ -4,9 +4,9 @@ import devil from '../../imgs/icons/devil.png';
 import nato from '../../imgs/icons/nato.png'
 
 import Countries from './countries/Countires';
-import SearchForm from '../searchForm/SearchForm';
+import YearFilter from './yearFilter/YearFilter';
 import Status from './status/Status';
-import AdditionalFiltres from './additionalFilter';
+import AdditionalFiltres from './additionalFiltres/additionalFilter';
 import { activeFilterChanged, activeFilterReset } from '../weaponList/weaponSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchedAdditionalFiltres } from './secondaryFiltresSlice'
@@ -28,7 +28,7 @@ const SecondaryFilters = () => {
                 : ''
             }
             {activeCategory === 'other' ? '' : <AdditionalFiltres/>}
-            <SearchForm/>
+            <YearFilter/>
             {/* <button className='content__sec-filters__button-country'></button> */}
         </div>
     )

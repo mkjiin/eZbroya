@@ -55,7 +55,7 @@ const filtersSlice = createSlice({
             state.weaponsEnded = true;
             state.weapons = []
             state.start = 0;
-            state.end = 15;
+            state.end = 25;
             state.activeFilter = action.payload
         },
         activeFilterReset: (state) => {
@@ -64,15 +64,15 @@ const filtersSlice = createSlice({
             state.end = 8;
             if(state.yearValue !== null) {
                 state.start = 0;
-                state.end = 15;
+                state.end = 25;
             }
             if(state.activeAdditionalFilter !== 'all') {
                 state.start = 0;
-                state.end = 15;
+                state.end = 25;
             }
             if(state.activeStatus !== 'all') {
                 state.start = 0;
-                state.end = 15;
+                state.end = 25;
             }
             state.weapons = [];
             state.activeFilter = 'all';
@@ -80,7 +80,7 @@ const filtersSlice = createSlice({
         yearChanging: (state, action) => {
             state.weaponsEnded = true;
             state.start = 0;
-            state.end = 15;
+            state.end = 25;
             if(state.yearValue !== action.payload) {
                 state.weapons = []
             }
@@ -94,7 +94,7 @@ const filtersSlice = createSlice({
             state.weaponsEnded = true;
             state.weapons = []
             state.start = 0;
-            state.end = 15
+            state.end = 25
             state.activeAdditionalFilter = action.payload
         },
         activeAdditionalFilterReset: (state) => {
@@ -103,15 +103,15 @@ const filtersSlice = createSlice({
             state.end = 8;
             if(state.yearValue !== null) {
                 state.start = 0;
-                state.end = 15;
+                state.end = 25;
             }
             if(state.activeFilter !== 'all') {
                 state.start = 0;
-                state.end = 15;
+                state.end = 25;
             }
             if(state.activeStatus !== 'all') {
                 state.start = 0;
-                state.end = 15;
+                state.end = 25;
             }
             state.weapons = [];
             state.activeAdditionalFilter = 'all';
@@ -120,7 +120,7 @@ const filtersSlice = createSlice({
             state.weaponsEnded = true;
             state.weapons = []
             state.start = 0;
-            state.end = 15;
+            state.end = 25;
             state.activeStatus = action.payload
         },
         activeStatusReset: (state) => {
@@ -129,15 +129,15 @@ const filtersSlice = createSlice({
             state.end = 8;
             if(state.yearValue !== null) {
                 state.start = 0;
-                state.end = 15;
+                state.end = 25;
             }
             if(state.activeFilter !== 'all') {
                 state.start = 0;
-                state.end = 15;
+                state.end = 25;
             }
             if(state.activeAdditionalFilter !== 'all') {
                 state.start = 0;
-                state.end = 15;
+                state.end = 25;
             }
             state.weapons = [];
             state.activeStatus = 'all';

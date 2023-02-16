@@ -1,0 +1,26 @@
+.app {
+    &__header-info {
+    padding: 17px 96px 0 96px;
+    height: 112px;
+    background-color: #CDC5AC;
+    img {
+        width: 190px;
+        height: 79px;
+        display: block;
+    }
+    hr {
+        width: 1328px;
+        margin: 0 auto;
+        margin-top: 13px;
+        border: 1px solid #000000;
+    }
+    &-title-info {
+        font-family: 'e-Ukraine Head';
+        font-size: 25px;
+        font-weight: 200;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    }
+}
