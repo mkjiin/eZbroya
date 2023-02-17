@@ -6,7 +6,6 @@ import WeaponList from "../../components/weaponList/WeaponList";
 ///////
 import AppHeaderInfoPage from "../../components/appHeaderInfoPage/AppHeaderInfoPage";
 import IntroSecPage from "../../components/introSecPage/IntroSecPage";
-import Description from "../../components/description/Description";
 import AdditionalInfoSecPage from "../../components/additionalInfoSecPage/AdditionalInfoSecPage";
 import YouTube from "../../components/youTube/YouTube";
 import Links from "../../components/links/Links";
@@ -14,19 +13,13 @@ import Links from "../../components/links/Links";
 const MainPage = () => {
     return (
         <>
-            <AppHeaderInfoPage/>
-            <IntroSecPage/>
-            <Description/>
-            <AdditionalInfoSecPage/>
-            <YouTube/>
-            <Links/>
-            {/* <AppHeader/>
+            <AppHeader/>
             <NewsComp/>
             <MainFilters/>
             <div className='content__main'>
                 <SecondaryFilters/>
                 <WeaponList/>
-            </div> */}
+            </div>
         </>
     )
 }

@@ -14,9 +14,10 @@ const NewsComp = () => {
     }, [])
        
     const renderSlider = (arr) => {
-        return arr.map(({sliderPhoto}) => {
+        return arr.map(({sliderPhoto}, i) => {
             return (
-            <div>
+            <div
+            key={i}>
                 <a href="#" className='news__link'>
                     <img src={sliderPhoto} alt="tank" className='news__link_img'/>
                     <div className='news__link_overlay'>

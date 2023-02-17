@@ -2,7 +2,7 @@ import './weaponListCopy.scss';
 import usa from '../../imgs/icons/usa.png'
 import tank from '../../imgs/tank.jpg'
 
-
+import { Link } from 'react-router-dom';
 import { useEffect, useState, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchedWeapons } from './weaponSlice';
@@ -19,49 +19,6 @@ const WeaponList = () => {
         dispatch(fetchedWeapons({activeCategory, start, end}));
     }, [activeCategory, activeFilter, yearValue, activeAdditionalFilter, activeStatus])
 
-    // const filtredWeapons = useMemo(() => {
-    //     let filtredWeapons = weapons.slice();
-      
-    //     if (activeFilter !== 'all' || yearValue ) {
-    //         filtredWeapons = filtredWeapons.filter(el => {
-    //         if (activeFilter === 'all') {
-    //           return el.yearValue === yearValue;
-    //         } else if (yearValue === null) {
-    //           return el.country === activeFilter;
-    //         } else {
-    //           return el.yearValue === yearValue && el.country === activeFilter;
-    //         }
-    //       });
-    //     }
-      
-    //     return filtredWeapons;
-    //   }, [weapons, activeFilter, yearValue]);
-      
-    // const filtredWeapons = useMemo(() => {
-    //   let filtredWeapons = weapons.slice();
-    
-    //   if (activeFilter !== 'all' || yearValue || activeAdditionalFilter !== 'all') {
-    //       filtredWeapons = filtredWeapons.filter(el => {
-    //       if (activeFilter === 'all' && activeAdditionalFilter === 'all') {
-    //         return el.yearValue === yearValue;
-    //       } else if (yearValue === null && activeAdditionalFilter === 'all') {
-    //         return el.country === activeFilter;
-    //       } else if (activeFilter === 'all' && yearValue === null) {
-    //         return el.additionalFiltres === activeAdditionalFilter;
-    //       } else if (activeFilter === 'all') {
-    //         return el.yearValue === yearValue && el.additionalFiltres === activeAdditionalFilter;
-    //       } else if (yearValue === null) {
-    //         return el.country === activeFilter && el.additionalFiltres === activeAdditionalFilter;
-    //       } else if (activeAdditionalFilter === 'all') {
-    //         return el.yearValue === yearValue && el.country === activeFilter;
-    //       } else {
-    //         return el.yearValue === yearValue && el.country === activeFilter && el.additionalFiltres === activeAdditionalFilter;
-    //       }
-    //     });
-    //   }
-    
-    //   return filtredWeapons;
-    // }, [weapons]);
   
     const filtredWeapons = useMemo(() => {
       let filtredWeapons = weapons.slice();
@@ -124,22 +81,24 @@ const WeaponList = () => {
             return <h5 className='content__weapon_error'>Нажаль, ми не знайшли нічого під ваши фільтри</h5>
         }
 
-        return arr.map(({name, id, img, country_icon, country}) => {
+        return arr.map(({name, id, img, country_icon, country}, i) => {
+            const formattedName = name.replace(/\s+/g, '__');
             return <li className='content__weapon_item'
                     tabIndex={0}
                     key={id}
-                    id={id}>
+                    id={id}
+                    onClick={() => console.log(`${activeCategory}/${i}`)}>
                         <div className='content__weapon_item_title'>
                             <div className='content__weapon_item_name'>{name}</div>
                             <img src={country_icon} alt={country} className='content__weapon_item_country'/>
                         </div>
                         <div>
-                        <a href="#" className='content__weapon_item_link'>
+                        <Link to={`/${formattedName}`} className='content__weapon_item_link'>
                             <img src={img} alt="tank" className='content__weapon_item_link_img'/>
                             <div className='content__weapon_item_link_overlay'>
                                 <h2 className='content__weapon_item_more'>Подробиці</h2>
                             </div>
-                        </a>
+                        </Link>
                         </div>
                    </li>
         })
