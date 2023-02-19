@@ -4,6 +4,7 @@ import weapons from '../components/weaponList/weaponSlice'
 import categories from '../components/mainFilters/mainFilterSlice'
 import additionalFiltres from '../components/secondaryFilters/secondaryFiltresSlice'
 import slider from '../components/newsComp/newsSlice'
+import infoPage from '../pages/infoPage/infoPageSlice'
 
 const stringMiddleware = () => (next) => (action) => {
     if (typeof action === 'string') {
@@ -15,7 +16,7 @@ const stringMiddleware = () => (next) => (action) => {
 };
 
 const store = configureStore({
-    reducer: { categories, weapons, additionalFiltres, slider},
+    reducer: { categories, weapons, additionalFiltres, slider, infoPage},
     middleware: getDefaultMiddleware => getDefaultMiddleware().concat(stringMiddleware),
     devTools: process.env.NODE_ENV !== 'production',
 })

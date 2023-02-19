@@ -6,12 +6,14 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchedWeapons } from './weaponSlice';
-import { limitChange, setEnd, weaponsPaginate } from '../weaponList/weaponSlice';
+import { reset, weaponsPaginate } from '../weaponList/weaponSlice';
+import { getRestOfLink } from '../../pages/infoPage/infoPageSlice';
 
 const WeaponList = () => {
 
     const [displayLoading, setDisplayLoading] = useState(false);
     const { weapons, weaponsLoadingStatus, activeCategory, activeFilter, weaponsEnded, start, end, yearValue, activeAdditionalFilter, activeStatus} = useSelector(state => state.weapons)
+    
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -72,8 +74,12 @@ const WeaponList = () => {
 
       if (displayLoading) {
         return <h5 className='content__weapon_loading'>Завантаження..</h5>
-      }
-    
+    }
+  
+    const onClick = (activeCategory, i) => {
+      dispatch(getRestOfLink(`${activeCategory}/${i}`));
+      dispatch(reset())
+    }
 
     const renderWeapons = (arr) => {
         
@@ -87,7 +93,7 @@ const WeaponList = () => {
                     tabIndex={0}
                     key={id}
                     id={id}
-                    onClick={() => console.log(`${activeCategory}/${i}`)}>
+                    onClick={() => onClick(activeCategory, i)}>
                         <div className='content__weapon_item_title'>
                             <div className='content__weapon_item_name'>{name}</div>
                             <img src={country_icon} alt={country} className='content__weapon_item_country'/>
@@ -114,6 +120,7 @@ const WeaponList = () => {
             <button className='content__weapon_item_paggin' 
             onClick={async () => {
                 const fetchedData = await dispatch(fetchedWeapons({activeCategory, start, end}));
+                // console.log(fetchedData)
                 dispatch(weaponsPaginate(fetchedData.payload))
               }}
             style={{"display" : weaponsEnded ? 'none' : 'block'}}

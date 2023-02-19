@@ -1,4 +1,4 @@
 import MainPage from "./mainPage/MainPage";
-import InfoPage from "./mainPage/InfoPage";
+import InfoPage from "./infoPage/InfoPage";
 
 export { MainPage, InfoPage }

@@ -872,13 +872,20 @@
         "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
+        "description": "Т-84 «Оплот» (Т-84У) — український основний бойовий танк третього покоління, розроблений Харківським конструкторським бюро з машинобудування імені О. О. Морозова на основі танку T-84.",
         "id": 1,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/oplot.jpg?alt=media&token=923ec622-ab81-4170-9905-370a674bbaa2",
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2FoplotMain.png?alt=media&token=72a62145-e93f-4b1d-9f62-47c91125f770", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2Foplot1.jpg?alt=media&token=733cebfa-268b-490c-80e8-66d093de2d7e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2Foplot2.jpg?alt=media&token=d2f30886-ca79-4f90-866e-64f8976f9219", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2Foplot3.jpg?alt=media&token=dbe95cdc-db6a-4432-88d2-bddacc4e088c"],
         "name": "Т-84У «Оплот»",
         "type": "tank",
-        "year": "1999",
-        "yearValue": 60
+        "year": "2000",
+        "yearValue": 80,
+        "introInfo": [["Тип:","Танк"], ["Походження:","Україна"], ["На озброєнні:","з 2000р."], ["Калібр:","105 мм"]],
+        "uaInfo": ["Був прийнятий на озброєння ЗС України під найменуванням БМ «Оплот», відповідно до постанови уряду України № 237-5 від 08.02.2000 р.", "У травні 2022 року фотографії з передової з танком Т-84 оприлюднили у соціальних мережах. (Імовірно, танк застосовується бійцями 14-ї окремої механізованої бригади. Також не виключно, що танк на озброєнні в одній з бригад у Харківській області.)"],
+        "resources": {
+          "youtube": "youtube.com/embed/aeCNhOrtzDs",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A2-84_%C2%AB%D0%9E%D0%BF%D0%BB%D0%BE%D1%82%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/t-84/"
+        }
       },
       {
         "status": "no",

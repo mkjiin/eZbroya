@@ -141,6 +141,11 @@ const filtersSlice = createSlice({
             }
             state.weapons = [];
             state.activeStatus = 'all';
+        },
+        reset: (state) => {
+            state.weapons = [];
+            state.start = 0;
+            state.end = 8;
         }
     },
     extraReducers: (builder) => {
@@ -155,6 +160,7 @@ const filtersSlice = createSlice({
                 state.weaponsEnded = true;
             }
               
+            console.log(action.payload)
             
             if(state.weapons.length === 0) {
                 state.weapons = action.payload
@@ -182,5 +188,6 @@ export const {
     additionalFilterChanged,
     activeAdditionalFilterReset,
     activeStatusChange,
-    activeStatusReset
+    activeStatusReset,
+    reset
 } = actions;

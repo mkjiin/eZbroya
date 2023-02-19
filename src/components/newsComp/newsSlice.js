@@ -22,7 +22,8 @@ const newsSlice = createSlice({
         builder
             .addCase(fetchedSlider.pending, state => {state.sliderLoadingStatus = 'loading'})
             .addCase(fetchedSlider.fulfilled, (state, action) => {
-                state.slider = action.payload
+                state.sliderLoadingStatus = 'idle';
+                state.slider = action.payload;
             })
             .addCase(fetchedSlider.rejected, state => {state.sliderLoadingStatus = 'error'})
             .addDefaultCase(() => {})
