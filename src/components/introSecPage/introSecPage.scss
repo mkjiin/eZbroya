@@ -14,16 +14,17 @@
             align-items: center;
         }
         &_img {
-            margin-left: 3px;
+            margin-left: 10px;
             width: 68px;
             height: 68px;
         }
     }
     &__content {
+        margin-top: 5px;
         min-height: 550px;
         background: #D9D9D9;
-        border-radius: 15px;
-        padding: 6px 16px 10px 16px;
+        border-radius: 25px;
+        padding: 11px 25px 25px 25px;
     }
     &__flex {
         display: flex;
@@ -31,7 +32,7 @@
         border-radius: 15px;
         &__img {
             border-radius: 15px;
-            width: 834px;
+            width: 732px;
             height: 435px;
             margin-top: 14px;
         }
@@ -69,7 +70,7 @@
             }
             &__list {
                 &__item {
-                    width: 435px;
+                    width: 522px;
                     height: 35px;
                     background: #CDC5AC;
                     border-radius: 20px;
@@ -97,22 +98,21 @@
                     }
                 }
             }
-            &__status {
-                font-family: 'e-Ukraine Head';
-                font-style: normal;
-                font-weight: 300;
-                font-size: 24px;
-                line-height: 29px;
-                text-align: center;
-                margin-top: 10px;
-            }
             hr {
-                width: 435px;
+                width: 517px;
                 height: 0px;
                 border: 1px solid #000000;
                 margin-top: 14px;
             }
         }
+    }
+    &__status {
+        font-family: 'e-Ukraine Head';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 10px;
     }
     &__description {
         margin-top: 20px;

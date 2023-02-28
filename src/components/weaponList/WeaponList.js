@@ -64,7 +64,7 @@ const WeaponList = () => {
       return filtredWeapons;
     }, [weapons]);
     
-
+    console.log(weapons)
 
     useEffect(() => {
         if (weaponsLoadingStatus !== 'loading') {
@@ -91,9 +91,9 @@ const WeaponList = () => {
             const formattedName = name.replace(/\s+/g, '__');
             return <li className='content__weapon_item'
                     tabIndex={0}
-                    key={id}
+                    key={i}
                     id={id}
-                    onClick={() => onClick(activeCategory, i)}>
+                    onClick={() => onClick(activeCategory, (id - 1))}>
                         <div className='content__weapon_item_title'>
                             <div className='content__weapon_item_name'>{name}</div>
                             <img src={country_icon} alt={country} className='content__weapon_item_country'/>

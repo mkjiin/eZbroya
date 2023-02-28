@@ -23,7 +23,8 @@ const SecondaryFilters = () => {
             {
                 (activeCategory === "tanks" ||
                 activeCategory === "ahs" ||
-                activeCategory === "av")
+                activeCategory === "av" ||
+                activeCategory === "zrk")
                 ? <Status />
                 : ''
             }

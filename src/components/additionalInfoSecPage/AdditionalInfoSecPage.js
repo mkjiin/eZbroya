@@ -22,7 +22,7 @@ const AdditionalInfoSecPage = () => {
 
     const renderSlider = (arr) => {
         // if (typeof arr !== 'undefined') {
-        const cuttedArr = arr.slice(1, 4)
+        const cuttedArr = arr.slice(0, 3)
 
         return cuttedArr.map((el , i) => {
             return (

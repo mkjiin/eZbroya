@@ -28,7 +28,7 @@ const AdditionalFiltres = () => {
             onClick={() => handleFilterClick(el)}
             >
               <div className="content__sec-filters__button-country-name">
-              {(activeCategory === 'trk' || activeCategory === 'mrl') ? el + ' km' : (activeCategory === 'aviation') ? el : el + ' mm'}
+              {(activeCategory === 'trk' || activeCategory === 'mrl') ? el + ' km' : (activeCategory === 'aviation' || activeCategory === 'zrk') ? el : el + ' mm'}
               </div>
             </li>
           );

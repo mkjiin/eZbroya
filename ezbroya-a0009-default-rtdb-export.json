@@ -61,11 +61,11 @@
     },
     {
       "filters": [
-        100,
-        120
+        "Зенітна артилерія",
+        "Ракетний комплекс"
       ],
-      "mainLabel": "Максимальна глибина",
-      "type": "trk"
+      "mainLabel": "Тип ППО / ПРО",
+      "type": "zrk"
     },
     {
       "filters": [
@@ -89,91 +89,140 @@
         "additionalFiltres": 203,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 13,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fpion.jpg?alt=media&token=1320443d-46e0-49cc-a94c-dc1933a60cdb",
+        "description": "2С7 «Піон» — радянська 203-мм самохідна гармата артилерії резерву Верховного Головнокомандування. 2С7 «Піон» призначений для придушення тилів, знищення особливо важливих об'єктів і засобів ядерного нападу в тактичній глибині на відстані до 47 км. ",
+        "id": 1,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fpion%2Fpion1.png?alt=media&token=acaf1fb2-028f-4eac-9d42-3c80a4a23bf5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fpion%2Fpion2.png?alt=media&token=c8d3fca1-a406-4072-9e4e-0a07edf80fc8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fpion%2Fpion3.png?alt=media&token=4f82833c-f759-492e-9ade-6facaa473587", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fpion%2FpionMain.png?alt=media&token=bfef7e7d-aa19-4288-8dc8-35120a93ab68"],
         "name": "2С7 «Піон»",
-        "type": "ahs",
+        "type": "ahs",  
         "year": "1975",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","САУ"], ["Походження:","СРСР"], ["На озброєнні:","з 1975р."], ["Калібр:","203 мм"]],
+        "uaInfo": ["В листопаді 2014 року Україна у зв'язку з російським вторгненням розпочала розконсервацію і приведення в бойовий стан наявних установок 2С7. З відновлених установок було створено 43-тю артилерійську бригаду великої потужності."],
+        "resources": {
+          "youtube": "youtube.com/embed/2NcTczyfYEo",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%A17_%C2%AB%D0%9F%D1%96%D0%BE%D0%BD%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/2s7-pion/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 14,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fmsta.jpg?alt=media&token=0400cfe8-eeca-4df0-86f6-aec80762bcf4",
+        "description": "2С19 «Мста-С»  — радянська 152-мм дивізійна самохідна гаубиця. САУ 2С19 призначена для знищення тактичних ядерних засобів, артилерійських і мінометних батарей, танків та іншої броньованої техніки, протитанкових засобів, живої сили, засобів ППО і ПРО, пунктів управління, а також для руйнування польових фортифікаційних споруд та перешкоджання маневрам резервів противника в глибині його оборони. Може вести вогонь по спостережуваних і неспостережуваних цілях із закритих позицій і прямим наведенням, включаючи роботу в гірських умовах. При стрільбі використовуються як постріли з боєукладання, так і при подачі з ґрунту. В 1989 році нова самохідна гаубиця 2С19 «Мста-С» була прийнята на озброєння артилерійських полків мотострілецьких і танкових дивізій Радянської армії.",
+        "id": 2,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fmsta%2Fmsta1.png?alt=media&token=9769be7d-5e12-4dc9-9e48-42219706afbc", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fmsta%2Fmsta2.png?alt=media&token=eacfdb3b-fb74-4aeb-9375-9c410c5effd4", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fmsta%2Fmsta3.png?alt=media&token=17fe9cd0-92b2-4aab-a516-d1dcb4c97e38", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fmsta%2FmstaMain.png?alt=media&token=950474b0-832b-4e5d-a514-3660b7cdf4e5"],
         "name": "2С19 «Мста-С»",
         "type": "ahs",
         "year": "1989",
-        "yearValue": 40
+        "yearValue": 40,
+        "introInfo": [["Тип:","САУ"], ["Походження:","СРСР"], ["На озброєнні:","з 1989р."], ["Калібр:","152 мм"]],
+        "uaInfo": ["Російські установки САУ «Мста-С» були неодноразово зняті у серпні-вересні 2014 року на Маріупольському напрямку. Були ідентифіковані фото у Новоазовську.", "В результаті наступу на початку вересня 2022 року в районі Ізюма на Харківщині, українська армія поповнилася сотнями одиниць трофейної російської техніки. Зокрема великою кількістю 152-мм самохідних артустановок «Мста-С», причому модернізованих"],
+        "resources": {
+          "youtube": "youtube.com/embed/UWRf3OweYq0",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%A119_%C2%AB%D0%9C%D1%81%D1%82%D0%B0-%D0%A1%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/msta-s/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "",
-        "id": 15,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fm109.jpg?alt=media&token=4bde642e-dc1c-4b3e-84f5-86ad2e8412d1",
+        "description": "M109 — американська самохідна гаубиця, що перебуває на озброєнні артилерії армії США та деяких інших країн світу, в тому числі в Україні. Вперше M109 використовувалася в реальних бойових умовах під час В'єтнамської війни, згодом застосовувалася майже в усіх військових конфліктах, в яких брали участь США. Зі скасуванням програм розробки новітніх XM2001 Crusader та XM1203, M109A6 «Паладин» залишається основною самохідною артилерійською системою збройних сил країни у найближчому майбутньому. Крім США, є стандартною САУ країн НАТО, в значних кількостях поставлялася також у низку інших країн і використовувалася в багатьох регіональних конфліктах.",
+        "id": 3,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fm109%2Fm109_1.png?alt=media&token=9b344ff4-4932-4f76-aa91-9dd124ed0b20", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fm109%2Fm109_2.png?alt=media&token=b3dde9d6-c111-4400-8acf-712790faefa7", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fm109%2Fm109_3.png?alt=media&token=cefa7ef6-a3f3-49d6-af1c-1e333e45fecf", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fm109%2Fm109Main.png?alt=media&token=0ce75aca-d0b0-424b-aad6-cda2f684a3d7"],
         "name": "M109",
         "type": "ahs",
         "year": "1963",
-        "yearValue": 1
+        "yearValue": 1,
+        "introInfo": [["Тип:","САУ"], ["Походження:","США"], ["На озброєнні:","з 1963р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["28 травня 2022 року міністр оборони України Олексій Резніков повідомив, що в результаті кооперації кількох країн до України надійшли перші САУ М109 однієї з модифікацій.", "Всього налічується близько 80+ САУ M109"],
+        "resources": {
+          "youtube": "youtube.com/embed/PZ70fJ_3Ut8",
+          "wiki": "https://uk.wikipedia.org/wiki/M109_(%D0%A1%D0%90%D0%A3)",
+          "mil": "https://mil.in.ua/uk/tag/sau-m109/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 155,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 16,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fbohdana.jpg?alt=media&token=196eef39-d0e6-4fe7-9258-006f509863f2",
+        "description": "2С22 «Богдана» — українська колісна самохідна гаубиця, із стволом калібру 155 мм. Стала першою українською САУ, що розроблена під стандартний для країн НАТО калібр 155 мм. ",
+        "id": 4,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fbohdana%2Fbohdana1.png?alt=media&token=82b0041a-621c-443e-9aee-3ca9dead41e7", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fbohdana%2Fbohdana2.png?alt=media&token=6963c397-697a-4762-abb6-c01640ee9ad0", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fbohdana%2Fbohdana3.png?alt=media&token=ff72bd00-fbe6-4c66-a24d-238e45b93639", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fbohdana%2FbohdanaMain.png?alt=media&token=3113c362-57b8-4bf6-8ce0-1aad7ebce20a"],
         "name": "2С22 «Богдана»",
         "type": "ahs",
-        "year": "2018",
-        "yearValue": 100
+        "year": "2022",
+        "yearValue": 100,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Україна"], ["На озброєнні:","з 2022р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["У 2022 році гаубиця отримала бойове хрещення у битві за окупований на той час росіянами острів Зміїний."],
+        "resources": {
+          "youtube": "youtube.com/embed/HZTuDk4ytSs",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%A122_%C2%AB%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%B0%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/155-mm-sau-bohdana/"
+        }
       },
       {
         "status": "no",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af",
-        "description": "",
-        "id": 17,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fas90.jpg?alt=media&token=c90fe375-cf75-4dc0-9a43-e5fd356a7223",
+        "description": "AS-90 — британська самохідна артилерійська установка. Основним користувачем є сухопутні війська Великої Британії. Ліцензійне виробництво башт налагоджене у Польщі для САУ AHS Krab. AS-90 залишається на службі у Великій Британії та перебуватиме на озброєнні трьох полків. У 2008 році на озброєнні перебувало 134 AS-90, у 2015 році їх кількість була скорочена до 117. Артилерійські установки пройшли вдосконалення можливостей протягом 2008—2009 років, в основному були поліпшені електронні системи.",
+        "id": 5,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fas90%2Fas90_1.png?alt=media&token=22178171-af9d-4f95-b400-54d835ae5ce9", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fas90%2Fas90_2.png?alt=media&token=c014a02a-21b3-4eb2-9bf1-de167ff2a09f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fas90%2Fas90_3.png?alt=media&token=813aebd7-0054-4e9f-9405-54556ed624cc", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fas90%2Fas90Main.png?alt=media&token=9dafcc3b-2fb9-40d3-b69d-8bbaae8b17c3"],
         "name": "AS-90",
         "type": "ahs",
         "year": "1995",
-        "yearValue": 60
+        "yearValue": 60,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Велика Британія"], ["На озброєнні:","з 1995р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["15 січня 2023 року уряд Британії повідомив, що Україні буде передано 30 одиниць САУ"],
+        "resources": {
+          "youtube": "youtube.com/embed/Ky_m83W1gfw",
+          "wiki": "https://uk.wikipedia.org/wiki/AS-90",
+          "mil": "https://mil.in.ua/uk/tag/as-90/"
+        }
       },
       {
         "status": "no",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/sweden.png?alt=media&token=4cb899a5-4ba0-481a-801e-ca865865b1c8",
-        "description": "",
-        "id": 18,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Farcher.jpg?alt=media&token=ad8e41cb-0301-45f0-a503-06260da9370c",
+        "description": "Archer — шведська 155-мм самохідна артилерійська установка на базі шасі Volvo A30D 6×6. Артилерійська частина представлена 155-мм гаубицею FH 77B з довжиною ствола в 52 калібри. Максимальна скорострільність 8 — 9 пострілів за хвилину. Апарат заряджання дозволяє випускати 6 снарядів за 30 секунд по різних траєкторіях. Максимальна дальність 30 км звичайним снарядом, 40 км — з ракетним двигуном та 60 км — керованим снарядом Excalibur.",
+        "id": 6,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Farcher%2Farcher1.png?alt=media&token=b1a6ddea-5acc-4d70-ae1e-22d13bcc5a90", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Farcher%2Farcher2.png?alt=media&token=03bc6d7d-83aa-4fea-81b1-aaf9ebd55b76", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Farcher%2Farcher3.png?alt=media&token=58bb9d58-b86b-4d64-9c18-14506796b770", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Farcher%2FarcherMain.png?alt=media&token=8c7f0a38-7fc9-4d76-818a-4a1d36607b6a"],
         "name": "Archer",
         "type": "ahs",
         "year": "2013",
-        "yearValue": 100
+        "yearValue": 100,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Швеція"], ["На озброєнні:","з 2013р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["В січні 2023 року Шведський уряд остаточно ухвалив рішення передати Україні 50 машин CV 90 та певну кількість САУ Archer"],
+        "resources": {
+          "youtube": "youtube.com/embed/sLjaUzHrgE4",
+          "wiki": "https://uk.wikipedia.org/wiki/Archer_(%D0%A1%D0%90%D0%A3,_%D0%A8%D0%B2%D0%B5%D1%86%D1%96%D1%8F)",
+          "mil": "https://mil.in.ua/uk/tag/sau-archer/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
-        "description": "",
-        "id": 19,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2000.jpg?alt=media&token=de2ec6aa-1d8b-4d75-be6b-abdf09ac0eae",
+        "description": "PzH 2000, Panzerhaubitze 2000 — 155-мм САУ розроблена німецьким концерном Krauss-Maffei Wegmann і прийнята на озброєння бундесверу восени 1998. Дальність стрільби стандартним натовським снарядом L15A2 — 30 км. PzH 2000 належить і світовий рекорд серед гаубиць калібру 155 мм. У 2014 році на полігоні в Південній Африці вона вистрілила спеціально розробленим снарядом V-LAP виробництва південноафриканської фірми Denel на 56 км. Причому це була не межа — дальність визначалася розмірами полігону.",
+        "id": 7,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fpzh%2Fpzh1.png?alt=media&token=41f95504-9ec9-455a-a65e-6a3c3f3d20ab", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fpzh%2Fpzh2.png?alt=media&token=b7d65235-3290-4288-9503-5329b5e66e51", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fpzh%2Fpzh3.png?alt=media&token=a9c24c40-a11a-4bba-bcd9-9e7c87600227", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fpzh%2FpzhMain.png?alt=media&token=a87ddaf7-e607-4695-a5cf-18597b34e79a"],
         "name": "PzH 2000",
         "type": "ahs",
-        "year": "1996",
-        "yearValue": 60
+        "year": "1998",
+        "yearValue": 60,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Німеччина"], ["На озброєнні:","з 1998р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["На початку липня 2022 року міністерство оборони України підтвердило застосування PzH 2000 по російських загарбниках на східних рубежах", "На озброєнні 26 ОАБр в підпорядкуванні ОК «Північ» брали участь у звільненні Донецької області. Тут вони прикривали українські війська та вели контрбатарейну боротьбу", "У січні 2023 року на озброєнні 43 ОАБр САУ PzH 2000 брали участь в обороні Соледару"],
+        "resources": {
+          "youtube": "youtube.com/embed/lNl2nXABspA",
+          "wiki": "https://uk.wikipedia.org/wiki/PzH_2000",
+          "mil": "https://mil.in.ua/uk/tag/panzerhaubitze-2000/"
+        }
       },
       {
         "status": "yep",
@@ -181,90 +230,139 @@
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 20,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2FHosta.jpg?alt=media&token=fbea19ea-ed35-4c67-bb2d-a89738e393a5",
+        "id": 8,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fhosta%2Fhosta1.png?alt=media&token=9e521dfa-bd7e-469d-b8ad-d0b988e3f2cc", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fhosta%2Fhosta2.png?alt=media&token=ec93476c-d27a-40ea-9a59-1a0de917fd57", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fhosta%2Fhosta3.png?alt=media&token=ee75c863-a0e7-44e6-a377-9c83ebcaf06d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fhosta%2FhostaMain.png?alt=media&token=fc233f86-4660-4f7c-ac1d-7fbc3940718c"],
         "name": "2С34 «Хоста»",
         "type": "ahs",
         "year": "2008",
-        "yearValue": 80
+        "yearValue": 80,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Росія"], ["На озброєнні:","з 2008р."], ["Калібр:","120 мм"]],
+        "uaInfo": ["14 березня 2022 року, під час великої російської навали, українським захисникам вдалось захопити першу САУ «Хоста»", "Н2 квітня 2022 року у Чернігівській області українські сили оборони захопили другу 2С34 «Хоста»"],
+        "resources": {
+          "youtube": "youtube.com/embed/1qbOzJVPzk0",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%A134_%C2%AB%D0%A5%D0%BE%D1%81%D1%82%D0%B0%C2%BB",
+          "mil": "https://mil.in.ua/uk/?s=%D1%85%D0%BE%D1%81%D1%82%D0%B0"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 21,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fakatsiya.jpg?alt=media&token=e0efd70a-88fe-4bae-88ff-e7ac26097aa5",
+        "description": "2С3 «Акація» — радянська 152-мм дивізійна самохідна гаубиця. 2С3 «Акація» призначена для придушення і знищення живої сили, артилерійських і мінометних батарей, ракетних установок, танків, вогневих засобів, пунктів управління і тактичних засобів ядерного нападу.",
+        "id": 9,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c3%2Fakatsiya1.png?alt=media&token=33f566f0-c557-438c-8df7-4da56bb60a88", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c3%2Fakatsiya2.png?alt=media&token=3d773549-c1ec-456f-b92d-68a5235f1a3d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c3%2Fakatsiya3.png?alt=media&token=dc740c32-97cf-49d3-a3b1-41ee81876634", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c3%2FakatsiyaMain.png?alt=media&token=fd943bb4-befa-493a-b1a6-3255136e1a24"],
         "name": "2С3 «Акація»",
         "type": "ahs",
         "year": "1971",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","САУ"], ["Походження:","СРСР"], ["На озброєнні:","з 1971р."], ["Калібр:","152 мм"]],
+        "uaInfo": ["Широко використовувалась під час боїв 2014—2015 років. Було втрачено 19 САУ", "НМеморандум від 20 вересня до Мінського протоколу передбачав відведення гаубиць калібром 152-мм: 2С5 «Гіацинт-С», 2С3 «Акація», 2С19 «Мста-С», 2А65 «Мста-Б» на 33 км від лінії зіткнення. А «Комплекс заходів» на виконання Мінських угод від 12 лютого 2015 передбачав створення зони безпеки завширшки 50 км для артилерійських систем калібру 100 мм і більше."],
+        "resources": {
+          "youtube": "youtube.com/embed/3tD3wDahAq0",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%A13_%C2%AB%D0%90%D0%BA%D0%B0%D1%86%D1%96%D1%8F%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/2s3/"
+        }
       },
       {
         "status": "no",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
-        "description": "",
-        "id": 84,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Frch155.jpg?alt=media&token=89ee0b2e-e422-479e-a7a2-1caa407c05d8",
+        "description": "RCH 155   — 155-мм САУ розроблена німецьким концерном Krauss-Maffei Wegmann і представлена 2014 року. Самохідна артилерійська установка RCH 155 розроблена німецьким концерном Krauss-Maffei Wegmann як системний розвиток PzH 2000. Ця САУ легша, мобільніша, завдяки колісному шасі, та дешевша у виробництві, її обслуга складається лише з двох чоловік. Також до цієї артилерійської системи може адаптуватися коротша 155 мм/L39 або навіть 105 мм гармата. RCH 155 — перша в світі артилерійська установка, яка веде вогонь під час руху. Це в першу чергу використовується для ухилення від контрартилерійського вогню противника, оскільки за допомогою сучасних радарів артилерійської розвідки, таких як COBRA, вогневі позиції можна розвідувати майже в режимі реального часу після пострілу. Крім того, RCH 155 має так звану здатність мисливця-вбивці, яка інакше можлива лише з основними бойовими танками та бронетранспортерами. Порядок стрільби і пошук наступної цілі можуть здійснюватися паралельно. З RCH 155 ця здатність використовується для самозахисту, а не для реальної артилерійської місії. Будучи першою гаубицею у світі, RCH 155 є високоавтоматизованою та розробленою для керування та стрільби за допомогою дистанційного керування та без екіпажу.",
+        "id": 10,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Frch155%2Frch155_1.png?alt=media&token=eee6afb8-6a3c-43dd-b288-49f79a499a74", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Frch155%2Frch155_2.png?alt=media&token=f2a8e0df-d3fc-441f-934c-693b1472a168", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Frch155%2Frch155_3.png?alt=media&token=ca5a1b61-c6f7-459a-af60-85be2cef9c3c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Frch155%2Frch155Main.png?alt=media&token=c5509ef1-9072-49fb-a693-de599b506ce9"],
         "name": "RCH 155",
         "type": "ahs",
         "year": "2014",
-        "yearValue": 100
+        "yearValue": 100,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Німеччина"], ["Розроблено:","в 2014р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["Федеральний уряд Німеччини готує для України 155-мм самохідні артилерійські установки RCH 155", "На сайті ФРН офіційно повідомляється, що буде передано 18 одиниць"],
+        "resources": {
+          "youtube": "youtube.com/embed/unqPLDmu8i4",
+          "wiki": "https://uk.wikipedia.org/wiki/RCH_155",
+          "mil": "https://mil.in.ua/uk/tag/sau-rch-155/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 152,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/icons%2Fczech-republic.png?alt=media&token=015b9e0a-ae6a-42e3-bb96-452066932641",
-        "description": "",
-        "id": 82,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fdana.jpg?alt=media&token=501845e2-14f6-498b-9504-fd6e703902e9",
-        "name": "DANA M2",
+        "description": "152-мм самохідна гармата-гаубиця vz.77 «Дана» — колісна самохідна артилерійська установка з гарматою калібром 152 мм. Розроблено її в 1970-х роках у колишній Чехословаччині. Розробка була завершена в 1976 році, виробництво було налагоджене на підприємстві ZTS Dubnica nad Váhom. Прийнята на озброєння в 1981 році, станом на 1994 рік було виготовлено понад 750 одиниць. «DANA-М2» — сучасний варіант модернізації 152 міліметрової самохідної гаубиці vz.77 DANA, виконаною компанією Excalibur Army (Чехія) у 2017 році. Має вищу мобільність та швидкість приведення у бойове положення, вищу точність стрільби та підвищену прохідність",
+        "id": 11,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fdana%2Fdana1.png?alt=media&token=0ba0cff4-a677-4efe-a811-a624e74f870d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fdana%2Fdana2.png?alt=media&token=a8461324-fb0e-4bf2-9b66-304dfae8a5cf", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fdana%2Fdana3.png?alt=media&token=f40ca015-3d8c-4dde-836e-a9c49464b13b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fdana%2FdanaMain.png?alt=media&token=9b7944a2-8a65-4166-91c3-4eac4fc8f5f3"],
+        "name": "DANA",
         "type": "ahs",
-        "year": "2018",
-        "yearValue": 100
+        "year": "1980",
+        "yearValue": 40,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Чехословаччина"], ["Модифікатор", "Чехія"],["На озброєнні:","з 1980р."], ["Калібр:","152 мм"]],
+        "uaInfo": ["За інформацією видання Defense Express отриманої з власних джерел, Україна придбала партію машин Dana ShKH vz. 77 та сучасного варіанту модернізації Dana-M2", "На початку травня 2022 року видання Defense Express з посиланням на власні джерела повідомило про переговори Українського уряду з виробником САУ про придбання новітніх машин DITA"],
+        "resources": {
+          "youtube": "youtube.com/embed/gC14oS4SRtE",
+          "wiki": "https://uk.wikipedia.org/wiki/DANA_(%D0%A1%D0%90%D0%A3)",
+          "mil": "https://mil.in.ua/uk/tag/sau-dana/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 22,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fgiatsint.jpg?alt=media&token=d8177ff3-1d62-438a-ab43-340055e3f457",
+        "description": "2С5 «Гіацинт-С» — радянська 152-мм корпусна самохідна гармата. Самохідна гармата 2С5 надходила на озброєння артилерійських полків і бригад армій Сухопутних військ СРСР на заміну гарматам М-46 і М-47. Кожна артилерійська бригада налічувала 5 дивізіонів, кожен артилерійський дивізіон складався з трьох батарей. Артилерійські батареї складалися з шести самохідних гармати 2С5, проте в деяких дивізіонах малося по 4 батареї з 6-ти 152-мм гармат або по 3 батареї по 8 гармат кожна (тобто 24 гармати в дивізіоні). Бойове хрещення самохідна гармата 2С5 прийняла під час війни в Афганістані. 152-мм осколково-фугасні снаряди дозволяли гарантовано знищувати будь-які укріплення противника. Обмежено застосовували в складі батальйонних тактичних груп в Першу чеченську кампанію.",
+        "id": 12,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c5%2F2c5_1.png?alt=media&token=0fa9fa91-1db1-4e5a-8c68-ec36637a6818", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c5%2F2c5_2.png?alt=media&token=466374b5-1280-4c60-b4e5-8b7e39fd153d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c5%2F2c5_3.png?alt=media&token=5effcdc2-b98e-4e63-9c11-ed0685576cfb", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c5%2F2c5Main.png?alt=media&token=b3080833-0bfb-40b4-bd73-3d5041e12274"],
         "name": "2С5 «Гіацинт-С»",
         "type": "ahs",
         "year": "1976",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","САУ"], ["Походження:","CРСР"],["Розроблено:","з 1976р."], ["На озброєнні:","152 мм"]],
+        "uaInfo": ["У 2014 році САУ 2С5 українських збройних сил були перекинуті на схід України, де щонайменше одна установка зі складу самохідного гарматного дивізіону 26-ї артилерійської бригади була захоплена російськими терористами під Амвросіївкою"],
+        "resources": {
+          "youtube": "youtube.com/embed/EQaFT3S7fX4",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%A15_%C2%AB%D0%93%D1%96%D0%B0%D1%86%D0%B8%D0%BD%D1%82-%D0%A1%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/2s5-giatsynt-s/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 122,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 23,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fgvozdika.jpg?alt=media&token=13e48d76-9c26-4d6c-9626-f60b268f7eea",
+        "description": "2С1 «Гвоздика» — радянська 122-мм самохідна артилерійська установка на базі шасі МТ-ЛБ, яка призначена для знищення живої сили, артилерійських батарей, дзотів, а також для забезпечення проходів в мінних полях та польових загородженнях.",
+        "id": 13,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c1%2F2c11.png?alt=media&token=c20ea64a-7873-49ba-a5f6-061dc52cb375", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c1%2F2c12.png?alt=media&token=b1b76d2d-a649-45e7-b37c-0218ca6d7317", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c1%2F2c13.png?alt=media&token=48c06975-b844-4be7-92cf-1c2f223d3664", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2F2c1%2F2c1Main.png?alt=media&token=fa9cada4-795b-4450-a8d6-3450630e3961"],
         "name": "2С1 «Гвоздика»",
         "type": "ahs",
         "year": "1971",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","САУ"], ["Походження:","CРСР"],["На озброєнні:","з 1971р."], ["Калібр:","122 мм"]],
+        "uaInfo": ["Станом на кінець 2015 року з відкритих джерело було відомо про втрату українськими військовими близько 20 одиниць 2С1", "Під час боїв на Херсонщині в серпні 2022 року російські пропагандисти з гордістю повідомляли, що деякі російські артилеристи ведуть на стільки інтенсивний вогонь з 2С1, що в них «плавиться» ствол"],
+        "resources": {
+          "youtube": "youtube.com/embed/6t9LIYjuFps",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%A11_%C2%AB%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D0%B8%D0%BA%D0%B0%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/2s1/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slovakia.png?alt=media&token=30b2f890-3db2-4dd4-87a1-fd020aab3e67",
-        "description": "",
-        "id": 24,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fzuzana.jpg?alt=media&token=ebe19694-288c-47b3-b210-e4d9c400af04",
-        "name": "Zuzana 2",
+        "description": "Zuzana — самохідна артилерійська установка, подальша модифікація САУ «Dana» з гарматою калібром 155 мм. У 1998 словацька армія прийняла на озброєння 155-мм/45 САУ Zuzana, що є глибокою модернізацією «Дани» під стандарти НАТО. Відомо, що на озброєнні Словаччини перебуває 16 самохідок Zuzana",
+        "id": 14,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fzuzana%2Fzuzana1.png?alt=media&token=34644ad7-b6cb-4aac-8fd4-cdd9a231c2dd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fzuzana%2Fzuzana2.png?alt=media&token=92a9fd2d-2fb0-4104-b9f6-cc4cace4ea93", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fzuzana%2Fzuzana3.png?alt=media&token=9b6537d7-b7a6-452f-9d5a-08fda5e86ca9", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fzuzana%2FzuzanaMain.png?alt=media&token=7f698d83-d244-4acc-933f-e8fcc0e380d0"],
+        "name": "Zuzana",
         "type": "ahs",
-        "year": "2019",
-        "yearValue": 100
+        "year": "1998",
+        "yearValue": 60,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Чехословаччина"],["На озброєнні:", "Словенія"], ["Розроблено:","з 1998р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["В червні 2022 року Україна замовила у Словаччини 8 САУ Zuzana 2", "2 жовтня 2022 року було повідомлено, що Данія, Норвегія та Німеччина погодились оплатити виробництво 16 САУ «Zuzana 2» для України. Вартість контракту, за даними німецького телеканалу ARD, склала 93 млн євро. Машини почнуть надходити в 2023 році", "14 листопада 2022 року одна САУ була втрачена в ході бойових дій під час контрнаступу Збройних сил України"],
+        "resources": {
+          "youtube": "youtube.com/embed/gC14oS4SRtE",
+          "wiki": "https://uk.wikipedia.org/wiki/Zuzana_(%D0%A1%D0%90%D0%A3)",
+          "mil": "https://mil.in.ua/en/?s=zuzana"
+        }
       },
       {
         "status": "yep",
@@ -272,7 +370,7 @@
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 80,
+        "id": 2,
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2FmstaTr.jpg?alt=media&token=25712162-bd99-4a88-bb0d-3f839eb26ab6",
         "name": "2С19 «Мста-С»",
         "type": "ahs",
@@ -281,29 +379,23 @@
       },
       {
         "status": "yep",
-        "additionalFiltres": 120,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 26,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2FnonaS.jpg?alt=media&token=bc881e71-3c3d-4c89-b61b-2c83eef989e0",
-        "name": "2С9 «Нона»",
-        "type": "ahs",
-        "year": "1978",
-        "yearValue": 20
-      },
-      {
-        "status": "yep",
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/france.png?alt=media&token=fede07dc-0a09-41bc-a8b5-a8096a832045",
-        "description": "",
-        "id": 27,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fcaesar.jpg?alt=media&token=bb149a40-5469-41b7-b592-4fbf148330eb",
+        "description": "CAESAR — французька 155-мм самохідна артилерійська установка, призначена для знищення живої сили, артилерійських батарей, дзотів, а також для забезпечення проходів у мінних полях і польових загородженнях. Розробкою мобільної системи для підтримки сил швидкого реагування займалась фірма GIAT, починаючи з 1994. Перші САУ були поставлені для військових випробувань у 2003. Серійне виготовлення почалось у 2007. У французькій армії 72 такі системи замінили буксирувані TRF1. У січні 2022 року стало відомо, що на вогневих випробуваннях випущений із CAESAR коригований снаряд Excalibur знищив прямим влученням дві цілі на відстані 46 км[",
+        "id": 16,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fcaesar%2Fcaesar1.png?alt=media&token=24cf003c-07ed-457d-a767-d32ed5768507", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fcaesar%2Fcaesar2.png?alt=media&token=2242696e-dcaf-4969-b488-e6ebca63b42c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fcaesar%2Fcaesar3.png?alt=media&token=b948e073-72be-4f88-97c1-c219d74bf6cb", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fcaesar%2FcaesarMain.png?alt=media&token=0a222568-a6a9-488a-8c74-7a49f3bfbac1"],
         "name": "CAESAR",
         "type": "ahs",
         "year": "2007",
-        "yearValue": 80
+        "yearValue": 80,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Франція"], ["На озброєнні:","з 2007р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["25 травня 2022 року Головнокомандувач ЗС України Валерій Залужний опублікував фото наданих партнерами самохідних артилерійських установок «Caesar», які вже використовуються на передовій проти російських загарбників", "За даними журналістів видання New York Times під час битви за острів Зміїний українські військові ставили CAESAR на баржі аби підібратись до острова на відстань пострілу"],
+        "resources": {
+          "youtube": "youtube.com/embed/VZGeGz2KWoU",
+          "wiki": "https://uk.wikipedia.org/wiki/CAESAR",
+          "mil": "https://mil.in.ua/uk/tag/sau-caesar/"
+        }
       },
       {
         "status": "yep",
@@ -311,7 +403,7 @@
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 81,
+        "id": 9,
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2FakatsiyaTr.jpg?alt=media&token=0fc00bee-a315-4d43-94e6-698b88f6ff82",
         "name": "2С3 «Акація»",
         "type": "ahs",
@@ -323,13 +415,33 @@
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/poland.png?alt=media&token=c9307ffc-dcd2-49ea-9c19-ec6eeaf839e4",
-        "description": "",
-        "id": 29,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fkrab.jpg?alt=media&token=68df668a-f033-42cb-ae57-31220ec60b9f",
+        "description": "САУ Краб — польська самохідна гаубиця калібру 155 мм, сумісна з боєприпасами НАТО. Гаубиця має польську ліцензійну башту від британської САУ AS-90 зі стволом калібру 155 мм і завдовжки у 52 калібри. Шасі установки — від САУ K9 Thunder виробництва південнокорейської компанії Samsung Techwin. Операторами є дві країни: Польща та Україна",
+        "id": 18,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fkrab%2Fkrab1.png?alt=media&token=9c145d54-a631-4861-ac34-47f6fcc417ac", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fkrab%2Fkrab2.png?alt=media&token=8e5bf8cc-cbd7-4280-846f-b52d023b424f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fkrab%2Fkrab3.png?alt=media&token=21927f46-07de-43b2-b2a7-92c966648421", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2Fkrab%2FkrabMain.png?alt=media&token=58a688de-d293-41cf-ac36-9d481e278672"],
         "name": "Krab",
         "type": "ahs",
         "year": "2008",
-        "yearValue": 80
+        "yearValue": 80,
+        "introInfo": [["Тип:","САУ"], ["Походження:","Польща"], ["На озброєнні:","з 2008р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["29 травня 2022 року «Польське Радіо» повідомило про передачу Україні трьох батарей — 18 одиниць САУ AHS Krab", "1 червня 2022 року польські ЗМІ повідомили, що Україна підписала угоду на придбання додатково близько 60 одиниць 155-мм самохідних артилерійських установок «Krab»", "Наприкінці липня 2022 року польські видання повідомили, що в рамках міжурядової угоди було виготовлено вісім одиниць САУ"],
+        "resources": {
+          "youtube": "youtube.com/embed/QFHH8WtXIJE",
+          "wiki": "https://uk.wikipedia.org/wiki/AHS_Krab",
+          "mil": "https://mil.in.ua/uk/tag/155-mm-sau-krab/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": 120,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "",
+        "id": 19,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ahs%2FnonaS.jpg?alt=media&token=bc881e71-3c3d-4c89-b61b-2c83eef989e0",
+        "name": "2С9 «Нона»",
+        "type": "ahs",
+        "year": "1978",
+        "yearValue": 20
       }
     ],
     "av": [
@@ -338,100 +450,222 @@
         "additionalFiltres": 30,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 40,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd2.jpg?alt=media&token=03e56317-cf9c-44be-aeee-ca54d3ba3b60",
+        "description": "Бойова́ маши́на деса́нту БМД-2 «Будка» — основна бойова машина повітрянодесантних та аеромобільних військ радянського виробництва. Гусенична, броньована, плавуча, авіатранспортабельна, десантується парашутним, парашутно-реактивним та посадковими способами. Призначена для транспортування особового складу повітрянодесантних та аеромобільних військ, підвищення його мобільності, озброєності та захищеності на полі бою. БМД-2 може десантуватися з літаків військово-транспортної авіації",
+        "id": 1,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd2%2Fbmd2_1.png?alt=media&token=0aecad11-f081-42e0-8a8c-473661e3d750", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd2%2Fbmd2_2.png?alt=media&token=b5b8243c-cb39-4de7-953e-3fd2116d0dd3", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd2%2Fbmd2_3.png?alt=media&token=ea5936d1-e06c-4752-82e2-c85beb9df9e6", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd2%2Fbmd2Main.png?alt=media&token=d1a343c9-8752-41e2-bbb1-66243284b2df"],
         "name": "БМД-2",
         "type": "av",
         "year": "1985",
-        "yearValue": 40
+        "yearValue": 40,
+        "introInfo": [["Тип:","БМП"], ["Походження:","СРСР"], ["На озброєнні:","з 1985р."], ["Калібр:","30 мм"]],
+        "uaInfo": ["У Збройних силах України перебуває на озброєнні 25-ї окремої повітрянодесантної бригади"],
+        "resources": {
+          "youtube": "youtube.com/embed/EiQRGZKv2H4",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D0%9C%D0%94-2",
+          "mil": "https://mil.in.ua/uk/tag/bmd-2/"
+        }
       },
       {
         "status": "no",
         "additionalFiltres": 25,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "",
-        "id": 41,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbradley.jpg?alt=media&token=20015d9f-187f-423e-9ab1-4c6f2ebc3708",
+        "description": "M2 «Бредлі» — основна бойова машина піхоти, що перебуває на озброєнні механізованих військ армії США. Бойова машина піхоти M2 «Бредлі» надійшла на озброєння в 1981 році після довготривалих випробувань, що тривали з 1964 року. Бойова машина отримала власну назву на честь легендарного американського генерала часів Другої світової війни Омара Бредлі. БМП призначена для забезпечення транспортування підрозділів мотопіхоти на полі бою, ведення ними бою з машини та вогневої підтримки їх в період та після спішування. На її базі створена бойова розвідувальна машина M3 «Бредлі». Застосовувалася американським військами у війнах в Перській затоці та Іраку.",
+        "id": 2,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbradley%2Fbradley1.png?alt=media&token=b9d436d3-5e9c-4299-836f-f70e48847839", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbradley%2Fbradley2.png?alt=media&token=53922940-52b0-4c0d-8adf-0b220cc15163", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbradley%2Fbradley3.png?alt=media&token=0a583aaf-7535-4370-9bca-613538768707", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbradley%2FbradleyMain.png?alt=media&token=cae7dd7f-38a2-409b-bb80-fc921bc3337b"],
         "name": "M2 Bradley",
         "type": "av",
         "year": "1981",
-        "yearValue": 40
+        "yearValue": 40,
+        "introInfo": [["Тип:","БМП"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Калібр:","25 мм"]],
+        "uaInfo": ["В грудні 2022 року з'явилася інформація про розгляд урядом США питання постачання Україні БМП M2 Bradley у черговому пакеті допомоги. Через тиждень після цих повідомлень президент США Джо Байден підтвердив цю інформацію", "30 січня 2023 року Міністерство оборони США опублікувало фотографії перших 60 БМП, які мають надійти ЗСУ."],
+        "resources": {
+          "youtube": "youtube.com/embed/MLP8oYFFt-Q",
+          "wiki": "https://uk.wikipedia.org/wiki/M2_Bradley",
+          "mil": "https://mil.in.ua/uk/tag/bradley/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 100,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
-        "description": "",
-        "id": 42,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd4.jpg?alt=media&token=8251b4ec-8f93-4f1b-9967-4133651088f9",
+        "description": "БМД-4 — російська бойова гусенична плаваюча машина, призначена для транспортування особового складу повітрянодесантних військ, підвищення його мобільності, озброєності і захищеності на полі бою. Авіадесантується парашутним, парашутно-реактивним або посадочним способом. БМД-4 створена на базі БМД-3 («Бахча»).",
+        "id": 3,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd4%2Fbmd4_1.png?alt=media&token=1760045d-989f-4636-8bdf-ff02f21b0fbc", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd4%2Fbmd4_2.png?alt=media&token=7c39fed0-2f24-43ca-9115-d16961ad7aee", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd4%2Fbmd4_3.png?alt=media&token=94c94863-2eeb-4982-a68d-1c3ae4845764", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd4%2Fbmd4Main.png?alt=media&token=55c1086b-01ec-4ab2-82da-8cd5acbdf432"],
         "name": "БМД-4",
         "type": "av",
         "year": "2016",
-        "yearValue": 100
+        "yearValue": 100,
+        "introInfo": [["Тип:","БМД"], ["Походження:","Росія"], ["На озброєнні:","з 2016р."], ["Калібр:","100 мм"]],
+        "uaInfo": ["Активно застосовувалась російською стороною під час російського вторгнення в Україну, втім захоплені одиниці після огляду переходили до українських військових","Одна з захоплених БМД-4 була відправлена на ремонт на одному з підприємств УкрОборонПрому", "Станом на 24 серпня було знайдено фото- та відеодокази втрати Росією 53 одиниць БМД-4М в ході вторгнення в Україну"],
+        "resources": {
+          "youtube": "youtube.com/embed/1rsGtWuBztg",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D0%9C%D0%94-4",
+          "mil": "https://mil.in.ua/uk/tag/bmd/"
+        }
       },
       {
         "status": "no",
         "additionalFiltres": 20,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
-        "description": "",
-        "id": 43,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fmarder.jpg?alt=media&token=372063e2-bea5-4313-9ab9-6cc92ad784a3",
+        "description": "«Мардер» — німецька гусенична бойова машина піхоти концерну Rheinmetall. Основна бойова машина танко-гренадерських дивізій Бундесверу з 1970-х років. У 2010-х роках наступником Marder 1 мала стати БМП «Puma».",
+        "id": 4,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fmarder%2Fmarder1.png?alt=media&token=e1217cf8-b6f6-4e21-aa11-2129d4d58974", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fmarder%2Fmarder2.png?alt=media&token=e45686e0-8a43-444e-9d6e-c5c963275f9f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fmarder%2Fmarder3.png?alt=media&token=b3ebd006-3e76-42b4-8753-8372c9b4ca4d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fmarder%2FmarderMain.png?alt=media&token=22a841da-af2d-4051-8c9c-940d52cc322f"],
         "name": "Marder",
         "type": "av",
         "year": "1971",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","БМП"], ["Походження:","Німеччина"], ["На озброєнні:","з 1971р."], ["Калібр:","20 мм"]],
+        "uaInfo": ["5 січня 2023 року після телефонної розмови президента США Джо Байдена і канцлера ФРН Олафа Шольца стало відомо про рішення Німеччини передати Marder в кількості 40 одиниць Україні","27 січня 2023 німецькі ЗМІ повідомили про прибуття до Німеччини українських військових для навчання на БМП Marder"],
+        "resources": {
+          "youtube": "youtube.com/embed/Bb1eCzRmWZE",
+          "wiki": "https://uk.wikipedia.org/wiki/Marder",
+          "mil": "https://mil.in.ua/uk/tag/marder/"
+        }
       },
       {
         "status": "no",
         "additionalFiltres": 40,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/sweden.png?alt=media&token=4cb899a5-4ba0-481a-801e-ca865865b1c8",
-        "description": "",
-        "id": 44,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fcv90.jpg?alt=media&token=b482f01d-0651-4ed3-9ec5-66e646dc175b",
+        "description": "Стрідсфордон 90 — сімейство шведських бойових машин піхоти. Розробка Strf 90 велася з 1984 року фірмою Hägglunds, що належить британській BAE Systems, на замовлення сухопутних військ Швеції на сімейство машин різного призначення на єдиному шасі. Серійне виробництво Strf 90 розпочато в 1993 році. Всього випущено близько 1170 машин в різних модифікаціях, більша частина з яких експортовано до інших країн. Норвезькі, данські і шведські CV 90 були використані в бойових діях під час війни в Афганістані.",
+        "id": 5,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fcv90%2Fcv90_1.png?alt=media&token=015af527-7bd1-4df6-9416-6644ff1234a5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fcv90%2Fcv90_2.png?alt=media&token=e9c91d21-d49f-465b-8e97-75019bf31f1e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fcv90%2Fcv90_3.png?alt=media&token=cd5db464-790c-4127-9536-b65df0d7d729", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fcv90%2Fcv90Main.png?alt=media&token=4fad58ba-ff48-402f-92d2-37637ec05511"],
         "name": "CV 90",
         "type": "av",
         "year": "1993",
-        "yearValue": 60
+        "yearValue": 60,
+        "introInfo": [["Тип:","БМП"], ["Походження:","Швеція"], ["На озброєнні:","з 1993р."], ["Калібр:","40 мм"]],
+        "uaInfo": ["В січні 2023 року Шведський уряд вирішив передати Україні 50 машин CV 90 та певну кількість САУ Archer","15 лютого 2023 року прем'єр-міністр Швеції Ульф Крістерссон під час брифінгу в Києві уточнив, що вже йдеться про передачу 51 БМП"],
+        "resources": {
+          "youtube": "youtube.com/embed/SrAdm6SLTHk",
+          "wiki": "https://uk.wikipedia.org/wiki/CV_90",
+          "mil": "https://mil.in.ua/uk/tag/cv90/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 73,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 45,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd-1.jpg?alt=media&token=44cc3239-ef3e-4dfa-93c8-703497bc3688",
+        "description": "Бойова́ маши́на деса́нту БМД-1 — основна бойова машина повітрянодесантних та аеромобільних військ радянського виробництва. Гусенична, броньована, плаваюча, аеротранспортабельна, десантується парашутним, парашутно-реактивним та посадочним способами з літаків військово-транспортної авіації. Головні властивості БМД-1, що зробили її унікальною машиною для свого часу — її компактність, висока рухливість і можливість десантування з використанням парашутних та парашутно-реактивних систем у складі парашутного десанту. Головним завданням бойових машин десанту першого покоління було підвищення мобільності та озброєності парашутно-десантних підрозділів, що діють на полі бою, як у звичайних умовах, так й за умови застосування противником зброї масового ураження.",
+        "id": 6,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd1%2Fbmd1_1.png?alt=media&token=d60516a3-9681-4b47-9218-c002a1c8e0dd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd1%2Fbmd1_2.png?alt=media&token=1362a4df-35bb-4f98-826a-b342d1012085", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd1%2Fbmd1_3.png?alt=media&token=5d42b838-3106-411a-952b-24ff6716eea1", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd1%2Fbmd1Main.png?alt=media&token=f1908751-b803-4ace-9f83-63ff93bf5206"],
         "name": "БМД-1",
         "type": "av",
         "year": "1969",
-        "yearValue": 1
+        "yearValue": 1,
+        "introInfo": [["Тип:","БМД"], ["Походження:","СРСР"], ["На озброєнні:","з 1969р."], ["Калібр:","73 мм"]],
+        "uaInfo": ["Україна є оператором близько 60 БМД-1"],
+        "resources": {
+          "youtube": "youtube.com/embed/huXf7B0-cHo",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D0%9C%D0%94-1",
+          "mil": "https://mil.in.ua/uk/tag/bmd-1/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 20,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slovenia.png?alt=media&token=cdff8f53-d71f-4599-a95a-400f8ffe4444",
-        "description": "",
-        "id": 46,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fm80.jpg?alt=media&token=5087268d-2c8a-4bcd-baca-5ab3a2e06e76",
+        "description": "M-80 — гусенична бойова машина піхоти югославського виробництва, що випускалася з 1980-х років до розпаду країни в 1990-х роках. Розроблена для заміни застарілого бронетранспортера M-60P. М-80 (М-80А) має на озброєнні одну 20-мм гармату, спарений кулемет калібру 7,62 мм і здвоєну пускову установку для керованих протитанкових ракет.",
+        "id": 7,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fm80%2Fm80_1.png?alt=media&token=3177cb1b-8419-4e4f-9795-8e62f3a38ff6", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fm80%2Fm80_2.png?alt=media&token=30cad297-11ea-4686-beb1-98b0c52786db", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fm80%2Fm80_3.png?alt=media&token=49d49e75-e435-45fc-92df-b744e84ac06a", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fm80%2Fm80Main.png?alt=media&token=eaac438f-a9e8-47aa-a047-e7e1ce126b0b"],
         "name": "М-80А",
         "type": "av",
         "year": "1979",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","БМП"], ["Походження:","Югославія"], ["На озброєнні:","з 1979р."], ["Калібр:","20 мм"]],
+        "uaInfo": ["21 червня 2022 року стало відомо про передачу Словенією 35 БМП М80-А"],
+        "resources": {
+          "youtube": "youtube.com/embed/Z5fH5qAmxA0",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%9C-80_(%D0%91%D0%9C%D0%9F)",
+          "mil": "https://mil.in.ua/uk/tag/bmp/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 73,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "БМП-1 — перша радянська серійна бойова броньована гусенична машина, здатна плавати та призначена для транспортування особового складу мотострілецьких підрозділів на поле бою, підвищення його мобільності, озброєності та захищеності на полі бою, а також для сумісних дій з танками у бою. Родоначальниця такого класу бойових машин, як бойові машини піхоти; перша у світі серійна бойова машина піхоти.",
+        "id": 8,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp1%2Fbmp1_1.png?alt=media&token=1a648d68-73a7-43a1-8af7-9c675feab956", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp1%2Fbmp1_2.png?alt=media&token=0cf91cdb-221a-42e5-8bd9-8c2f027f803b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp1%2Fbmp1_3.png?alt=media&token=3b808626-801e-4951-b69f-f13e950edbf0", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp1%2Fbmp1Main.png?alt=media&token=4cdbf9aa-a079-4ced-a50b-05f96ffe8140"],
+        "name": "БМП-1",
+        "type": "av",
+        "year": "1966",
+        "yearValue": 1,
+        "introInfo": [["Тип:","БМП"], ["Походження:","СРСР"], ["Модифікатор:", "Україна"], ["На озброєнні:","з 1966р."], ["Калібр:","73 мм"]],
+        "uaInfo": ["Інтенсивно використовувались обома сторонами. Україна, крім радянських та українських модифікацій, отримала в якості військової допомоги BWP-1 від Польщі та BVP-1 і Pbv 501A від Чехії."],
+        "resources": {
+          "youtube": "youtube.com/embed/23IDP9Ngv-E",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D0%9C%D0%9F-1",
+          "mil": "https://mil.in.ua/uk/tag/bmp-1/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": 30,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "БМП-2 — радянська гусенична бойова машина піхоти, призначена для транспортування особового складу до переднього краю, підвищення його мобільності, озброєності та захищеності на полі бою в умовах застосування зброї масового ураження, у тому числі і ядерної, спільних дій з танками під час бою. Вперше машина була представлена широкому загалу на військовому параді в 1982 р. Прийнята на озброєння в 1982 р. Серійне виробництво не ведеться.",
+        "id": 9,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp2%2Fbmp2_1.png?alt=media&token=3f7c4d1f-9cb8-42c6-bee6-472ae609d69b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp2%2Fbmp2_2.png?alt=media&token=250931a0-742c-46e8-bb57-ce4d5c7ad1bb", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp2%2Fbmp2_3.png?alt=media&token=33befa6f-b1b1-4bce-bcb8-3e9103d1ab9e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp2%2Fbmp2Main.png?alt=media&token=e9e13eed-2cfc-4ce8-9caa-ecd3ffe2b91d"],
+        "name": "БМП-2",
+        "type": "av",
+        "year": "1980",
+        "yearValue": 40,
+        "introInfo": [["Тип:","БМП"], ["Походження:","СРСР"], ["Модифікатор:", "Україна"], ["На озброєнні:","з 1980р."], ["Калібр:","30 мм"]],
+        "uaInfo": ["Інтенсивно використовували під час російсько-української війни з 2014 року", "За підтвердженими данними на 1 січня 2023 року Україна захопила 267 БМП"],
+        "resources": {
+          "youtube": "youtube.com/embed/23IDP9Ngv-E",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D0%9C%D0%9F-2",
+          "mil": "https://mil.in.ua/uk/tag/bmp-2/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": 100,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "БМП-3 — бойова броньована гусенична машина, призначена для транспортування особового складу до переднього краю, підвищення його мобільності, озброєності і захищеності на полі бою в умовах застосування ядерної зброї та спільних дій з танками у бою. Використання машини у ряді військових конфліктів виявило і певні її вади: понижену броньованість (хоч і суттєво збільшену порівнянно до попередніх аналогів) та вразливість до кумулятивних боєприпасів. Низька броньованість пояснюється самою тактикою використання цієї машини, що розрахована на такі бойові дії, де дистанція між противником та БМП-3 становить 1-1,5 км. Відповідно при використанні у вуличних боях без належного прикриття сам процент втрат техніки значний. Тому 1995 року броня машини була модернізована, додано навісний динамічний захист. На відміну від попередніх моделей відсутній паливний бак (маршовий), що розташовувався у задній дверці.",
+        "id": 10,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp3%2Fbmp3_1.png?alt=media&token=1f20ad80-a75e-4c8e-9b7a-0e5dc7fc2de1", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp3%2Fbmp3_2.png?alt=media&token=f09ae38f-1c49-4191-a9bc-7e81e863c44c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp3%2Fbmp3_3.png?alt=media&token=581d90e8-9749-4169-be2c-43dc20671031", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp3%2Fbmp3Main.png?alt=media&token=c9563d39-861f-4457-a0d1-8766f2d270aa"],
+        "name": "БМП-3",
+        "type": "av",
+        "year": "1987",
+        "yearValue": 40,
+        "introInfo": [["Тип:","БМП"], ["Походження:","СРСР"], ["На озброєнні:","з 1987р."], ["Калібр:","30 мм"]],
+        "uaInfo": ["Cтаном на кінець липня 2022 року за даними порталу Oryx, за 5 місяців війни українські захисники захопили як трофей 40 одиниць БМП-3", "Станом на 27 жовтня 2022 російські війська безповоротно втратили щонайменше 180 одиниць БМП-3"],
+        "resources": {
+          "youtube": "youtube.com/embed/23IDP9Ngv-E",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D0%9C%D0%9F-3",
+          "mil": "https://mil.in.ua/uk/tag/bmp-3/"
+        }
+      }, 
+      {
+        "status": "yep",
+        "additionalFiltres": 30,
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 47,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp1.jpg?alt=media&token=8e16f8cd-6323-4dc9-8357-8bfe5ba6656c",
+        "id": 1,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmd2%2Fbmd2_3.png?alt=media&token=ea5936d1-e06c-4752-82e2-c85beb9df9e6",
+        "name": "БМД-2",
+        "type": "av",
+        "year": "1985",
+        "yearValue": 40
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": 73,
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "description": "",
+        "id": 8,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp1%2Fbmp1_3.png?alt=media&token=3b808626-801e-4951-b69f-f13e950edbf0",
         "name": "БМП-1",
         "type": "av",
         "year": "1966",
@@ -440,11 +674,11 @@
       {
         "status": "yep",
         "additionalFiltres": 30,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 48,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbpm2.jpg?alt=media&token=431482c4-17d2-44a2-ab65-330448eae463",
+        "id": 9,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp2%2Fbmp2_3.png?alt=media&token=33befa6f-b1b1-4bce-bcb8-3e9103d1ab9e",
         "name": "БМП-2",
         "type": "av",
         "year": "1980",
@@ -452,12 +686,12 @@
       },
       {
         "status": "yep",
-        "additionalFiltres": 100,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "additionalFiltres": 30,
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 49,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp3.jpg?alt=media&token=0fbd36e6-e0c3-475a-8b43-3deb5c4578b6",
+        "id": 10,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/av%2Fbmp3%2Fbmp3_3.png?alt=media&token=581d90e8-9749-4169-be2c-43dc20671031",
         "name": "БМП-3",
         "type": "av",
         "year": "1987",
@@ -469,85 +703,134 @@
         "additionalFiltres": "Винищувачи",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 66,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu27.jpg?alt=media&token=58cb4c66-2fbc-478a-86fd-38669c681230",
+        "description": "Су-27 (за класифікацією НАТО — Flanker) — радянський важкий багатоцільовий високоманевровий всепогодний винищувач четвертого покоління. Літак Су-27 спільно із літаком МіГ-29 є основним літаком винищувальної авіації ВПС України та використовується для боротьби з літаками, вертольотами та крилатими ракетами супротивника у повітрі, а також ураження наземних (морських) об'єктів. ",
+        "id": 1,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu27%2Fsu27_1.png?alt=media&token=065d1aa1-3f9e-449f-805f-1e970f046974", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu27%2Fsu27_2.png?alt=media&token=0a28b0d2-7b46-4605-87cd-b66b0a97d8b0", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu27%2Fsu27_3.png?alt=media&token=96916c2a-09a9-4bfe-9337-1532403def1d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu27%2Fsu27Main.png?alt=media&token=798f7e8a-aee5-4a89-8b38-d5ae10b83bcc"],
         "name": "Су-27",
         "type": "aviation",
         "year": "1982",
-        "yearValue": 40
+        "yearValue": 40,
+        "introInfo": [["Тип:","Літак - Винищувач"], ["Походження:","СРСР"], ["Модернізатор:","Україна"],["На озброєнні:","з 1982р."]],
+        "uaInfo": ["Після розпаду СРСР, який мав 513 машин цього типу, Україна отримала 67 літаків", "У січні 2023 року Аль-Джазіра поширила відео застосування українських Су-27 на бахмутському напрямку"],
+        "resources": {
+          "youtube": "youtube.com/embed/AVsXTt-Tt5o",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A1%D1%83-27",
+          "mil": "https://mil.in.ua/uk/tag/su-27/"
+        }
       },
       {
         "additionalFiltres": "Штурмовики",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 67,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu24m.jpg?alt=media&token=57a40f9e-1d79-4593-8fcf-a140fe7bf4cf",
-        "name": "Су-24М",
+        "description": "Су-24 — радянський надзвуковий фронтовий бомбардувальник з крилом змінної стрілоподібності. Розробка почалася на початку 1960-х, у 1972 році був прийнятий на озброєння ВПС СРСР. Випущено близько 1200 літаків в різних модифікаціях. Призначений для завдання ракетно-бомбових ударів у простих та складних метеоумовах, вдень та вночі, зокрема на малих висотах з прицільним враженням наземних і надводних цілей. Носій тактичних ядерних зарядів. Су-24М — основний літак бомбардувальної авіації Повітряних сил України.",
+        "id": 2,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu24%2Fsu24_1.png?alt=media&token=e40bda53-26a4-4cfc-a3a7-096c1faa339e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu24%2Fsu24_2.png?alt=media&token=0f8dea08-e21a-49d8-8c5f-90e3ce814a18", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu24%2Fsu24_3.png?alt=media&token=2e4930c2-ff4d-4470-8b96-0ab322ad2702", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu24%2Fsu24Main.png?alt=media&token=61893336-1163-4617-8e34-e3a41535710d"],
+        "name": "Су-24",
         "type": "aviation",
         "year": "1972",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","Літак - Штурмовик"], ["Походження:","СРСР"], ["Модернізатор:","Україна"],["На озброєнні:","з 1972р."]],
+        "uaInfo": ["Україна є оператором близько 120 літаків, 95 з котрих на консервації", "Відомо про, щопринаймні, 8 підтвердженних випадків збиття російских Су-24"],
+        "resources": {
+          "youtube": "youtube.com/embed/pklv9_iRXCE",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A1%D1%83-24",
+          "mil": "https://mil.in.ua/uk/tag/su-24/"
+        }
       },
       {
         "additionalFiltres": "Штурмовики",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 68,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu25.jpg?alt=media&token=e4871b27-91a3-4315-8fda-14c3323d3bb4",
+        "description": "Су-25 — одномісний броньований дозвуковий штурмовик, призначений для надання авіаційної підтримки у зоні бойових дій вдень та вночі за умов візуальної видимості цілі, а також знищення об'єктів із заданими координатами у випадку льотної погоди. За свої понад двадцять п'ять років служби Су-25 став учасником декількох збройних конфліктів. Він активно використовувався радянськими військами у війни в Афганістані. Іракські військово-повітряні сили використовували Су-25 проти Ірану впродовж ірано-іракської війни 1980-89. 1993 року, російська армія використовувала Су-25 для допомоги абхазьким бойовикам-сепаратистам проти грузинів під час Абхазької війни. Вісім років по тому, македонські ВПС використовували Су-25 проти албанських сепаратистів у конфлікті в Македонії, а 2008 року Грузія і Росія застосовували Су-25 у війні в Південній Осетії.",
+        "id": 3,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu25%2Fsu25_1.png?alt=media&token=d5f3d179-4a82-465e-af94-360dcda7a549", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu25%2Fsu25_2.png?alt=media&token=88c091b5-6132-4a3d-bbad-301bd09378dd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu25%2Fsu25_3.png?alt=media&token=549ad922-d09e-445f-8323-a277148bf7a6", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu25%2Fsu25Main.png?alt=media&token=b7f1863d-8f91-41c5-a2a6-2ae3faefec4d"],
         "name": "Су-25",
         "type": "aviation",
         "year": "1981",
-        "yearValue": 40
+        "yearValue": 40,
+        "introInfo": [["Тип:","Літак - Штурмовик"], ["Походження:","СРСР"], ["Модернізатор:","Україна"],["На озброєнні:","з 1981р."]],
+        "uaInfo": ["Інтенсивно використовуються обома сторонами війни", "Відомо про, щопринаймні, 29 підтвердженних випадків збиття російских Су-25"],
+        "resources": {
+          "youtube": "youtube.com/embed/pklv9_iRXCE",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A1%D1%83-25",
+          "mil": "https://mil.in.ua/uk/tag/su-25/"
+        }
       },
       {
         "additionalFiltres": "Гелікоптери",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 69,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi8.jpg?alt=media&token=6319c3ea-732c-499e-b571-0ffc29061d07",
+        "description": "Мі-8 — радянський багатоцільовий вертоліт. Наймасовіший у світі вертоліт із двома двигунами, один із наймасовіших вертольотів в історії авіації. Широко використовується для виконання багатьох цивільних і військових завдань. На експорт постачалися як Мі-17, використовуються приблизно у 20 країнах світу.",
+        "id": 4,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi8%2Fmi8_1.png?alt=media&token=6111571a-3767-4ad4-9232-f806676ae2f2", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi8%2Fmi8_2.png?alt=media&token=6777d39a-3dbc-4882-a8aa-336c8fc19a09", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi8%2Fmi8_3.png?alt=media&token=25a51531-4193-4468-beb0-5e0400881e61", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi8%2Fmi8Main.png?alt=media&token=b2c0bbca-82f3-4bf5-8cbf-a35d10fcf8ba"],
         "name": "Мі-8",
         "type": "aviation",
         "year": "1965",
-        "yearValue": 1
+        "yearValue": 1,
+        "introInfo": [["Тип:","Гелікоптер"], ["Походження:","СРСР"], ["Модернізатор:","Україна"],["На озброєнні:","з 1965р."]],
+        "uaInfo": ["Україна застосовувала Мі-8МСБ-В, зокрема, для завдання ракетних ударів некерованими 122-мм ракетами С-13", "Під час Російсько-української війни Україні були передані близько 30 одиниць Мі-8/Мі-17 від союзників"],
+        "resources": {
+          "youtube": "youtube.com/embed/f5eCGGr_gw0",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%9C%D1%96-8",
+          "mil": "https://mil.in.ua/uk/tag/mi-8-17-171//"
+        }
       },
       {
-        "additionalFiltres": "Розвідувальні",
+        "additionalFiltres": "Гелікоптери",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 70,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fsu24mr.jpg?alt=media&token=d936fada-948f-4f17-ad0b-05ea9c495415",
-        "name": "Су-24МР",
+        "description": "Мі-24 — радянський гелікоптер підтримки піхоти (ударний гелікоптер). Був основним штурмовим гелікоптером країн соцтабору. Концепція Мі-24 передбачала тісну взаємодію з бронетанковими та піхотними частинами під час широкомасштабного воєнного конфлікту другої половини XX століття. Став одним із символів Війни в Афганістані. Сьогодні перебуває на озброєнні низки країн, зокрема й України. Всього серія ударних гелікоптерів Мі-24 налічує більше 20 модифікацій. Серійне виробництво тривало до 1989 року, на двох заводах було виготовлено 2570 вертольотів Мі-24 всіх модифікацій.",
+        "id": 5,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi-24%2Fmi24_1.png?alt=media&token=9b38256c-175a-481d-9f80-3443c7504daf", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi-24%2Fmi24_2.png?alt=media&token=f174e64c-e9a0-46b2-892c-645ee757a705", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi-24%2Fmi24_3.png?alt=media&token=fb3ce688-3a7b-4620-8c0e-f1a18200c44b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi-24%2Fmi24Main.png?alt=media&token=66e08866-be7d-437c-ab46-a4a7a94da8fd"],
+        "name": "Мі-24",
         "type": "aviation",
-        "year": "1984",
-        "yearValue": 40
+        "year": "1972",
+        "yearValue": 40,
+        "introInfo": [["Тип:","Ударний гелікоптер"], ["Походження:","СРСР"], ["Модернізатор:","Україна"],["На озброєнні:","з 1972р."]],
+        "uaInfo": ["Під час російського вторгнення в Україну, гелікоптери активно застосовувався обома сторонами конфлікту. Російські війська використовували модифікацію Мі-35.", "Підтвердженно як мінімум 14 підбитих російських вертольотів Мі-24/Мі-35*"],
+        "resources": {
+          "youtube": "youtube.com/embed/f5eCGGr_gw0",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%9C%D1%96-24",
+          "mil": "https://mil.in.ua/uk/tag/mi-24/"
+        }
       },
       {
         "additionalFiltres": "Винищувачи",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 71,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmig29.jpg?alt=media&token=da78f44f-dd8d-4993-bb7e-ab41de08a7e7",
+        "description": "МіГ-29 — багатоцільовий радянський винищувач четвертого покоління. Був основним багатоцільовим винищувачем країн Варшавського договору та СРСР впродовж 80-х років XX ст. Нині перебуває на озброєнні багатьох країн світу, зокрема й України. Літак МіГ-29 спільно із літаком Су-27 є основним літаком винищувальної авіації ВПС України та використовується для боротьби з літаками, вертольотами та крилатими ракетами супротивника у повітрі, а також ураження наземних (морських) об'єктів. ",
+        "id": 6,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmig29%2Fmig29_1.png?alt=media&token=bb35c0fb-d8cd-41f2-9a55-7ed6967b51b8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmig29%2Fmig29_2.png?alt=media&token=f26acb44-c386-40a8-8331-443f7ce27051", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmig29%2Fmig29_3.png?alt=media&token=4c0c717b-9302-444d-88b0-5054ac5e2fb5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmig29%2Fmig29Main.png?alt=media&token=38d68de6-2e7d-4792-9dde-02396a54fe9f"],
         "name": "МіГ-29",
         "type": "aviation",
         "year": "1983",
-        "yearValue": 40
+        "yearValue": 40,
+        "introInfo": [["Тип:","Літак - Винищувач"], ["Походження:","СРСР"], ["Модернізатор:","Україна"],["На озброєнні:","з 1983р."]],
+        "uaInfo": ["Станов на 2019 рік на озброєнні Україна мала 134", "Підтвердженно як мінімум 14 підбитих російських вертольотів Мі-24/Мі-35*"],
+        "resources": {
+          "youtube": "youtube.com/embed/AVsXTt-Tt5o",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D0%93-29",
+          "mil": "https://mil.in.ua/uk/tag/mih-29/"
+        }
       },
       {
         "additionalFiltres": "Гелікоптери",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 72,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi2.jpg?alt=media&token=d9b62af2-7e90-4a6b-8697-662c46e9e40f",
+        "description": "Мі-2 — радянський багатоцільовий гелікопте. Широко застосовується для виконання різноманітних цивільних і військових завдань.На даний момент сотні вертольотів Мі-2 знаходяться в постійній експлуатації більш ніж у двох десятках країн. Вертольоти успішно застосовувалися як у цивільних, так і у військових цілях. Мі-2 — єдиний радянський вертоліт, який не вироблявся в СРСР. ",
+        "id": 7,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi2%2Fmi2_1.png?alt=media&token=fb2ca89d-583a-46f3-9012-fc11a1ed575a", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi2%2Fmi2_2.png?alt=media&token=aefc4668-e20d-41ed-9da0-bbaf6d21cae6", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi2%2Fmi2_3.png?alt=media&token=b523a9e5-06a8-47c0-9653-160c9031b8eb", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aviation%2Fmi2%2Fmi2Main.png?alt=media&token=c5329f94-fee4-413d-ae86-52204725860e"],
         "name": "Мі-2",
         "type": "aviation",
         "year": "1965",
-        "yearValue": 1
+        "yearValue": 1,
+        "introInfo": [["Тип:","Гелікоптер"], ["Походження:","СРСР"], ["Модернізатор:","Україна"],["На озброєнні:","з 1965р."]],
+        "uaInfo": ["На початку серпня 2022 року стало відомо, що для Збройних Сил України було придбано Мі-2AM-1 для евакуації тяжкопоранених з поля бою. На його придбання було витрачено 23,4 мільйона гривень зібраних від благодійників через платформу United24", "5 серпня 2022 року міністерство оборони Латвії повідомило про передачу Україні двох вертольотів Мі-2 та двох вертольотів Мі-17"],
+        "resources": {
+          "youtube": "youtube.com/embed/f5eCGGr_gw0",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%9C%D1%96-2",
+          "mil": "https://mil.in.ua/uk/tag/mi-2/"
+        }
       }
     ],
     "howitzer": [
@@ -725,117 +1008,192 @@
         "additionalFiltres": 84,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "",
-        "id": 30,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fhimars.jpg?alt=media&token=2de46b59-df47-48e4-8624-2a590e95aa4b",
+        "description": "M142 HIMARS — американська реактивна артилерійська система. Полегшена версія M270 зі зменшенням вогневого потенціалу, але збереженням того самого арсеналу та захисту персоналу. Призначена для тактики «стріляй-і-тікай». Розроблена у 1996—2000 рр. Виготовляється з 2003 року. Залежно від снарядів, виконує роль РСЗВ або фронтової тактичної ракетної установки. Система призначена для стрільби керованими й некерованими ракетами. Максимальна дальність залежить від використовуваного озброєння й складає 499 км ракетами PrSM.",
+        "id": 1,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fhimars%2Fhimars1.png?alt=media&token=2e4fcd02-04ca-45d4-801f-85853b97f022", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fhimars%2Fhimars2.png?alt=media&token=da8ebb7d-f786-4ec7-bd45-7ea0971fa0e5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fhimars%2Fhimars3.png?alt=media&token=eac3cc78-9d79-4e78-b35a-3ee3c958cd2e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fhimars%2FhimarsMain.png?alt=media&token=6a3c8042-dd7c-4183-a1fb-bda374143123"],
         "name": "HIMARS M142",
         "type": "mrl",
         "year": "1996",
-        "yearValue": 60
+        "yearValue": 60,
+        "introInfo": [["Тип:","РЗСВ"], ["Походження:","США"], ["На озброєнні:","з 1996р."], ["Наявні ракети:","до 84 км"]],
+        "uaInfo": ["23 червня 2022 року міністр оборони України Олексій Резніков повідомив, що до України прибули перші системи HIMARS", "Застосування HIMARS суттєво ускладнило боєздатність російської армії", "Головнокомандувач ЗСУ Валерій Залужний 18 липня 2022 року зазначив, що значною мірою саме завдяки HIMARS лінію фронту вдалося стабілізувати"],
+        "resources": {
+          "youtube": "youtube.com/embed/lykMa4fTp5c",
+          "wiki": "https://uk.wikipedia.org/wiki/M142_HIMARS",
+          "mil": "https://mil.in.ua/uk/tag/himars/"
+        }
       },
       {
         "additionalFiltres": 35,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "БМ-27 «Ураган» — реактивна система залпового вогню калібру 220 мм, розроблена в СРСР. Комплекс має бойову і транспортну машини, які базуються на доопрацьованому шасі ЗІЛ-135ЛМ. Система несе 16 реактивних снарядів масою по 280 кг кожен, які здатна випустити залпом за 20 секунд.",
+        "id": 2,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Furagan%2Furagan1.png?alt=media&token=6302a0ed-1f0c-4216-b741-5d52d0599743", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Furagan%2Furagan2.png?alt=media&token=d28443d6-8445-4a05-aeac-2dbd7f77eea1", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Furagan%2Furagan3.png?alt=media&token=c079cada-5b5e-40bf-8e1a-474a612ba14a", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Furagan%2FuraganMain.png?alt=media&token=ebf60043-b804-4d03-9e08-b41f9b30faec"],
+        "name": "БМ-27 «Ураган»",
+        "type": "mrl",
+        "year": "1978",
+        "yearValue": 20,
+        "introInfo": [["Тип:","РЗСВ"], ["Походження:","СРСР"], ["На озброєнні:","з 1978р."], ["Дальнобійність:","до 35 км"]],
+        "uaInfo": ["Під час агресії Росії проти України 2022 року «Урагани» використовувались для обстрілу жилих масивів Охтирки[6], спальних районів Харкова, внаслідок чого було зруйновано десятки будинків і постраждали десятки людей"],
+        "resources": {
+          "youtube": "youtube.com/embed/jHFZBlOgf7I",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D0%9C-27_%C2%AB%D0%A3%D1%80%D0%B0%D0%B3%D0%B0%D0%BD%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/bm-27-uragan/"
+        }
+      },
+      {
+        "additionalFiltres": 35,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "«Буревій» — реактивна система залпового вогню калібром 220 мм. Розроблена ДП «Шепетівський ремонтний завод» для заміни БМ-27 «Ураган». В грудні 2021 року Державне підприємство «Шепетівський ремонтний завод» отримало партію шасі Tatra T815-7 для випуску нової української 220-мм реактивної системи залпового вогню «Буревій». Калібр РСЗВ «Буревій» 220-мм та може використовувати всі наявні реактивні снаряди для РСЗВ «Ураган».",
+        "id": 3,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fbureviy%2Fbureviy1.png?alt=media&token=40850714-fbc9-437b-85c2-45d0d01465d1", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fbureviy%2Fbureviy2.png?alt=media&token=c53cf6c0-18b9-4c5a-84fa-50256da7d074", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fbureviy%2Fbureviy3.png?alt=media&token=0c0946f1-0498-43c9-abef-303ba110b651", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fbureviy%2FbureviyMain.png?alt=media&token=7c95a894-8ad9-4738-99cc-93ccdb910d17"],
+        "name": "Буревій",
+        "type": "mrl",
+        "year": "2022",
+        "yearValue": 100,
+        "introInfo": [["Тип:","РЗСВ"], ["Походження:","Україна"], ["На озброєнні:","з 2022р."], ["Дальнобійність:","до 35 км"]],
+        "uaInfo": ["У червні 2022 року з'явилися відео системи на позиціях українських військових, зокрема, на Харківщині", "За повідомленнями Мілітарного та АрміяInform, військові оцінили переваги машини над «Ураганом». Завдяки більшій стабільності машини вдалось покращити точність, а цифрова СКВ скоротила час на розгортання та наведення. Також відзначили, що машина значно комфортніша, має кращу прохідність та броньована"],
+        "resources": {
+          "youtube": "youtube.com/embed/9jBlsRC1nag",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D1%83%D1%80%D0%B5%D0%B2%D1%96%D0%B9_(%D0%A0%D0%A1%D0%97%D0%92)",
+          "mil": "https://mil.in.ua/uk/tag/bm-27-uragan/"
+        }
+      },
+      {
+        "additionalFiltres": 6,
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "description": "ТОС — сімейство російських важких вогнеметних систем залпового вогню калібру 220-мм. Ведуть вогонь запалювальними або термобаричними боєприпасами. Комплекс призначався для виведення з ладу легкоброньованої й автомобільної техніки, підпалу та руйнування споруд та будівель, знищення живої сили супротивника (розташованої на відкритій місцевості і в фортифікаційних спорудах) осколками та ударною хвилею, а також виникнення пожеж. Навіть на 2022 рік, після її неодноразового застосування у кількох війнах, система офіційно не прийнята на озброєння артилерійських частин, а числиться в штатах допоміжних підрозділів: військ радіаційного, хімічного і біологічного захисту. У військах комплекс мав неофіційну назву «Буратіно» за характерний зовнішній вигляд.",
+        "id": 4,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2Ftoc1.png?alt=media&token=e43249ff-ac0f-49a3-89cc-73ada06f938e", "hhttps://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2Ftoc2.png?alt=media&token=ddbb1c26-e69e-4cb8-99d4-26c3ccc08ac5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2Ftoc3.png?alt=media&token=9af695bd-c7e2-47ff-9ad5-c9eb509465a6", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2FtocMain.png?alt=media&token=e2ed2504-035a-4029-94e8-91fec25c124c"],
+        "name": "ТОС-1",
+        "type": "mrl",
+        "year": "1988",
+        "yearValue": 60,
+        "introInfo": [["Тип:","РЗСВ"], ["Походження:","СРСР"], ["На озброєнні:","з 1988р."], ["Дальнобійність:","до 6 км"]],
+        "uaInfo": ["2 березня була захоплена ТЗМ-Т система ТОС-1А «Солнцепьок» українськими військовими у Чернігівській області", "5 квітня 2022 року українські військові вперше застосували захоплені російські ТОС-1А «Солнцепьок» в Ізюмському напрямку проти російських загарбників"],
+        "resources": {
+          "youtube": "youtube.com/embed/OkkdjmQqnhk",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A2%D0%9E%D0%A1_(%D0%A0%D0%A1%D0%97%D0%92)",
+          "mil": "https://mil.in.ua/uk/tag/tos-1/"
+        }
+      },
+      {
+        "additionalFiltres": 84,
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
+        "description": "РСЗВ M270 — американська реактивна система залпового вогню (РСЗВ) на гусеничній базі БМП «Бредлі» виробництва компанії Vought. Призначена для виконання в будь-який час доби та за різних погодних умов бойових завдань з ураження і знищення з закритих вогневих позицій на відстанях понад 30 км районів зосередження військ та бойової техніки, позицій ствольної та реактивної артилерії противника, районів розгортання його сил і засобів протиповітряної оборони, вантажних автомобілів, легкоброньованих бронетранспортерів, а також командних пунктів, вузлів зв'язку та інших площинних цілей. З 1983 року РСЗВ перебуває на озброєнні армії США. Загалом виробили близько 1300 одиниць M270 і понад 700 000 ракет різного типу. Згодом заснували виробництво в Європі й поступово вони почали надходити на озброєння армій країн-членів НАТО. Останню партію РСЗВ виробили у 2003 році й поставили на потребу єгипетської армії.",
+        "id": 5,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fm270%2Fm270_1.png?alt=media&token=ec384493-fcf7-4e1b-97ea-2876176c77d4", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fm270%2Fm270_2.png?alt=media&token=0950999b-b17d-47c4-9d54-894a78625c5a", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fm270%2Fm270_3.png?alt=media&token=23e50e17-2a4a-4614-a66d-7bb453704de1", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fm270%2Fm270Main.png?alt=media&token=dfc5c528-317d-4245-966c-4219227e4724"],
+        "name": "M270 MLRS",
+        "type": "mrl",
+        "year": "1983",
+        "yearValue": 40,
+        "introInfo": [["Тип:","РЗСВ"], ["Походження:","США"], ["На озброєнні:","з 1983р."], ["Наявні ракети:","до 84 км"]],
+        "uaInfo": ["6 червня 2022 року прем'єр-міністр Великої Британії Борис Джонсон заявив, що до України буде направлено пускові установки M270 та «велику кількість» реактивних снарядів M31A1 до них", "У липні 2022 року надійшли на озброєння України"],
+        "resources": {
+          "youtube": "youtube.com/embed/Usl2X_56o-4",
+          "wiki": "https://uk.wikipedia.org/wiki/M270_(%D0%A0%D0%A1%D0%97%D0%92)",
+          "mil": "https://mil.in.ua/uk/tag/m270-rszv/"
+        }
+      },
+      {
+        "additionalFiltres": 35,
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 31,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Furagan.jpg?alt=media&token=f1346a6d-deea-4f86-891d-82cf7a670c3d",
+        "id": 2,
+        "img":  "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Furagan%2Furagan3.png?alt=media&token=c079cada-5b5e-40bf-8e1a-474a612ba14a",
         "name": "БМ-27 «Ураган»",
         "type": "mrl",
         "year": "1978",
         "yearValue": 20
       },
       {
-        "additionalFiltres": 35,
+        "additionalFiltres": 100,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 32,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fbureviy.jpg?alt=media&token=447ae49a-d6f2-4a53-b5fc-248b3ca3da0d",
-        "name": "Буревій",
+        "description": "Перша версія 300-мм РСЗВ «Вільха» була заснована на радянській ракетній установці БМ-30 «Смерч» з використанням того ж шасі вантажівки та пускової установки. Реактивна установка «ВІЛЬХА» призначена для ураження техніки, живої сили, командних пунктів та інших цілей. Українська реактивна артилерійська установка здатна запускати нові керовані ракети на дальність до 110 кілометрів. Над створенням комплексу працювало близько п’ятнадцяти підприємств українського оборонно-промислового комплексу. Пуск пакету з 12 ракет – за 48 секунд. Залишення зони пуску – за 3-4 хвилини. Залп відбувається без зміни положення пакету.",
+        "id": 7,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fvilkha%2Fvilkha1.png?alt=media&token=d9e68404-1416-445d-84de-ee639ea05220", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fvilkha%2Fvilkha2.png?alt=media&token=a65e138d-a8cd-42c7-86be-a4d20a896409", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fvilkha%2Fvilkha3.png?alt=media&token=48b6cc8d-1cfc-437a-a745-4a383d541c2b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fvilkha%2FvilkhaMain.png?alt=media&token=abbdad57-5b36-44da-846a-5c9754aaeced"],
+        "name": "Вільха",
         "type": "mrl",
-        "year": "2022",
-        "yearValue": 100
-      },
-      {
-        "additionalFiltres": 6,
-        "country": "tr",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
-        "description": "",
-        "id": 33,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc1.jpg?alt=media&token=351e9d11-b4f6-49b2-8cc0-fa642b509748",
-        "name": "ТОС-1",
-        "type": "mrl",
-        "year": "1988",
-        "yearValue": 60
-      },
-      {
-        "additionalFiltres": 84,
-        "country": "nt",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "",
-        "id": 34,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fm270.jpg?alt=media&token=8decb861-f1f5-4673-82e9-f8a099f911fe",
-        "name": "M270 MLRS",
-        "type": "mrl",
-        "year": "1983",
-        "yearValue": 40
+        "year": "2018",
+        "yearValue": 100,
+        "introInfo": [["Тип:","РЗСВ"], ["Походження:","Україна"], ["На озброєнні:","з 2018р."], ["Дальнобійність:","до 110 км"]],
+        "uaInfo": ["Як повідомляє флагман українського ОПК, “Вільха” вже здійснила півсотні влучних пусків по Збройних силах Російської Федерації. Враження наносили ракетами Р624"],
+        "resources": {
+          "youtube": "youtube.com/embed/IvE7pmnO4_g",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BB%D1%8C%D1%85%D0%B0_(%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%B8%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81)",
+          "mil": "https://mil.in.ua/uk/tag/vilha/"
+        }
       },
       {
         "additionalFiltres": 20,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/czech-republic.png?alt=media&token=7bff0bef-f813-4bb9-8bb8-bf2c456819ee",
-        "description": "",
-        "id": 35,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Frm70.jpg?alt=media&token=2d378532-59b7-467e-b6ee-3c4968b7346f",
+        "description": "RM-70  — чехословацька реактивна система залпового вогню калібру 122 мм. Система RM-70 була розроблена в Чехословачинні для заміни RM-51. Виготовлялася у 1971-89 роках. На озброєнні - з 1972. Виготовляється на заводі в Дубниця-над-Вахом (Словаччина). У 2010 році знята з озброєння чеської армії. Словаччина продовжує випускати оновлену версію з американською РСЗВ.",
+        "id": 8,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Frm-70%2Frm70_1.png?alt=media&token=9aa26586-0738-444c-b8b0-9999b5260be7", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Frm-70%2Frm70_2.png?alt=media&token=b668cb34-fca4-4dd1-979a-da7e4f09d48d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Frm-70%2Frm70_3.png?alt=media&token=5f06cd77-2d57-4fb4-be3f-f67878691ed9", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Frm-70%2Frm70_main.png?alt=media&token=48320721-d7ab-4ce6-9dda-ad11ff6ce26b"],
         "name": "RM-70",
         "type": "mrl",
         "year": "1972",
-        "yearValue": 20
-      },
-      {
-        "additionalFiltres": 70,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 36,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fsmerch.jpg?alt=media&token=c9f069dd-4664-4429-8dcd-e59be891a90a",
-        "name": "БМ-30 «Смерч»",
-        "type": "mrl",
-        "year": "1987",
-        "yearValue": 40
+        "yearValue": 20,
+        "introInfo": [["Тип:","РЗСВ"], ["Походження:","Чехословаччина"], ["На озброєнні:","з 1972р."], ["Дальнобійність:","до 20 км"]],
+        "uaInfo": ["12 травня 2022 було оприлюднено відео, яке підтверджує наявність RM-70 у Сил оборони України"],
+        "resources": {
+          "youtube": "youtube.com/embed/LozCy-J_2CI",
+          "wiki": "https://uk.wikipedia.org/wiki/RM-70",
+          "mil": "https://mil.in.ua/uk/tag/rszv-rm-70/"
+        }
       },
       {
         "additionalFiltres": 40,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 37,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fverba.jpg?alt=media&token=c2837474-a4db-4f1a-8100-7fc4237593fc",
+        "description": "«Верба» — українська реактивна система залпового вогню калібру 122 мм на базі вантажівки КрАЗ-6322 і бойової частини БМ-21 «Град». Пускова установка отримала низку вдосконалень у порівнянні з БМ-21 «Град»: системи навігації, зв'язку, вирівнювання і стабілізації платформи. Була розроблена також заряджальна машина, яка автоматизує процес заряджання. Поширене українське передвеликоднє вітання «Не я б'ю — верба б'є…», яке зазвичай використовується на Вербну неділю набуло нового значення навесні 2022 року завдяки однойменній РСЗВ",
+        "id": 9,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fverba%2Fverba1.png?alt=media&token=86542663-83d3-4740-8aeb-5c23b7ec99a1", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fverba%2Fvreba2.png?alt=media&token=274e666b-76df-438e-87f2-39032754312d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fverba%2Fvreba3.png?alt=media&token=6ef5f10f-89e9-41b2-bdbc-459a73835741", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fverba%2FverbaMain.png?alt=media&token=8751a14b-016a-4b49-8f99-10b71ca75a38"],
         "name": "Верба",
         "type": "mrl",
         "year": "2019",
-        "yearValue": 100
+        "yearValue": 100,
+        "introInfo": [["Тип:","РЗСВ"], ["Походження:","Україна"], ["На озброєнні:","з 2019р."], ["Наявні ракети:","до 40 км"]],
+        "uaInfo": ["Комплекс прийнятий на озброєння України у 2019 році"],
+        "resources": {
+          "youtube": "youtube.com/embed/t5b1w6jsytg",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%B1%D0%B0_(%D0%A0%D0%A1%D0%97%D0%92)",
+          "mil": "https://mil.in.ua/uk/tag/verba/"
+        }
       },
       {
         "additionalFiltres": 30,
         "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
-        "description": "",
-        "id": 38,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftornado.jpg?alt=media&token=9321c2e1-4019-4e4b-8353-f220be436e09",
-        "name": "«Торнадо-Г»",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "БМ-21 «Град» — реактивна система залпового вогню калібру 122 мм. Розроблена в СРСР, випускалася на базі шасі вантажівки Урал-375 із встановленою пусковою установкою 2Б5. БМ-21 «Град» є розвитком установки залпового вогню «Катюша», а також базою для інших систем, зокрема 9К55 «Град-1». Максимальна дальність атаки 42 км.",
+        "id": 10,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fgrad%2Fgrad_1.png?alt=media&token=9431c0d4-bd5e-4e9b-a570-6ff4d37b35a7", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fgrad%2Fgrad_2.png?alt=media&token=69d9c558-8abf-4b5a-b325-d9c86c4768e3", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fgrad%2Fgrad_3.png?alt=media&token=5f0d3d08-ca80-4fa7-910a-9aca1533afe9", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fgrad%2FgradMain.png?alt=media&token=e9a08614-05e2-407f-ab26-ea8505e14148"],
+        "name": "БМ-21 «Град»",
         "type": "mrl",
-        "year": "2012",
-        "yearValue": 100
+        "year": "1963",
+        "yearValue": 1,
+        "introInfo": [["Тип:","РЗСВ"], ["Походження:","СРСР"], ["На озброєнні:","з 1963р."], ["Наявні ракети:","до 30 км"]],
+        "uaInfo": ["БМ-21 «Град» активно використовують обидві сторони війни на сході України", "12 березня 2022 року було зафіксовано чергове використання російськими загарбниками запалювальних снарядів 9М22С при обстрілах Попасної. А наприкінці березня — Мар'їнки. В травні — захисників Маріуполя на території заводу «Азовсталь»"],
+        "resources": {
+          "youtube": "youtube.com/embed/V-Z4W9Joyr4",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D0%9C-21_%C2%AB%D0%93%D1%80%D0%B0%D0%B4%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/bm-21/"
+        }
       },
       {
         "additionalFiltres": 20,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 39,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fgrad21.jpg?alt=media&token=d8f955eb-a64a-4a9e-9393-7e983d95a638",
+        "id": 10,
+        "img":  "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Fgrad%2Fgrad_3.png?alt=media&token=5f0d3d08-ca80-4fa7-910a-9aca1533afe9",
         "name": "БМ-21 «Град»",
         "type": "mrl",
         "year": "1963",
@@ -874,7 +1232,7 @@
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "Т-84 «Оплот» (Т-84У) — український основний бойовий танк третього покоління, розроблений Харківським конструкторським бюро з машинобудування імені О. О. Морозова на основі танку T-84.",
         "id": 1,
-        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2FoplotMain.png?alt=media&token=72a62145-e93f-4b1d-9f62-47c91125f770", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2Foplot1.jpg?alt=media&token=733cebfa-268b-490c-80e8-66d093de2d7e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2Foplot2.jpg?alt=media&token=d2f30886-ca79-4f90-866e-64f8976f9219", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2Foplot3.jpg?alt=media&token=dbe95cdc-db6a-4432-88d2-bddacc4e088c"],
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2Foplot1.jpg?alt=media&token=733cebfa-268b-490c-80e8-66d093de2d7e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2Foplot2.jpg?alt=media&token=d2f30886-ca79-4f90-866e-64f8976f9219", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2Foplot3.jpg?alt=media&token=dbe95cdc-db6a-4432-88d2-bddacc4e088c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Foplot%2FoplotMain.png?alt=media&token=72a62145-e93f-4b1d-9f62-47c91125f770"],
         "name": "Т-84У «Оплот»",
         "type": "tank",
         "year": "2000",
@@ -892,104 +1250,160 @@
         "additionalFiltres": 120,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "",
+        "description": "M1 «А́брамс» — основний бойовий танк третього покоління виробництва Сполучених Штатів. Танк названо на честь генерала Крейтона Абрамса, колишнього начальника штабу Армії США і командувача збройними силами США у В'єтнамі з 1968 по 1972 рік. На озброєння надходили три основні версії M1 Abrams: M1, M1A1 і M1A2, які відрізнялися варіантами поліпшення озброєння, систем захисту та електроніки. Ці удосконалення, а також періодичні модернізації танків старого покоління дозволили тривалий час залишати даний бойовий танк на озброєнні військових формувань. M1 залишається головним основним бойовим танком Сполучених Штатів (перебуває на озброєнні армії та корпусу морської піхоти США), а також армій Єгипту, Кувейту, Саудівської Аравії, Австралії, а з 2010 року — Іраку. У США передбачається продовжити термін служби танка до 2050 року. ",
         "id": 2,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/abrams.jpg?alt=media&token=fee54ca0-9a71-4518-89e5-760bcccb6ea5",
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fabrams%2Fabrams1.png?alt=media&token=b97a98b9-f1b4-48c7-a3a9-c0c5d191fdb9", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fabrams%2Fabrams2.png?alt=media&token=9fbca762-0abe-44d7-adcc-a755255d1e97", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fabrams%2Fabrams3.png?alt=media&token=3adeb049-b9c1-4d64-8063-46736ff25376", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fabrams%2FabramsMain.png?alt=media&token=e4491e66-f583-4377-b437-35370bb47a36"],
         "name": "M1 Abrams",
         "type": "tank",
         "year": "1981",
-        "yearValue": 40
+        "yearValue": 40,
+        "introInfo": [["Тип:","Танк"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Калібр:","120 мм"]],
+        "uaInfo": ["25 січня 2023 року Президент США Джозеф Байден повідомив про придбання в інтересах України 31 танка M1A2 Abrams", "Сполучені Штати також подбали про навчання танкових екіпажів, технічного персоналу, були передані вісім ремонтно-евакуаційних машин M-88 та інше обладнання, необхідне для експлуатації танків"],
+        "resources": {
+          "youtube": "youtube.com/embed/aOxzHdSMRO0",
+          "wiki": "https://uk.wikipedia.org/wiki/M1_Abrams",
+          "mil": "https://mil.in.ua/uk/tag/m1-abrams/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
+        "description": "Танк БМ «Булат» є результатом модернізації основного танка Т-64Б з метою доведення його характеристик до сучасного рівня. Модернізація проводиться по трьом ключовим напрямкам – захист, рухомість, вогнева міць. В рамках модернізації рухомості проводиться заміна двигуна з 700-сильного 5ТДФ на 850-сильний 5ТДФМ, а в останніх партіях – на 1000-сильний 6ТД-1 який встановлювався на Т-80УД і  відмінно себе зарекомендував.",
         "id": 3,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/bulat.jpg?alt=media&token=d7d4b4eb-f30e-4335-b661-a167bcb05753",
-        "name": "БМ 'БУЛАТ'",
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fbulat%2Fbulat1.png?alt=media&token=8be300e8-8864-4f6d-a891-c0559648b96d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fbulat%2Fbulat2.png?alt=media&token=54e16048-a87a-4298-8aa0-06d780c772e5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fbulat%2Fbulat3.png?alt=media&token=876617d4-42e1-4c3c-bc3a-bffc1ca715ad", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fbulat%2FbulatMain.png?alt=media&token=78bcc9fd-223d-44b0-bc0c-ec0199429688"],
+        "name": "T-64БМ «Булат»",
         "type": "tank",
-        "year": "2003",
-        "yearValue": 80
+        "year": "2005",
+        "yearValue": 80,
+        "introInfo": [["Тип:","Танк"], ["Походження:","СРСР"], ["Модифікатор:","Україна"],["На озброєнні:","з 2005р."], ["Калібр:","125 мм"]],
+        "uaInfo": ["Т-64БМ «Булат» брав участь у боях Війни на сході України, перебуваючи на озброєнні 1-ї танкової бригади. «Булати» пройшли найгарячіші точки військових дій, захищали Луганський аеропорт та стримували наступ російських сил на Маріупольському напрямку.", "«Булати» брали участь й у великій російсько-українській війні. Зокрема, в боях за звільнення Херсону від ЗС РФ"],
+        "resources": {
+          "youtube": "youtube.com/embed/6QwZJ_V1t5Y",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A2-64%D0%91%D0%9C_%C2%AB%D0%91%D1%83%D0%BB%D0%B0%D1%82%C2%BB",
+          "mil": "https://mil.in.ua/uk/articles/osnovnyj-bojovyj-tank-t-64bm-bulat/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
+        "description": "Т-72 «Урал» — основний бойовий танк другого покоління, розроблений в СРСР. Прийнятий на озброєння радянської армії у 1973 році. За 30 років виробництва виконано 14 основних модифікацій. Станом на 2014 рік конфлікту Збройні сили України мали 600 танків Т-72, що перебували на складах зберігання. Однак дефіцит справної бронетехніки змусив Міністерство оборони відновити експлуатацію машин. ",
         "id": 4,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t72.jpg?alt=media&token=6cdee999-f399-4107-8ca0-cbbdb63b3a15",
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft72%2Ft721.png?alt=media&token=f70359fa-19b3-4627-adec-435fe0f54c6b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft72%2Ft722.png?alt=media&token=e78793cd-02a4-498c-8829-7c458a586f5e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft72%2Ft723.png?alt=media&token=b4a91295-1b8a-4de9-be7b-3ed2747d0f6f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft72%2Ft72Main.png?alt=media&token=034a4a9c-d987-4ae6-938c-4127ead758aa"],
         "name": "T-72",
         "type": "tank",
         "year": "1973",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","Танк"], ["Походження:","СРСР"], ["Модифікатор:","Україна"],["На озброєнні:","з 1974р."], ["Калібр:","125 мм"]],
+        "uaInfo": ["В квітні 2022 року після узгодження з іншими партнерами по НАТО уряд Чехії розпочав постачання танків Т-72", "Наприкінці квітня 2022 року стало відомо, що Польща передала Україні кілька сотень Т-72", "В серпні 2022 танки Т-72А передала також Північна Македонія", "В грудні Марокко оголосило про передачу запчастин до танків Т-72"],
+        "resources": {
+          "youtube": "youtube.com/embed/-UiV_TtJGXA",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A2-72#%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0_2",
+          "mil": "https://mil.in.ua/uk/tag/t-72/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 125,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/poland.png?alt=media&token=c9307ffc-dcd2-49ea-9c19-ec6eeaf839e4",
-        "description": "",
+        "description": "PT-91 Twardy — польський основний бойовий танк третього покоління, заснований на ліцензійному варіанті радянського Т-72М1. Всього для збройних сил Польщі виробили 232 PT-91. РТ-91 має сучасні системи керування вогнем та зв’язку. Захист танка і екіпажу додатково посилений навісним динамічним захистом. Бойова машина оснащена дизельним двигуном PZL-Wola S-12U потужністю 850 к. с. власного виробництва. ",
         "id": 5,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/pt91.jpg?alt=media&token=f047a689-7241-4395-a64b-230dc7b15e14",
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ftwardy%2Ftwardy1.png?alt=media&token=3573c8f4-1191-4d30-a6be-16c01ebc71aa", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ftwardy%2Ftwardy2.png?alt=media&token=cd65bfa3-ba6f-440f-b5ee-140294383417", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ftwardy%2Ftwardy3.png?alt=media&token=799b50b2-6807-4f5f-b7fe-16a6ec2ca12d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ftwardy%2FtwardyMain.png?alt=media&token=506455c9-370b-42f6-9447-eee8dd7e3028"],
         "name": "PT-91 Twardy",
         "type": "tank",
         "year": "1995",
-        "yearValue": 60
+        "yearValue": 60,
+        "introInfo": [["Тип:","Танк"], ["Походження:","Польща"],["На озброєнні:","з 1995р."], ["Калібр:","125 мм"]],
+        "uaInfo": ["25 липня 2022 року у Міноборони Польщі повідомили, що передали танки PT-91 Twardy Збройним силам України[29]. У польській армії дефіцит танків мають покрити поставками K2 Black Panther з Південної Кореї."],
+        "resources": {
+          "youtube": "youtube.com/embed/NWKmYEzghdw",
+          "wiki": "https://uk.wikipedia.org/wiki/PT-91",
+          "mil": "https://mil.in.ua/uk/?s=pt-91"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
+        "description": "Т-80 — основний бойовий танк третього покоління виробництва СРСР. Перший у світі серійний танк з єдиною газотурбінною силовою установкою. Прийнятий на озброєння радянської армії у 1976 році",
         "id": 6,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t80.jpg?alt=media&token=4de83c46-561e-4fb1-bcb7-1bc01edda158",
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft80%2Ft801.png?alt=media&token=ebff89eb-276c-4432-9572-a30d2a5875bd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft80%2Ft802.png?alt=media&token=e9f3880e-fda5-4886-a272-55cc079a7592", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft80%2Ft801.png?alt=media&token=ebff89eb-276c-4432-9572-a30d2a5875bd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft80%2Ft80Main.png?alt=media&token=eda511a3-882b-4646-b7d4-43f953cbf5d9"],
         "name": "T-80",
         "type": "tank",
         "year": "1976",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","Танк"], ["Походження:","СРСР"], ["Модифікатор:","Україна"], ["На озброєнні:","з 1976р."], ["Калібр:","125 мм"]],
+        "uaInfo": ["Загалом станом на 29 січня 2023 відомо про втрату російськими загарбниками 371 Т-80 різних модифікацій", "Крім того, українським військовим вдалось захопити майже неушкодженим доволі рідкісну модифікацію — командирський Т-80УК. Це був вже другий такий танк втрачений армією агресора в Україні."],
+        "resources": {
+          "youtube": "youtube.com/embed/4aTx99PcEpc",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A2-80",
+          "mil": "https://mil.in.ua/uk/tag/t-80/?nonamp=1"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 105,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/icons%2Fslovenia.png?alt=media&token=02696acd-4935-4625-9a00-32201f320bfa",
-        "description": "",
+        "description": "Т-55 — середній танк радянської розробки. До 1999 року Словенія модернізувала наявні 30 машин до рівня M-55S. У ході модернізації танки отримали нову 105-мм гармату L7 з тепловим кожухом. Був покращений захист бойової машини. Систему управління вогнем удосконалили цифровим балістичним обчислювачем.",
         "id": 7,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t55.jpg?alt=media&token=5de80ffe-26a0-4303-ab44-7d3e6cea1dd9",
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fm55s%2FM55s1.png?alt=media&token=1c1bab4e-5d85-430b-b56a-828cd7257fbe", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fm55s%2Fm55s2.png?alt=media&token=021be199-93c2-47c1-9ed5-e1b2fcd09e38", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fm55s%2Fm55s3.png?alt=media&token=cfb0af28-958b-49e7-849b-b94a976e81df", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fm55s%2Fm55Smain.png?alt=media&token=7cb05da2-cb5f-4c63-aaf0-f1e5827f0ca3"],
         "name": "M-55S",
         "type": "tank",
         "year": "1999",
-        "yearValue": 60
+        "yearValue": 60,
+        "introInfo": [["Тип:","Танк"], ["Походження:","СРСР"], ["Модифікатор:","Словенія"], ["На озброєнні:","з 1999р."], ["Калібр:","105 мм"]],
+        "uaInfo": ["У вересні 2022 року уряд Словенії повідомив, що Збройним Силам України будуть передані 28 модернізованих танків M-55S", "В грудні 2022 року стало відомо, що танки надійшли на озброєння 47-ої окремої механізованої бригади"],
+        "resources": {
+          "youtube": "youtube.com/embed/Wj1gz2dKO3Y",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A2-55",
+          "mil": "https://mil.in.ua/uk/tag/t-55/"
+        }
       },
       {
         "status": "no",
         "additionalFiltres": 120,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
-        "description": "",
+        "description": "Leopard 2  — німецький основний бойовий танк третього покоління. Розроблений компанією Krauss-Maffei у 1970-х роках, надійшов на озброєння в 1979 році на зміну попереднього Леопарда 1 як основний танк західнонімецьких сухопутних військ. Різні версії використовуються в збройних силах Німеччини та 13 інших європейських країн, а також кількох неєвропейських країн, зокрема Канади, Чилі, Індонезії та Сінгапуру. Leopard 2 використовувався німецькою армією в Косово, нідерландською, данською і канадською арміями в Афганістані, як частина Міжнародних сил сприяння безпеці, а також застосовуються турецькою армією в бойових діях у Сирії.",
         "id": 8,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/leopard.jpg?alt=media&token=fe574069-58e3-4e94-9b4e-e9e80afdc65a",
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fleo2%2Fleo2_1.png?alt=media&token=3d9e7991-e763-4af4-bc9f-972f1f71d3ad", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fleo2%2Fleo2_2.png?alt=media&token=690c8464-63cb-48c8-8498-c7e962ec591c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fleo2%2Fleo2_3.png?alt=media&token=0adbd484-ca7d-40ef-9871-8562b693c76b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fleo2%2Fleo2Main.png?alt=media&token=6ea2e1cd-39d1-4ec8-96e1-2b6fedc37905"],
         "name": "Leopard 2",
         "type": "tank",
         "year": "1979",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","Танк"], ["Походження:","Німеччина"], ["На озброєнні:","з 1979р."], ["Калібр:","120 мм"]],
+        "uaInfo": ["25 січня 2023 року німецький уряд погодив передачу танків Leopard 2 Україні та погодив реекспорт таких танків з третіх країн. На першому етапі Україні буде передано 14 танків Leopard 2A6 зі складів Бундесверу", "Перший танк Leopard 2 був відправлений літаком з Канади до Європи 4 лютого,[196] а 6 лютого 2023 року українські військові вирушили до Німеччини для навчання роботи з цими танками"],
+        "resources": {
+          "youtube": "youtube.com/embed/HEPavEKg-mo",
+          "wiki": "https://uk.wikipedia.org/wiki/Leopard_2",
+          "mil": "https://mil.in.ua/uk/tag/leopard/"
+        }
       },
       {
         "status": "no",
         "additionalFiltres": 120,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af",
-        "description": "",
+        "description": "FV4034 Challenger 2 — основний бойовий танк третього покоління сухопутних військ Великої Британії, який перебуває на озброєнні армій Сполученого Королівства та Оману. Челленджер 2 — масштабна переробка Челленджера 1. Хоча корпус і автомобільні компоненти здаються схожими, вони мають новий дизайн, і лише близько 3 % компонентів є взаємозамінними. Tанки «Челленджер 2» застосовувалися для ведення бойових дій в Боснії і Герцеговині, Косово та Іраку (з 2003 року по 1 вересня 2010). На сьогоднішній день єдиний раз, коли танк був знищений під час операції — це час інциденту дружнього вогоню у Басрі в 2003 році.",
         "id": 9,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/challenger2.jpg?alt=media&token=fe119977-35b2-4e18-8715-2533d1a9977b",
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fchallenger%2Fchal1.png?alt=media&token=13084762-4f30-44c5-b025-4e2c486513fd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fchallenger%2Fchal2.png?alt=media&token=c2dbfcb7-2bd2-4784-8885-3ca52aa4d31c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fchallenger%2Fchal3.png?alt=media&token=69055b7c-b595-445e-be59-ba6c051a3341", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fchallenger%2FchalMain.png?alt=media&token=58975ddf-521b-4753-a217-221e880377e0"],
         "name": "Challenger 2",
         "type": "tank",
-        "year": "1994",
-        "yearValue": 60
+        "year": "1998",
+        "yearValue": 60,
+        "introInfo": [["Тип:","Танк"], ["Походження:","Велика Британія"], ["На озброєнні:","з 1998р."], ["Калібр:","120 мм"]],
+        "uaInfo": ["14 січня 2023 року Уряд Великої Британії підтвердило повідомлення про те, що у світлі розвитку ситуації в Україні він змінив свою позицію щодо постачання танків «Challenger 2» в Україну. Було оголошено про початкове виділення 14 машин,", "«Challenger 2» стали першими західними основними бойовими танками, запропонованими Україні, на додаток до бойових машин піхоти, бронетранспортерів та самохідних артилерійських установок західного виробництва."],
+        "resources": {
+          "youtube": "youtube.com/embed/JbNED3QnSME",
+          "wiki": "https://uk.wikipedia.org/wiki/Challenger_2",
+          "mil": "https://mil.in.ua/uk/tag/tank-challenger/"
+        }
       },
       {
         "status": "yep",
@@ -997,7 +1411,7 @@
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 77,
+        "id": 6,
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t-80tr.jpg?alt=media&token=c1d2d0b6-0d2e-457a-a744-102045d0b65a",
         "name": "T-80",
         "type": "tank",
@@ -1009,52 +1423,80 @@
         "additionalFiltres": 125,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 10,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t64.jpg?alt=media&token=857b8682-b259-4937-9b72-3259d7d67999",
+        "description": "Т-64БВ — модифікація радянського основного бойового танку Т-64. Її випуск тривав з 1984 по 1987 рік. Ця модель отримала динамічний захист «Контакт», посилений протирадіаційний захист.",
+        "id": 11,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft64%2Ft64_1.png?alt=media&token=600d5280-3b2f-456b-9298-2a8c4baec543", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft64%2Ft_642.png?alt=media&token=7293b95d-c63d-4655-bad9-4c9d7179d2bc", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft64%2Ft64_3.png?alt=media&token=de48a3d4-7c7e-40cc-b9d3-44d2deacc098", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft64%2Ft64_main.png?alt=media&token=b1c3c358-7b71-45f7-8169-5d1f47d224c8"],
         "name": "T-64БВ",
         "type": "tank",
         "year": "1984",
-        "yearValue": 40
+        "yearValue": 40,
+        "introInfo": [["Тип:","Танк"], ["Походження:","СРСР"], ["Модифікатор:","Україна"], ["На озброєнні:","з 1984р."], ["Калібр:","125 мм"]],
+        "uaInfo": ["Танк Т-64БВ разом з Т-64Б складає основу танкових військ Сухопутних військ України, понад 600 одиниць"],
+        "resources": {
+          "youtube": "youtube.com/embed/r4MDktNfI3w",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A2-64%D0%91%D0%92",
+          "mil": "https://mil.in.ua/en/tag/t-64-en/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 115,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
-        "description": "",
-        "id": 11,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t62tr.jpg?alt=media&token=a997d9f9-48cf-409b-9b64-98e705c61ec6",
+        "description": "Середній танк Т-62 — радянський середній танк другого покоління. Перший у світі танк із гладкоствольною гарматою у виробництві. Інформація про наявність танків Т-62 в росії у відкритих джерелах різниця. Так у Military Balance за 2004—2005 роки було вказано 3000 танків Т-62 на зберіганні, а у звіті за 2010 рік вже йшлося про 150 одиниць на озброєнні та 350 на зберіганні. В звіті за 2012 рік на зберіганні було вже вказано 2500 танків Т-62. Танки T-62 використовувались у 20 країнах, серед котрих Ізраїль, Китай, Ірак, Іран",
+        "id": 12,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft62%2Ft62_1.png?alt=media&token=009dba3f-9847-4c17-b5ac-4bf7d3577b99", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft62%2Ft62_2.png?alt=media&token=9aace7bd-e394-4279-8027-a1a9a68db6cf", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft62%2Ft62_3.png?alt=media&token=f5c140d4-0654-4919-a42b-5e57c3febd76", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft62%2Ft62Main.png?alt=media&token=8919c167-6aff-446a-9b34-5d95f2575644"],
         "name": "T-62",
         "type": "tank",
         "year": "1961",
-        "yearValue": 1
+        "yearValue": 1,
+        "introInfo": [["Тип:","Танк"], ["Походження:","СРСР"], ["На озброєнні:","з 1961р."], ["Калібр:","115 мм"]],
+        "uaInfo": ["За даними видання Defense Express 31 танк Т-62 було відправлено у Херсонську область, ще 35 одиниць військової техніки, зокрема й Т-62 було відправлено у Запорізьку область", "Загалом відомо, що росіяни зняли зі зберігання з 943 центру в Криму щонайменше 45 танків Т-62", "Станом на 29 січня 2023 року редактори Oryx Blog знайшли фото чи відео підтвердження втрати Росією в ході війни 50 танків Т-62М, 12 Т-62МВ та 1 Т-62 зр. 1967"],
+        "resources": {
+          "youtube": "youtube.com/embed/-oMIl_Vuloo",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A2-62",
+          "mil": "https://mil.in.ua/uk/tag/t-62/"
+        }
       },
       {
         "status": "yep",
         "additionalFiltres": 125,
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
-        "description": "",
-        "id": 12,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t90tr.jpg?alt=media&token=d80d9770-9061-405b-b209-e69a96053ff1",
+        "description": "Т-90 «Владімір» — російський основний бойовий танк третього покоління. Створений в кінці 1980 — початку 1990-х років як глибока модернізація танка Т-72Б, під індексом Т-72БУ, але у 1992 році його прийняли на озброєння, уже під індексом Т-90. Індекс Т-90 був присвоєний машині за особистим розпорядженням Президента Російської Федерації. За даними з відкритих джерел відомо, що окремі бронетанкові частини ЗС Сирії отримали від росіян певну кількість танків T-90 i T-90A. Армія Азербайджану мала на озброєнні близько 100 одиниць Т-90С. Відомо, що танки Т-90С були використані азербайджанською стороною під час зіткнень у Нагірному Карабасі, що розпочались у вересні 2020 року. За даними Oryxspioenkop, ЗС Азербайджану безповоротно втратили 7 танків Т-90С в ході війни.",
+        "id": 13,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft90%2Ft90_1.png?alt=media&token=44297d86-e9b7-47b9-9297-f493803a1028", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft90%2Ft90_2.png?alt=media&token=83e804d0-a13b-40e0-a381-94b480cc6159", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft90%2Ft90_3.png?alt=media&token=3a195a55-ce26-4b28-8e44-97ad6446dd46", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Ft90%2Ft90Main.png?alt=media&token=7f743b77-8fd7-4bac-805f-c5a03beaa9ae"],
         "name": "T-90",
         "type": "tank",
         "year": "1992",
-        "yearValue": 60
+        "yearValue": 60,
+        "introInfo": [["Тип:","Танк"], ["Походження:","Росія"], ["На озброєнні:","з 1992р."], ["Калібр:","125 мм"]],
+        "uaInfo": ["Під час повномасштабної збройної агресії 2022 року росія стала неприховано застосовувати наявні в неї танки різних модифікацій Т-90. Кілька одиниць Т-90А були захоплені українськими військовими у працездатному стані", "Станом на 21 лютого 2023 року редактори Oryx Blog знайшли фото чи відео підтвердження безповоротної втрати Росією 34 танків Т-90А (знищених або захоплених українськими військовими), 6 Т-90С та 9 Т-90М"],
+        "resources": {
+          "youtube": "youtube.com/embed/BrgMhdH1Nsc",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A2-90",
+          "mil": "https://mil.in.ua/uk/tag/t-90/"
+        }
       },
       {
         "status": "no",
         "additionalFiltres": 105,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
-        "description": "",
-        "id": 75,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/leopard1.jpg?alt=media&token=5f973b13-ffd3-419d-b8c8-7ccdd7791c2d",
+        "description": "Leopard 1 — основний бойовий танк другого покоління, був розроблений та виготовлявся в Західній Німеччині. До появи нової моделі Leopard 2 називався просто «бойовий танк Леопард». Став першим німецьким танком, створеним після Другої світової війни. Роботи над танком розпочались спільно з Францією у 1950-ті, однак згодом співпраця припинилась. Взятий на озброєння у 12 країнах на чотирьох континентах. Завдяки програмам модернізації досі залишається на озброєнні в багатьох країнах. До 1984 р.було виготовлено 4744 одиниць.",
+        "id": 14,
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fleo1%2Fleo1.png?alt=media&token=342c935e-3545-4846-a21e-41e25dff0d98", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fleo1%2Fleo2.png?alt=media&token=0c98ef32-e0b1-453e-8797-99fdc66f89d4", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fleo1%2Fleo3.png?alt=media&token=16668432-e564-4b49-89d1-58f931872fc3", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/tanks%2Fleo1%2FleoMain.png?alt=media&token=d8659006-bbe5-438c-a370-68dd4c7088ec"],
         "name": "Leopard 1",
         "type": "tank",
         "year": "1965",
-        "yearValue": 1
+        "yearValue": 1,
+        "introInfo": [["Тип:","Танк"], ["Походження:","Німеччина"],["На озброєнні:","з 1965р."], ["Калібр:","105 мм"]],
+        "uaInfo": ["3 лютого 2023 року Німецький уряд ухвалив політичне рішення надати дозвіл підприємствам німецького оборонно-промислового комплексу передавати танки Leopard 1 з їхніх запасів[23]. А вже 7 лютого уряд видав ліцензії на експорт до 178 танків до України."],
+        "resources": {
+          "youtube": "youtube.com/embed/GKB2WTlWDaw",
+          "wiki": "https://uk.wikipedia.org/wiki/Leopard_1",
+          "mil": "https://mil.in.ua/uk/tag/leopard/"
+        }
       },
       {
         "status": "yep",
@@ -1062,7 +1504,7 @@
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "",
-        "id": 76,
+        "id": 4,
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/t72tr.jpg?alt=media&token=6dcfe583-fc3a-40ff-a8fa-0634ca8d37e1",
         "name": "T-72",
         "type": "tank",
@@ -1070,30 +1512,282 @@
         "yearValue": 20
       }
     ],
-    "trk": [
+    "zrk": [
+      {
+        "status": "yep",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
+        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "id": 1,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Firis%2Firis1.png?alt=media&token=6f40c665-9f3e-42b4-9b3b-a7c98b64b880", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Firis%2Firis2.png?alt=media&token=b014b9ed-3095-4b82-b26c-4c79f58b22b0", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Firis%2Firis3.png?alt=media&token=f74d8861-d91b-4133-887c-5e7539c3b549", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Firis%2FirisMain.png?alt=media&token=bf302e5f-94a2-4fac-b5ce-a5279b09f706"],
+        "name": "IRIS-T",
+        "yearValue": 100,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
+        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "resources": {
+          "youtube": "youtube.com/embed/9ORvFdac40s",
+          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
+          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+        }
+      },
+      {
+        "status": "no",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
+        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "id": 2,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fpatriot%2Fpatriot1.png?alt=media&token=439ead5e-2870-4d77-818c-4a6275a81bb3", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fpatriot%2Fpatriot2.png?alt=media&token=9f5bac29-88c9-482d-a214-b28ec72793a2", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fpatriot%2Fpatriot3.png?alt=media&token=d8626584-add6-4d34-a9f2-fdb7bae5b145", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fpatriot%2FpatriotMain.png?alt=media&token=3e5be725-187b-4591-90c3-36e17828ac49"],
+        "name": "MIM-104 «Patriot»",
+        "yearValue": 40,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
+        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "resources": {
+          "youtube": "youtube.com/embed/8_b9-WnoBHc",
+          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
+          "mil": "https://mil.in.ua/uk/tag/patriot/"
+        }
+      },
+      {
+        "status": "yes",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "id": 3,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fbuck%2Fbuck1.png?alt=media&token=f638f4c9-6297-4db0-83fd-666b39d404a2", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fbuck%2Fbuck2.png?alt=media&token=8b97e2dc-6efd-42dd-8d70-f3c3e223ca0f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fbuck%2Fbuck3.png?alt=media&token=ad310727-23cd-433c-87b5-fe9ac51f6d23", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fbuck%2FbuckMain.png?alt=media&token=5b2f1cc0-dcb6-4bb9-9b2a-26c5016fe689"],
+        "name": "Бук",
+        "yearValue": 20,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
+        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "resources": {
+          "youtube": "youtube.com/embed/8_b9-WnoBHc",
+          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
+          "mil": "https://mil.in.ua/uk/tag/patriot/"
+        }
+      },
+      {
+        "status": "yes",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "id": 4,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc300%2Fc300_1.png?alt=media&token=23ddb49c-3a30-441c-ac18-6a039713e21f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc300%2Fc300_2.png?alt=media&token=9965ec71-2044-46f8-ac10-280e61b33242", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc300%2Fc300_3.png?alt=media&token=eccdf8f3-ef67-4df8-95d8-b0901a97b6d8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc300%2Fc300Main.png?alt=media&token=af9d97d7-3381-495c-8a09-d25fe72cd962"],
+        "name": "С-300",
+        "yearValue": 20,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
+        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "resources": {
+          "youtube": "youtube.com/embed/8_b9-WnoBHc",
+          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
+          "mil": "https://mil.in.ua/uk/tag/patriot/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": "Зенітна артилерія",
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
+        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "id": 5,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fgepard%2Fgepard1.png?alt=media&token=64450f39-90c8-426d-98c7-96e43dd309d8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fgepard%2Fgepard2.png?alt=media&token=2e035169-c755-43d1-8cee-327e0e36ff4f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fgepard%2Fgepard3.png?alt=media&token=7f8fdaa8-2818-4a83-af36-03da180ce9a1", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fgepard%2FgepardMain.png?alt=media&token=6e27acb9-1b64-43d3-8d17-3fa1e9bc8b1e"],
+        "name": "Gepard",
+        "yearValue": 20,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
+        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "resources": {
+          "youtube": "youtube.com/embed/9ORvFdac40s",
+          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
+          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/france.png?alt=media&token=fede07dc-0a09-41bc-a8b5-a8096a832045",
+        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "id": 6,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fcrotale%2Fcrotale1.png?alt=media&token=e34d4e9e-4299-4e0e-a763-558042ad6169", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fcrotale%2Fcrotale2.png?alt=media&token=ede21da6-b6b8-4d89-9a8d-21379694943c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fcrotale%2Fcrotale3.png?alt=media&token=5342551a-cc24-4667-b7af-c5ad71bd937c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fcrotale%2FcrotaleMain.png?alt=media&token=a97714ea-276f-40be-a501-590eaccbe891"],
+        "name": "Crotale",
+        "yearValue": 20,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
+        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "resources": {
+          "youtube": "youtube.com/embed/9ORvFdac40s",
+          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
+          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+        }
+      },
+      {
+        "status": "yes",
+        "additionalFiltres": "Зенітна артилерія",
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "id": 7,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2F2c6%2F2c6_1.png?alt=media&token=d280a632-0989-4ae3-a1fb-a8a61c22a2d3", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2F2c6%2F2c6_2.png?alt=media&token=2907ca95-bbbe-40b4-8b66-2541f7d846ed", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2F2c6%2F2c6_3.png?alt=media&token=ab1a6b22-8343-4a01-903d-9ad9952bb69b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2F2c6%2F2%D1%816Main.png?alt=media&token=f642f0cc-feff-4f32-b73c-ab60701843e7"],
+        "name": "2С6 «Тунгуска»",
+        "yearValue": 40,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
+        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "resources": {
+          "youtube": "youtube.com/embed/8_b9-WnoBHc",
+          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
+          "mil": "https://mil.in.ua/uk/tag/patriot/"
+        }
+      },
+      {
+        "status": "yes",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "id": 8,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fosa%2Fosa1.png?alt=media&token=c6937fd0-826c-4d55-8f0c-891a28e929dd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fosa%2Fosa2.png?alt=media&token=1fa476e1-d451-4957-992a-e5a0d3d7f399", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fosa%2Fosa3.png?alt=media&token=6317dc72-bbda-40a0-87bf-c7d1df379b92", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fosa%2FosaMain.png?alt=media&token=01c1ee94-b205-48ec-8d5d-c064cc365e32"],
+        "name": "Оса",
+        "yearValue": 20,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
+        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "resources": {
+          "youtube": "youtube.com/embed/8_b9-WnoBHc",
+          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
+          "mil": "https://mil.in.ua/uk/tag/patriot/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "id": 3,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fbuck%2Fbuck3.png?alt=media&token=ad310727-23cd-433c-87b5-fe9ac51f6d23",
+        "name": "Бук",
+        "yearValue": 20
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/icons%2Fnorway.png?alt=media&token=d6be3d26-e28e-4cd1-9f10-0f9e4a9d91ac",
+        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "id": 10,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fnasams%2Fnasams1.png?alt=media&token=4064f624-d941-4e15-9560-916069ece1d7", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fnasams%2Fnasams2.png?alt=media&token=2db18f84-9d07-434f-ab29-67d66d72b216", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fnasams%2Fnasams3.png?alt=media&token=2891d195-0eb6-4eef-bb6a-e3327535baf5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fnasams%2FnasamsMain.png?alt=media&token=3298ef92-4797-4f2a-a2d3-be5f379638a1"],
+        "name": "NASAMS",
+        "yearValue": 60,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
+        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "resources": {
+          "youtube": "youtube.com/embed/9ORvFdac40s",
+          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
+          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+        }
+      },
+      {
+        "status": "yes",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "id": 11,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fstrila%2Fstrila1.png?alt=media&token=441fe7ca-8c1f-4e83-9ba7-83cb828113f9", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fstrila%2Fstrila2.png?alt=media&token=d4772df7-a819-4264-a66a-348ac4a969f6", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fstrila%2Fstrila3.png?alt=media&token=643676eb-1a1d-4284-9c47-e35b4c3b79dd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fstrila%2FstrilaMain.png?alt=media&token=4d48f1d7-2b30-4972-b974-4c1fb6a923af"],
+        "name": "Стріла-10",
+        "yearValue": 20,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
+        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "resources": {
+          "youtube": "youtube.com/embed/8_b9-WnoBHc",
+          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
+          "mil": "https://mil.in.ua/uk/tag/patriot/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "id": 8,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fosa%2Fosa3.png?alt=media&token=6317dc72-bbda-40a0-87bf-c7d1df379b92",
+        "name": "Оса",
+        "yearValue": 20
+      },
+      {
+        "status": "no",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/icons%2FitFr.png?alt=media&token=fac5aea7-03bb-4fbb-ab30-66d5fffca694",
+        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "id": 13,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fsamp%2Fsamp1.png?alt=media&token=e9551a7c-74a5-4b08-8398-b80ba0ccac52", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fsamp%2Fsamp2.png?alt=media&token=822a7b22-86af-43a5-950a-65fa935334ca", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fsamp%2Fsamp3.png?alt=media&token=6fb2fca6-9d3d-40fa-8e0a-dfe50dff678c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fsamp%2FsampMain.png?alt=media&token=ef9664c0-7f71-4cbc-af56-776cfe3705ee"],
+        "name": "SAMP-T",
+        "yearValue": 100,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
+        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "resources": {
+          "youtube": "youtube.com/embed/9ORvFdac40s",
+          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
+          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
+        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "id": 14,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fhawk%2Fhawk1.png?alt=media&token=2c8526a6-dc40-4f3c-a52a-27ba55010a27", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fhawk%2Fhawnk2.png?alt=media&token=a967ac58-de6d-4a59-9597-4d69923565f8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fhawk%2Fhawk3.png?alt=media&token=02751a53-aac4-4f6d-a222-15e14442a4ce", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fhawk%2FhawkMain.png?alt=media&token=61ed3890-4ba6-46bd-8639-e70cfbf6c548"],
+        "name": "MIM-23 Hawk",
+        "yearValue": 1,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
+        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "resources": {
+          "youtube": "youtube.com/embed/9ORvFdac40s",
+          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
+          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "id": 11,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fstrila%2Fstrila3.png?alt=media&token=643676eb-1a1d-4284-9c47-e35b4c3b79dd",
+        "name": "Стріла-10",
+        "yearValue": 20
+      },
+      {
+        "status": "yes",
+        "additionalFiltres": "Ракетний комплекс",
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "id": 16,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc125%2Fc125_1.png?alt=media&token=ad0b18e9-974e-4d38-93a7-6baa8d461bf8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc125%2Fc125_2.png?alt=media&token=3e1bbf81-be41-4727-8ad0-cf27329e774b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc125%2Fc125_3.png?alt=media&token=5ab73f8c-3722-4f8f-8e99-0462d569220e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc125%2Fc125Main.png?alt=media&token=3a2dcf30-4720-4496-be3c-5f533d1f37aa"],
+        "name": "С-125",
+        "yearValue": 1,
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
+        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "resources": {
+          "youtube": "youtube.com/embed/8_b9-WnoBHc",
+          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
+          "mil": "https://mil.in.ua/uk/tag/patriot/"
+        }
+      },
       {
         "additionalFiltres": 120,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
-        "id": 64,
+        "id": 2,
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/trk%2Ftochka.jpg?alt=media&token=09725b5d-bbef-419d-b54d-37fdb4f3b551",
         "name": "Точка",
         "type": "trk",
         "year": "1986",
         "yearValue": 40
-      },
-      {
-        "additionalFiltres": 100,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 65,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/trk%2Fvilkha.jpg?alt=media&token=a49e15b1-4220-4fb0-bb3f-3aa060f71517",
-        "name": "Вільха",
-        "type": "trk",
-        "year": "2020",
-        "yearValue": 100
       }
     ]
   },
@@ -1131,8 +1825,8 @@
     {
       "id": 5,
       "img": "data:image/png;base64,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",
-      "label": "ТРК",
-      "name": "trk"
+      "label": "ППО / ПРО",
+      "name": "zrk"
     },
     {
       "id": 6,
