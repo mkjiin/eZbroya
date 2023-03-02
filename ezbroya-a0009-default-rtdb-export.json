@@ -838,169 +838,269 @@
         "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 50,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fpantsir.jpg?alt=media&token=e9a9152f-bd36-482a-aa7f-cb6719143a01",
+        "description": "2А36 «Гіацинт-Б» — радянська причіпна гармата калібру 152 мм. Призначена для придушення й знищення живої сили, вогневих засобів і бойової техніки противника, що знаходяться на марші, в місцях скупчення та опорних пунктах. Гармата придатна до використання в різноманітних погодно-кліматичних умовах. Гармата облаштована напівавтоматичним затвором, гідропневматичним акумулятором, використовуючи енергію відкату, ланцюговим досилачем для роздільної досилання снаряда і гільзи з зарядом в камору ствола, піддоном з гідродомкратом для стрільби при вивішених колесах, двошвидкісним механізмом вертикального наведення. Гармата 2А36 має нарізний ствол калібром 152 мм. Довжина ствола разом з дульним гальмом становить 8197 мм.",
+        "id": 1,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a36%2F2a36_1.png?alt=media&token=3412e0c0-b4f7-4c73-8246-834b613093d7", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a36%2F2a36_2.png?alt=media&token=0daf393d-c6e5-49de-939b-0f33198a297c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a36%2F2a36_3.png?alt=media&token=864d0653-2ad4-4ba3-b3b0-2767f91f6e43", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a36%2F2a36Main.png?alt=media&token=a04ce075-b789-4d0d-84e6-faf2ce206b6a"],
         "name": "2А36 «Гіацинт-Б»",
         "type": "howitzer",
         "year": "1976",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","СРСР"], ["На озброєнні:","з 1976р."], ["Калібр:","152 мм"]],
+        "uaInfo": ["За повідомленнями українських ЗМІ 31 березня-1 квітня 2016 року українські військові завдали мінометного (82-мм) удару по позиціях російських терористів в районі Ясинуватої. В результаті удару була знищена одна установка Р-330Ж «Житель» та батарея 152-мм гармат 2А36 «Гіацинт-Б»"],
+        "resources": {
+          "youtube": "youtube.com/embed/CqtW1vpayyE",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%9036_%C2%AB%D0%93%D1%96%D0%B0%D1%86%D0%B8%D0%BD%D1%82-%D0%91%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/2a36-giatsynt-b/"
+        }
       },
       {
         "additionalFiltres": 122,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 51,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd30.jpg?alt=media&token=3e42259e-5c4b-4ff6-9a78-4a2a6ac3eca2",
+        "description": "Д-30— причіпна гаубиця калібру 122-мм, створена в Радянському Союзі в кінці 1950-х років. Була прийнята на озброєння СРСР на початку 1960-х. На озброєнні 35 країн, без урахування країн колишнього СРСР, знаходиться близько 3600 гармат. Належить до числа наймасовіших артилерійських систем післявоєнного періоду. В народі носить прізвисько «Жаба».",
+        "id": 2,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd30%2Fd30_1.png?alt=media&token=3b4ff4f7-ad4f-408c-b9da-4cf284b62f08", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd30%2Fd30_2.png?alt=media&token=a9220b15-03bb-48bb-8671-e410b4d55a12", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd30%2Fd30_3.png?alt=media&token=c006521b-cb46-4c20-ba0b-87f8ff7ebca0", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd30%2Fd30_main.png?alt=media&token=1a52381b-bb5f-4619-80f0-af07efa35054"],
         "name": "Д-30",
         "type": "howitzer",
         "year": "1963",
-        "yearValue": 1
+        "yearValue": 1,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","СРСР"], ["На озброєнні:","з 1963р."], ["Калібр:","122 мм"]],
+        "uaInfo": ["Гаубиці Д-30 активно застосовували й під час повномасштабного військового вторгнення в 2022 році[10]. При чому Україна отримувала снаряди, серед інших постачальників, від Пакистанської компанії Pakistani Ordnance Factories (POF)"],
+        "resources": {
+          "youtube": "youtube.com/embed/tVltUX7GrhU",
+          "wiki": "https://uk.wikipedia.org/wiki/122-%D0%BC%D0%BC_%D0%B3%D0%B0%D1%83%D0%B1%D0%B8%D1%86%D1%8F_%D0%94-30",
+          "mil": "https://mil.in.ua/uk/tag/d-30/"
+        }
       },
       {
         "additionalFiltres": 155,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "",
-        "id": 52,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm777.jpg?alt=media&token=3f69123c-a416-49f3-8d68-c92ac6c3d65e",
+        "description": "Легка буксирувана гаубиця M777 — причіпна гаубиця зі стволом калібру 155 міліметрів і завдовжки 39 калібри. M777 має цифрову систему керування вогнем, аналогічну системам управління вогнем у самохідних артилерійських установках, наприклад M109A6 Paladin. Система керування вогнем може визначати місце знаходження гаубиці та обчислювати параметри гармати для швидкого наведення на ціль. Гаубиця M777 може вести вогонь високоточними снарядами M982 Excalibur з максимальною дальністю до 40 км. Із використанням таких снарядів одна батарея може покривати вогнем територію площею до 1250 км². На випробуваннях із 14 випущених снарядів на відстань у 24 км, 13 снарядів влучили за менш ніж 10 м від цілі. Це відповідає можливому круговому відхиленню 5 метрів.",
+        "id": 3,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm777%2Fm777_1.png?alt=media&token=7f3cec96-3acb-45ba-99db-ff37b7813d31", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm777%2Fm777_2.png?alt=media&token=b073d59a-97b1-4a8e-aaa1-42b5bdb5bfaa", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm777%2Fm777_3.png?alt=media&token=65456230-591b-43e8-8a3e-94d31e14e128", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm777%2Fm777_main.png?alt=media&token=73daab15-3cc0-4cea-9950-bae2cf85cc3d"],
         "name": "M777",
         "type": "howitzer",
         "year": "2005",
-        "yearValue": 80
+        "yearValue": 80,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","США"], ["На озброєнні:","з 2005р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["Уже з 4 травня 2022 року в соціальних мережах, а згодом і в новинах стала з'являтись інформація, що українські військові уже з успіхом застосовують раніше отримані гаубиці M777"],
+        "resources": {
+          "youtube": "youtube.com/embed/yPKLuLDVMts",
+          "wiki": "https://uk.wikipedia.org/wiki/M777_(%D0%B3%D0%B0%D1%83%D0%B1%D0%B8%D1%86%D1%8F)",
+          "mil": "https://mil.in.ua/uk/tag/m-777/"
+        }
       },
       {
-        "additionalFiltres": 105,
+        "additionalFiltres": 155,
         "country": "nt",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "",
-        "id": 53,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm101.jpg?alt=media&token=5588f080-2eb8-4a6b-b17d-3568d30a7c19",
-        "name": "M101",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/france.png?alt=media&token=fede07dc-0a09-41bc-a8b5-a8096a832045",
+        "description": "TRF1 — французька 155-мм саморушна гармата. Призначена для оснащення артилерійських полків піхотних та танкових дивізій. Самостійно може пересуватися зі швидкістю 8 км/год. Має напівавтоматичне заряджання. За показником максимальної дальності стрільби активно-реактивним снарядом гаубиці TRF1 дещо переважають причіпні 152-мм гаубиці 2А65 «Мста-Б» — до 30 км проти 28 км відповідно.",
+        "id": 4,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Ftrf1%2Ftrf1.png?alt=media&token=2f22ae8b-99b2-4a62-bb9d-39e27d96dc21", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Ftrf1%2Ftrf2.png?alt=media&token=6394ad9a-d86a-4c01-b003-14e9135c783c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Ftrf1%2Ftrf3.png?alt=media&token=c5071dff-83f3-412d-8bf9-3cd80c7cd81e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Ftrf1%2FtrfMain.png?alt=media&token=a909fdb9-302b-4085-b5bd-bb25f7f4b57c"],
+        "name": "TRF1",
         "type": "howitzer",
-        "year": "1941",
-        "yearValue": 1
+        "year": "1976",
+        "yearValue": 20,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","Франція"], ["На озброєнні:","з 1976р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["Формально власником та постачальником TRF1, які були передані ЗСУ, виступає приватна французька компанія S2M-Equipment. Але сам процес відновлення та передачі гаубиць Україні відбувається під контролем Міноборони Франції"],
+        "resources": {
+          "youtube": "youtube.com/embed/vxoGOK6Rgb8",
+          "wiki": "https://uk.wikipedia.org/wiki/TRF1",
+          "mil": "https://mil.in.ua/uk/tag/trf1/"
+        }
       },
       {
         "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 54,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd20.jpg?alt=media&token=4a2fb33f-a5fe-45ae-92ed-f362ac4a8977",
+        "description": "152-мм гармата-гаубиця Д-20 — радянська 152-мм причіпна гармата-гаубиця. На заході вперше стала відома в 1955 році, тому в країнах блоку НАТО має позначення M1955. Довжина ствола гармати — 34 калібри. Д-20 стала першою 152-мм гарматної системою з напівавтоматичним клиновим затвором з вертикальним переміщенням клина. Також, ця гармата в модифікації Д-22 (індекс ГРАУ — 2А33) була використана для САУ 2С3 «Акація». Д-20 перебуває на озброєнні, принаймні в 13 країнах і вироблялася за ліцензією в КНР, як Тип 66 (або модернізований варіант Тип 66-1). САУ на її базі відома, як Тип 83, була вперше представлена в середині 1980-х років.",
+        "id": 5,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd20%2Fd20_1.png?alt=media&token=d7026914-34c5-4c02-9169-8b61aaaa8917", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd20%2Fd20_2.png?alt=media&token=8aa7e916-feda-4b56-8dd0-8d8198171016", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd20%2Fd20_3.png?alt=media&token=3a097e85-44c8-43ad-9d6a-9a9bfc204536", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd20%2Fd20_main.png?alt=media&token=69730f67-67f0-4b10-ae49-eedc64c5a4a0"],
         "name": "Д-20",
         "type": "howitzer",
         "year": "1947",
-        "yearValue": 1
-      },
-      {
-        "additionalFiltres": 105,
-        "country": "nt",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "",
-        "id": 55,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm119.jpg?alt=media&token=59e7bb93-de3f-4d86-acd7-ffa2183cb3b6",
-        "name": "M119",
-        "type": "howitzer",
-        "year": "1976",
-        "yearValue": 20
+        "yearValue": 1,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","СРСР"], ["На озброєнні:","з 1947р."], ["Калібр:","152 мм"]],
+        "uaInfo": ["З відкритих джерел відомо, що гаубиці Д-20 певний час перебували на озброєнні так званих 1-го та 2-го армійських корпусів, але наприкінці літа-початку осені 2022 року регулярні підрозділи російської армії вирішили залишити Д-20 разом з боєкомплектом собі, а підрозділам колаборантів передати іще старіші та архаїчніші Д-1"],
+        "resources": {
+          "youtube": "youtube.com/embed/k8qbNfJwEdY",
+          "wiki": "https://uk.wikipedia.org/wiki/152-%D0%BC%D0%BC_%D0%B3%D0%B0%D1%80%D0%BC%D0%B0%D1%82%D0%B0-%D0%B3%D0%B0%D1%83%D0%B1%D0%B8%D1%86%D1%8F_%D0%94-20",
+          "mil": "https://mil.in.ua/uk/tag/d-20/"
+        }
       },
       {
         "additionalFiltres": 105,
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/united-kingdom.png?alt=media&token=33bfafbc-c4c7-46da-8e2a-67b1eb9e37af",
-        "description": "",
-        "id": 56,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fl118.jpg?alt=media&token=d2bc77eb-229f-4e64-8aa7-a67c4900dca4",
-        "name": "L 118",
+        "description": "L119 — легка причіпна гаубиця калібру 105 мм. Розроблена і виготовлена в Англії для британської армії в 1970-х роках. Відтоді здобула великого поширення. Також відома у версіях L119 та M119 (мають інший ствол для стрільби американськими боєприпасами типу M1). Версія M119 створена для збройних сил США та отримала цифрову систему керування вогнем.",
+        "id": 6,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm119%2Fm119_1.png?alt=media&token=a5aa2c62-4972-47cf-b4a9-c720a282298e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm119%2Fm119_2.png?alt=media&token=3be469e5-9d6f-498d-882c-b1995f4061bc", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm119%2Fm119_3.png?alt=media&token=b30f3bcd-9867-460d-b8c2-e6ca88810a67", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm119%2Fm119_main.png?alt=media&token=491f4f87-a670-440e-a708-597a0b676208"],
+        "name": "L119",
         "type": "howitzer",
         "year": "1976",
-        "yearValue": 20
-      },
-      {
-        "additionalFiltres": 155,
-        "country": "nt",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/italy.png?alt=media&token=e47e2628-0376-455e-80a1-e1c6017fe175",
-        "description": "",
-        "id": 57,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2FFH70.jpg?alt=media&token=641c59a5-93de-4b5f-80c6-957890d9b5a5",
-        "name": "FH70",
-        "type": "howitzer",
-        "year": "1978",
-        "yearValue": 20
-      },
-      {
-        "additionalFiltres": 120,
-        "country": "tr",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
-        "description": "",
-        "id": 58,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fnona.jpg?alt=media&token=cfbeff96-3bac-4076-93bd-45e51dc06d6e",
-        "name": "2Б16 «Нона-К»",
-        "type": "howitzer",
-        "year": "1986",
-        "yearValue": 40
-      },
-      {
-        "additionalFiltres": 85,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 59,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44.jpg?alt=media&token=a1527f06-0423-4074-bc3e-e08f316708f4",
-        "name": "Д-44",
-        "type": "howitzer",
-        "year": "1946",
-        "yearValue": 1
-      },
-      {
-        "additionalFiltres": 155,
-        "country": "nt",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "",
-        "id": 60,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm114.jpg?alt=media&token=aae99cf9-1d1a-4093-8d8c-0cfbc41148b3",
-        "name": "M114",
-        "type": "howitzer",
-        "year": "1942",
-        "yearValue": 1
-      },
-      {
-        "additionalFiltres": 130,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 61,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm46.jpg?alt=media&token=87ac1878-9e06-4332-b61f-04b4e2faa708",
-        "name": "М-46",
-        "type": "howitzer",
-        "year": "1951",
-        "yearValue": 1
-      },
-      {
-        "additionalFiltres": 152,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 62,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmsta.jpg?alt=media&token=1467ce09-b257-432d-8b8d-e4e4efb98a3e",
-        "name": "2А65 «Мста-Б»",
-        "type": "howitzer",
-        "year": "1987",
-        "yearValue": 40
+        "yearValue": 20,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","Великобританія "], ["На озброєнні:","з 1976р."], ["Калібр:","105 мм"]],
+        "uaInfo": ["21 липня 2022 року міністр оборони Великої Британії повідомив, що найближчими тижнями до України надійде 36 переданих гаубиць L119 з боєприпасами", "19 серпня 2022 року Президент Сполучених Штатів Джо Байден підписав новий, вже 19-й, пакет допомоги для надання Україні додаткового озброєння та військової техніки. Серед іншого, до нього увійшли 16 105-мм гаубиць M119"],
+        "resources": {
+          "youtube": "youtube.com/embed/NoraXBfFcpQ",
+          "wiki": "https://uk.wikipedia.org/wiki/L118",
+          "mil": "https://mil.in.ua/uk/?s=l118"
+        }
       },
       {
         "additionalFiltres": 100,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 63,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmt12.jpg?alt=media&token=bddffa53-7a14-456a-a299-f0bdfd863b91",
+        "description": "100-мм протитанкова гармата МТ-12 — радянська буксирована протитанкова гармата, створена наприкінці 1960-х років. Модернізація гармати Т-12, що включала у себе розміщення гармати на новому лафеті.",
+        "id": 7,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmt12%2Fmt12_1.png?alt=media&token=c6a74b38-8a10-4243-a2bf-5be26192ac46", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmt12%2Fmt12_2.png?alt=media&token=da74ebcb-3f85-43c0-b3bd-3d687dac876e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmt12%2Fmt12_3.png?alt=media&token=6cfee7a8-20bf-46b2-b0d6-7e08a946b285", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmt12%2Fmt12_main.png?alt=media&token=ab6f8389-79c7-4dc7-9ef6-ca0501f50791"],
         "name": "МТ-12 «Рапіра»",
         "type": "howitzer",
         "year": "1970",
-        "yearValue": 20
+        "yearValue": 20,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","СРСР"], ["На озброєнні:","з 1970р."], ["Калібр:","100 мм"]],
+        "uaInfo": ["Станом на 2014 рік на озброєнні Збройних Сил України перебувало близько 500 гармат МТ-12 «Рапіра»", "З серпня 2014 одна батарея (6 гармат) надійшла на озброєння батальйону ОУН. 15.01.15 була розбита остання гармата батареї в Донецькому аеропорту"],
+        "resources": {
+          "youtube": "youtube.com/embed/4HOqLDIDOT4",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%9C%D0%A2-12_%C2%AB%D0%A0%D0%B0%D0%BF%D1%96%D1%80%D0%B0%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/mt-12-rapira/"
+        }
+      },
+      {
+        "additionalFiltres": 155,
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/italy.png?alt=media&token=e47e2628-0376-455e-80a1-e1c6017fe175",
+        "description": "FH70 — це 155-мм причіпна саморухома гаубиця, яка перебуває на озброєнні з 70-х років ХХ століття. Ствол має довжину 39 калібрів, що дає стандартну максимальну початкову швидкість 827 м/с. Він має дулове гальмо, що дає 32 % ККД. Інші звичайні особливості включають розвідні станини і поворотну опорну плиту. Спочатку гаубиця мала механізоване зарядження, але далі вперше отримала швидке досилання снаряда. Згідно з багаторічною практикою Великої Британії, у ній використовується одноосібне наведення. Все це означає, що гарматою може керувати мінімальна обслуга у складі всього 4 чоловік (командир, навідник і 2 заряджаючих). Скорострільність серією становить 3 ​​постріли за 15 секунд. Він також оснащений телескопом прямого вогню.",
+        "id": 8,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Ffh70%2Ffh70_1.png?alt=media&token=e8db2a1c-1365-426b-84c2-d90d078c9cd8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Ffh70%2Ffh70_2.png?alt=media&token=3765d18c-0877-4fd4-820c-f917f125b98c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Ffh70%2Ffh70_3.png?alt=media&token=4dfb92cb-52ce-485d-a57b-4c7e6fe77004", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Ffh70%2Ffh70_main.png?alt=media&token=909c5fb5-f1ae-462b-bcbd-35be4deed694"],
+        "name": "FH70",
+        "type": "howitzer",
+        "year": "1978",
+        "yearValue": 20,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","Італія"], ["На озброєнні:","з 1970р."], ["Калібр:","155 мм"]],
+        "uaInfo": ["У середині травня стало відомо, що італійський уряд погодив передачу Україні 155-мм гаубиць FH70", "У січні 2023 Естонія заявила, що передасть Україні усі свої гаубиці, яких у неї на той час було 24 одиниці"],
+        "resources": {
+          "youtube": "youtube.com/embed/xK_2wDYTelw",
+          "wiki": "https://uk.wikipedia.org/wiki/FH70",
+          "mil": "https://mil.in.ua/uk/tag/fh70/"
+        }
+      },
+      {
+        "additionalFiltres": 130,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "130-мм гармата М-46 — радянська буксована гармата корпусної артилерії періоду 1950-х років. У 1950-х роках М-46 була найдалекобійнішою гарматою Радянської армії, за винятком гармат великої та особливої потужності та десятиліттями залишалася на озброєнні, перейшовши до ЗС Росії. Також М-46 широко постачалася на експорт як союзникам СРСР із Організації Варшавського договору, так і третім країнам і використовувалася десятками держав. М-46 застосовувалися у низці локальних конфліктів, зокрема в артилерійській дуелі між Китаєм і Тайванем, В'єтнамській війні та кількох війнах на Близькому Сході. Станом на 2016 рік, М-46 все ще залишається на озброєнні низки країн.",
+        "id": 9,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm46%2Fm46_1.png?alt=media&token=1e0d02c6-def9-458d-b466-87d4873716db", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm46%2Fm46_2.png?alt=media&token=a889f247-e70f-4669-ba3b-94febf9d8cd9", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm46%2Fm46_3.png?alt=media&token=507f6e50-5937-4346-aa51-8390de838611", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm46%2Fm46_main.png?alt=media&token=d1e6d4ad-768d-455e-ac14-4058c21cdbcd"],
+        "name": "М-46",
+        "type": "howitzer",
+        "year": "1951",
+        "yearValue": 1,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","СРСР"], ["На озброєнні:","з 1951р."], ["Калібр:","130 мм"]],
+        "uaInfo": ["15 гармат М-46 були передані Хорватією улітку 2022 року під час російського вторгнення в Україну"],
+        "resources": {
+          "youtube": "youtube.com/embed/Wlnj-McOIgc",
+          "wiki": "https://uk.wikipedia.org/wiki/130-%D0%BC%D0%BC_%D0%B3%D0%B0%D1%80%D0%BC%D0%B0%D1%82%D0%B0_%D0%9C-46",
+          "mil": "https://mil.in.ua/uk/?s=%D0%BC-46"
+        }
+      },
+      {
+        "additionalFiltres": 105,
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
+        "description": "Гаубиця M101A1 — артилерійська установка, яка розроблена в США та використовується близько 40 країнами. Це була стандартна американська легка польова гаубиця у Другій світовій війні, вона використовувалася як на європейському, так і на тихоокеанському театрах бойових дій, а також під час Корейської війни. Після початку виробництва в 1941 році, вона швидко завоювала репутацію завдяки точності та потужному удару. M101A1 стріляє боєприпасами калібру 105 мм і має радіус дії 11 270 м, що робить її придатною для підтримки піхоти. Для стрільби застосовуються осколково-фугасні, бронебійні, пристрілювальні, касетні осколкові та димові снаряди. Всі ці якості зброї, а також її широке виробництво зумовили її прийняття на озброєння багатьма країнами після війни. Її тип боєприпасів також став стандартом для пізніших моделей багатьох країн.",
+        "id": 10,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm101%2Fm101_1.png?alt=media&token=91686318-0d69-4125-adce-51e80533ba35", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm101%2Fm101_2.png?alt=media&token=da610eee-21fa-4713-a6a7-8b06c6834e7f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm101%2Fm101_3.png?alt=media&token=81d2c546-280e-4b82-8edc-7070d047354d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fm101%2Fm101_main.png?alt=media&token=0e546e32-2453-4041-9edc-adc1138f4b8c"],
+        "name": "M101",
+        "type": "howitzer",
+        "year": "1941",
+        "yearValue": 1,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","США"], ["На озброєнні:","з 1941р."], ["Калібр:","105 мм"]],
+        "uaInfo": ["В вересні 2022 року Міністерство оборони Литви оголосило про передачу цих гаубиць Україні"],
+        "resources": {
+          "youtube": "youtube.com/embed/_wYiBGaLjBE",
+          "wiki": "https://uk.wikipedia.org/wiki/M101_(%D0%B3%D0%B0%D1%83%D0%B1%D0%B8%D1%86%D1%8F)",
+          "mil": "https://mil.in.ua/uk/?s=m101"
+        }
+      },
+      {
+        "additionalFiltres": 152,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "152-мм гаубиця «Мста-Б» — радянська 152-мм причіпна гаубиця, призначена для знищення тактичних засобів ядерного нападу, артилерійських і мінометних батарей, танків та інших броньованих засобів, руйнування польових фортифікаційних та інших оборонних споруд, придушення живої сили і вогневих засобів, пунктів управління, засобів протиповітряної і протиракетної оборони. Для забезпечення автоматизованого управління вогнем артилерійських дивізіонів, озброєних гаубицями «Мста-Б», розроблені комплекси «Фальцет» і «Капустнік». Гаубиця стоїть на озброєнні України і низки країн пострадянського простору.",
+        "id": 11,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65_1.png?alt=media&token=efb5ef67-abc8-468f-aa60-66a6f35b3db2", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65_2.png?alt=media&token=620d4d30-1384-4162-ac88-112b846bb820", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65_3png.png?alt=media&token=9a5cedba-af3a-462a-9927-9790ff643fde", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65Main.png?alt=media&token=0c49517b-3a81-429a-ad72-3948bd8f173c"],
+        "name": "2А65 «Мста-Б»",
+        "type": "howitzer",
+        "year": "1987",
+        "yearValue": 40,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","СРСР"], ["На озброєнні:","з 1987р."], ["Калібр:","152 мм"]],
+        "uaInfo": ["Причіпні гаубиці «Мста-Б» активно використовували як під час війні на сході України так й під час повномасштабного російського вторгнення 2022 року"],
+        "resources": {
+          "youtube": "youtube.com/embed/qnjcxlxdHkw",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%9065_%C2%AB%D0%9C%D1%81%D1%82%D0%B0-%D0%91%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/msta-b/"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": "122",
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "id": 2,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd30%2Fd30_3.png?alt=media&token=c006521b-cb46-4c20-ba0b-87f8ff7ebca0",
+        "name": "Д-30",
+        "yearValue": 1
+      },
+      
+      {
+        "additionalFiltres": 120,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "2Б16 «Нона-К» — радянська буксирована артилерійська система калібру 120 мм. 2Б16 містить в собі можливості гармати, гаубиці та міномета. Гармата 2Б16 «Нона-К» була розроблена з урахуванням досвіду бойових дій сухопутних військ Радянської армії у Афганістані. У 1986 році гармата була прийнята на озброєння. Гармата 2Б16 є буксированим варіантом гармати 2А51, встановленого на самохідну артилерійську установку 2С9 «Нона-С», та зберігає усі якості та особливості базової гармати. Призначена для артилерійських дивізіонів десантно-штурмових бригад",
+        "id": 13,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2b16%2F2b16_1.png?alt=media&token=bd72ac01-f20c-4556-8eb8-3bf0facafebb", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2b16%2F2b16_2.png?alt=media&token=e5c31b20-e476-41cc-a6d9-b831a1c0f711", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2b16%2F2b16_3.png?alt=media&token=b3e3c676-64fb-456a-94dc-c77ba2531796", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2b16%2F2b16Mainpng.png?alt=media&token=fbfaa798-2801-486c-bb3c-b61fd9ce09bf"],
+        "name": "2Б16 «Нона-К»",
+        "type": "howitzer",
+        "year": "1986",
+        "yearValue": 40,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","СРСР"], ["На озброєнні:","з 1986р."], ["Калібр:","120 мм"]],
+        "uaInfo": ["У серпні 2014 року щонайменше 1 екземпляр «Нони-К» використовувався загоном «Гіві» у боях за Іловайськ. У січні 2015 батальйон «Сомалі» мав вже щонайменше 3 екземпляри «Нони-К»", "Наприкінці березня 2022 року сили оборони України захопили російську артилерійську систему 2Б16 «Нона-К»"],
+        "resources": {
+          "youtube": "youtube.com/embed/16gdWosQnlE",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%9116_%C2%AB%D0%9D%D0%BE%D0%BD%D0%B0-%D0%9A%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/nona-k/"
+        }
+      },
+      {
+        "additionalFiltres": 85,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "85-мм дивізійна гармата Д-44  — радянська дивізійна польова артилерійська гармата калібру 85 мм, яка використовувалася в останніх епізодах Другої світової війни. Д-44 випускалася з 1945 по 1953 рік. Протягом 1948—1950 років випускалося понад дві тисячі Д-44 на рік. Гармата Д-44 послужила основою для створення 85-мм протитанкової гармати Д-48, а також реактивна система залпового вогню РПУ-14 використовує лафет від Д-44. До 1950-х років Д-44 було експортовано для використання країнами Варшавського договору, і гармата залишалася на озброєнні Національної народної армії Східної Німеччини до падіння Східної Німеччини.",
+        "id": 14,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44%2Fd44_1.png?alt=media&token=a4439b9e-411d-48dc-9b1d-42e487c400fa", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44%2Fd44_2.png?alt=media&token=0f4ee30d-5f1e-4099-b18c-359456618a2e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44%2Fd44_3.png?alt=media&token=f0fded1e-571c-4a86-bb49-68c33411cb4d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44%2Fd44_main.png?alt=media&token=0cb8770b-6704-4fdf-b281-f9d81038e9b8"],
+        "name": "Д-44",
+        "type": "howitzer",
+        "year": "1946",
+        "yearValue": 1,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","СРСР"], ["На озброєнні:","з 1946р."], ["Калібр:","85 мм"]],
+        "uaInfo": ["Сили оборони України використовують Д-44 під час російського вторгнення в 2022. Також було помічено польські боєприпаси для цих гармат"],
+        "resources": {
+          "youtube": "youtube.com/embed/9ORvFdac40s",
+          "wiki": "https://uk.wikipedia.org/wiki/85-%D0%BC%D0%BC_%D0%B4%D0%B8%D0%B2%D1%96%D0%B7%D1%96%D0%B9%D0%BD%D0%B0_%D0%B3%D0%B0%D1%80%D0%BC%D0%B0%D1%82%D0%B0_%D0%94-44",
+          "mil": "https://mil.in.ua/uk/?s=%D0%B4-44"
+        }
+      },
+      {
+        "status": "yep",
+        "additionalFiltres": "152",
+        "country": "tr",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
+        "id": 11,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65_3png.png?alt=media&token=9a5cedba-af3a-462a-9927-9790ff643fde",
+        "name": "2А65 «Мста-Б»",
+        "yearValue": 40
       }
     ],
     "mrl": [
@@ -1202,10 +1302,43 @@
     ],
     "other": [
       {
+        "additionalFiltres": 120,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "",
+        "id": 1,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/trk%2Ftochka.jpg?alt=media&token=09725b5d-bbef-419d-b54d-37fdb4f3b551",
+        "name": "Точка",
+        "year": "1986",
+        "yearValue": 40
+      },
+      {
+        "additionalFiltres": 120,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "",
+        "id": 2,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/other%2Fmazepa%2Fmazepa1.png?alt=media&token=7dd22306-a2d0-456e-80c9-24c1f787dab1",
+        "name": "Гетьман Іван Мазепа",
+        "year": "2022",
+        "yearValue": 100
+      },
+      {
+        "additionalFiltres": 120,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
+        "description": "",
+        "id": 3,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/other%2Fneptun%2Fneptun1.png?alt=media&token=08015803-8f6a-49a1-a853-620739211906",
+        "name": "Р-360 «Нептун»",
+        "year": "2010",
+        "yearValue": 100
+      },
+      {
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
         "description": "",
-        "id": 73,
+        "id": 4,
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/other%2Fjavelin.jpg?alt=media&token=1eaaa405-f6ab-4cfb-8ed5-da2039731721",
         "name": "FGM-148 Javelin",
         "type": "other",
@@ -1213,15 +1346,15 @@
         "yearValue": 60
       },
       {
-        "country": "nt",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
+        "additionalFiltres": 120,
+        "country": "ua",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "",
-        "id": 74,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/other%2Fstinger.jpg?alt=media&token=b98b3704-4f7a-4cc9-b473-eff08ebef975",
-        "name": "FIM-92 Stinger",
-        "type": "other",
-        "year": "1981",
-        "yearValue": 40
+        "id": 5,
+        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/other%2FblackBox1%2FblackBox1.png?alt=media&token=324afb57-86c9-40a6-b3ec-2ce0f5c4693e",
+        "name": "Black Box",
+        "year": "2010",
+        "yearValue": 100
       }
     ],
     "tanks": [
@@ -1554,17 +1687,17 @@
         "additionalFiltres": "Ракетний комплекс",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "description": "«Бук» — сімейство самохідних зенітно-ракетних комплексів, призначених для боротьби з маневровими аеродинамічними цілями (крилаті ракети, керовані бомби, літаки, гелікоптери, БПЛА, тощо) на малих та середніх висотах (від 30 м до 14-18 км), в умовах інтенсивної радіопротидії. Створений на заміну ЗРК 2К12 «Куб». Роботи над новим ЗРК були розпочаті згідно з постановою ЦК КПРС і РМ СРСР від 13 січня 1972 року. Перша модифікація, «Бук» була прийнята на озброєння 1979 року.",
         "id": 3,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fbuck%2Fbuck1.png?alt=media&token=f638f4c9-6297-4db0-83fd-666b39d404a2", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fbuck%2Fbuck2.png?alt=media&token=8b97e2dc-6efd-42dd-8d70-f3c3e223ca0f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fbuck%2Fbuck3.png?alt=media&token=ad310727-23cd-433c-87b5-fe9ac51f6d23", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fbuck%2FbuckMain.png?alt=media&token=5b2f1cc0-dcb6-4bb9-9b2a-26c5016fe689"],
         "name": "Бук",
         "yearValue": 20,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
-        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","СРСР"], ["На озброєнні:","з 1979р."], ["Зона дії за відстанню:","до 35 км"], ["Зона дії за висотою:","до 22 км"]],
+        "uaInfo": ["Російськими військовими за підтримки російських диверсантів з угрупування «Бєс» був збитий пасажирський літак «Боїнг-777-200ER бортномер 9M-MRD авіакомпанії Malaysia Airlines», який 17 липня 2014 року виконував регулярний рейс MH17 із Амстердама (Нідерланди) до Куала-Лумпур (Малайзія). Рештки літака впали поблизу міста Торез Донецької області. Загинуло 283 пасажири та 15 членів екіпажу"],
         "resources": {
-          "youtube": "youtube.com/embed/8_b9-WnoBHc",
-          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
-          "mil": "https://mil.in.ua/uk/tag/patriot/"
+          "youtube": "youtube.com/embed/_CvlsfMZNAg",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%91%D1%83%D0%BA_(%D0%97%D0%A0%D0%9A)",
+          "mil": "https://mil.in.ua/uk/tag/buk/"
         }
       },
       {
@@ -1572,17 +1705,17 @@
         "additionalFiltres": "Ракетний комплекс",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "description": "С-300 — сімейство радянських зенітно-ракетних систем середнього радіуса дії. Залежно від конкретного типу установки і ракет-перехоплювачів, максимальна дальність може сягати 150, 200, 300 кілометрів. Важливою якістю всіх комплексів сімейства С-300 є здатність працювати в різних поєднаннях всередині однієї модифікації в межах одного комплексу, між модифікаціями (обмежено), а також через різні мобільні вищі командні пункти вибудовувати в батареї з будь-якого складу, кількості, модифікацій, місця розташування, у тому числі з впровадженням інших комплексів ППО в єдину для всіх батарею. ",
         "id": 4,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc300%2Fc300_1.png?alt=media&token=23ddb49c-3a30-441c-ac18-6a039713e21f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc300%2Fc300_2.png?alt=media&token=9965ec71-2044-46f8-ac10-280e61b33242", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc300%2Fc300_3.png?alt=media&token=eccdf8f3-ef67-4df8-95d8-b0901a97b6d8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc300%2Fc300Main.png?alt=media&token=af9d97d7-3381-495c-8a09-d25fe72cd962"],
         "name": "С-300",
         "yearValue": 20,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
-        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","СРСР"], ["На озброєнні:","з 1978р."], ["Зона дії за відстанню:","до 75 км"], ["Зона дії за висотою:","до 27 км"]],
+        "uaInfo": ["У квітні 2022 року Словаччина безоплатно передала Україні наявний в неї дивізіон ЗРК С-300ПМУ", "Російська армія регулярно використовує ракети с-300 для завдання ударів по Україні, під час чергового масованого ракетного удару по об'єктах критичної інфраструктури України 10 лютого 2023 року російські військові застосували рекордну, на той час, кількість ракет від С-300 — до 35 одиниць"],
         "resources": {
-          "youtube": "youtube.com/embed/8_b9-WnoBHc",
-          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
-          "mil": "https://mil.in.ua/uk/tag/patriot/"
+          "youtube": "youtube.com/embed/_CvlsfMZNAg",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A1-300",
+          "mil": "https://mil.in.ua/uk/tag/s-300/"
         }
       },
       {
@@ -1590,35 +1723,35 @@
         "additionalFiltres": "Зенітна артилерія",
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/germany.png?alt=media&token=489ff987-1ad2-4952-ae65-72b7f1aa2cd9",
-        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "description": "Gepard — німецька зенітна самохідна артилерійська установка виробництва компанії Krauss-Maffei в співпраці з іншими підприємствами. Використано модифіковане шасі від танка Leopard 1 та артилерійську частину на основі двох 35 мм гармат Oerlikon KDA. Надійшла на озброєння Німеччини, Бельгії, та Нідерландів у другу половину 1970-х років. Призначена для захисту бронетанкових колон на марші та стаціонарних об'єктів від атак з вертольотів та літаків на малих і надмалих висотах вдень і вночі за будь-яких погодних умов та в умовах інтенсивної радіоелектронної протидії супротивника. Бойове хрещення відбулось в 2022 році під час російсько-української війни.",
         "id": 5,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fgepard%2Fgepard1.png?alt=media&token=64450f39-90c8-426d-98c7-96e43dd309d8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fgepard%2Fgepard2.png?alt=media&token=2e035169-c755-43d1-8cee-327e0e36ff4f", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fgepard%2Fgepard3.png?alt=media&token=7f8fdaa8-2818-4a83-af36-03da180ce9a1", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fgepard%2FgepardMain.png?alt=media&token=6e27acb9-1b64-43d3-8d17-3fa1e9bc8b1e"],
         "name": "Gepard",
         "yearValue": 20,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
-        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "introInfo": [["Тип:","Зенітна артилерія"], ["Походження:","Німеччина"], ["На озброєнні:","з 1976р."], ["Зона дії за відстанню:","до 4 км"], ["Зона дії за висотою:","до 3 км"]],
+        "uaInfo": ["26 квітня 2022 року міністр оборони Німеччини Крістіне Ламбрехт на зустрічі коаліції союзників України на авіабазі Рамштайн повідомила про схвалення федеральним урядом ФРН передачі Україні самохідних зенітних артилерійських комплексів «Гепард»", "Станом на 20 вересня 2022 року передача всіх 30 машин була завершена", "Станом на 20 січня 2023 року очікується передача 7 машин"],
         "resources": {
-          "youtube": "youtube.com/embed/9ORvFdac40s",
-          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
-          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+          "youtube": "youtube.com/embed/_CvlsfMZNAg",
+          "wiki": "https://uk.wikipedia.org/wiki/Gepard_(%D0%97%D0%A1%D0%A3)",
+          "mil": "https://mil.in.ua/uk/tag/gepard/"
         }
       },
       {
-        "status": "yep",
+        "status": "no",
         "additionalFiltres": "Ракетний комплекс",
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/france.png?alt=media&token=fede07dc-0a09-41bc-a8b5-a8096a832045",
-        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "description": "«Кроталь» — французький всепогодний зенітний ракетний комплекс малої дальності, призначений для боротьби з повітряними цілями в діапазоні середніх, малих і гранично малих висот. Може використовуватися як для ППО стратегічно важливих опорних пунктів, центрів управління, стартових позицій ракет, так безпосереднього прикриття бойових порядків військ. ЗРК Crotale розроблений французькою фірмою «Thomson-CSF/Matra», і існує у двох варіантах базування: рухомому наземному та корабельному варіанті. Прийнято на озброєння Франції, Фінляндії, Греції, Нідерландів. Комплекс із моменту створення неодноразово модернізувався. ",
         "id": 6,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fcrotale%2Fcrotale1.png?alt=media&token=e34d4e9e-4299-4e0e-a763-558042ad6169", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fcrotale%2Fcrotale2.png?alt=media&token=ede21da6-b6b8-4d89-9a8d-21379694943c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fcrotale%2Fcrotale3.png?alt=media&token=5342551a-cc24-4667-b7af-c5ad71bd937c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fcrotale%2FcrotaleMain.png?alt=media&token=a97714ea-276f-40be-a501-590eaccbe891"],
         "name": "Crotale",
         "yearValue": 20,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
-        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Франція"], ["На озброєнні:","з 1971р."], ["Зона дії за відстанню:","до 10 км"], ["Зона дії за висотою:","до 6 км"]],
+        "uaInfo": ["У жовтні 2022 Франція оголосила передачу комплексів Україні. За даними французьких медіа, мова може йти про 3-4 комплекси"],
         "resources": {
-          "youtube": "youtube.com/embed/9ORvFdac40s",
-          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
-          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+          "youtube": "youtube.com/embed/_CvlsfMZNAg",
+          "wiki": "https://uk.wikipedia.org/wiki/Crotale",
+          "mil": "https://mil.in.ua/uk/tag/zrk-crotale/"
         }
       },
       {
@@ -1626,17 +1759,17 @@
         "additionalFiltres": "Зенітна артилерія",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "description": "2С6 «Тунгуска» - зенітний комплекс ближнього радіуса дії, котрий забезпечує ураження низько літаючих повітряних цілей, у тому числі «завислих» гелікоптерів. Унікальність комплексу полягає в тому, що в ньому з’єднані як ракетні, так і артилерійські засоби ураження цілей. «Тунгуска», попри те, що є насамперед засобом ППО, досить впевнено може боротися з ворожою бронетехнікою завдяки 30-мм гарматам 2А38. Тому вона – доволі універсальний інструмент на полі бою, але українські військові не ризикують виводити її у поле зору ворожої піхоти та бронетехніки. Додатково 2C6 озброєна вісьмома зенітними ракетами 9М311 із дальністю стрільби до 8 км.",
         "id": 7,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2F2c6%2F2c6_1.png?alt=media&token=d280a632-0989-4ae3-a1fb-a8a61c22a2d3", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2F2c6%2F2c6_2.png?alt=media&token=2907ca95-bbbe-40b4-8b66-2541f7d846ed", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2F2c6%2F2c6_3.png?alt=media&token=ab1a6b22-8343-4a01-903d-9ad9952bb69b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2F2c6%2F2%D1%816Main.png?alt=media&token=f642f0cc-feff-4f32-b73c-ab60701843e7"],
         "name": "2С6 «Тунгуска»",
         "yearValue": 40,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
-        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","СРСР"], ["На озброєнні:","з 1983р."], ["Зона дії за відстанню:","до 8 км"], ["Зона дії за висотою:","до 3.5 км"]],
+        "uaInfo": ["Після російського вторгнення в 2022 році Україна використовувала наявні установки 2С6, зокрема, для прикриття механізованих підрозділів від ворожих літальних апаратів","Російська сторона також застосовувала «Тунгуски», принаймні одну було знищено в серпні 2022 року в Харківській області"],
         "resources": {
-          "youtube": "youtube.com/embed/8_b9-WnoBHc",
-          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
-          "mil": "https://mil.in.ua/uk/tag/patriot/"
+          "youtube": "youtube.com/embed/WqNHxLxR0fw",
+          "wiki": "https://uk.wikipedia.org/wiki/2%D0%A16_%C2%AB%D0%A2%D1%83%D0%BD%D0%B3%D1%83%D1%81%D0%BA%D0%B0%C2%BB",
+          "mil": "https://mil.in.ua/uk/tag/2s6-tunguska/"
         }
       },
       {
@@ -1644,17 +1777,17 @@
         "additionalFiltres": "Ракетний комплекс",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "description": "«Оса-АКМ» – автоматизований зенітний ракетний комплекс. Він всепогодний та призначений для прикриття сил і засобів військ у всіх видах бойових дій.  Комплекс протиповітряної оборони оснащений шістьма зенітними керованими ракетами 9М33М3. Бойова і транспортно-заряджаюча машини розміщувалися на тривісному шасі БАЗ-5937, обладнаному водометом для руху на плаву, з потужним ходовим дизельним двигуном, засобами навігації, життєзабезпечення, зв’язку та електроживлення комплексу.",
         "id": 8,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fosa%2Fosa1.png?alt=media&token=c6937fd0-826c-4d55-8f0c-891a28e929dd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fosa%2Fosa2.png?alt=media&token=1fa476e1-d451-4957-992a-e5a0d3d7f399", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fosa%2Fosa3.png?alt=media&token=6317dc72-bbda-40a0-87bf-c7d1df379b92", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fosa%2FosaMain.png?alt=media&token=01c1ee94-b205-48ec-8d5d-c064cc365e32"],
         "name": "Оса",
         "yearValue": 20,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
-        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","СРСР"], ["На озброєнні:","з 1971р."], ["Зона дії за відстанню:","до 10 км"], ["Зона дії за висотою:","до 5 км"]],
+        "uaInfo": ["Комплекси «Оса» було використано у війні на сході України", "Наприкінці 2022 року в Україні помітили польські ЗРК “Оса-АК”. Жодна із сторін не повідомляла про передачу цих комплексів до України."],
         "resources": {
-          "youtube": "youtube.com/embed/8_b9-WnoBHc",
-          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
-          "mil": "https://mil.in.ua/uk/tag/patriot/"
+          "youtube": "youtube.com/embed/WqNHxLxR0fw",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%9E%D1%81%D0%B0_(%D0%B7%D0%B5%D0%BD%D1%96%D1%82%D0%BD%D0%B8%D0%B9_%D1%80%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D0%B8%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81)",
+          "mil": "https://mil.in.ua/uk/tag/zrk-osa-akm/"
         }
       },
       {
@@ -1672,17 +1805,17 @@
         "additionalFiltres": "Ракетний комплекс",
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/icons%2Fnorway.png?alt=media&token=d6be3d26-e28e-4cd1-9f10-0f9e4a9d91ac",
-        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "description": "NASAMS — норвезький зенітний ракетний комплекс середньої дальності. Системи протиповітряної оборони NASAMS призначені для боротьби з літаками, безпілотними літальними апаратами, гелікоптерами та крилатими ракетами противника. До складу комплексу входять пересувні пускові установки, кожна з яких має шість контейнерів із зенітними ракетами. У ЗРК також входять радіолокаційні станції (РЛС). Дальність стрільби зенітної системи в конфігурації NASAMS II з використанням ракет AIM-120С AMRAAM становить до 25 км, а досяжність по висоті – до 14-15 км.",
         "id": 10,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fnasams%2Fnasams1.png?alt=media&token=4064f624-d941-4e15-9560-916069ece1d7", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fnasams%2Fnasams2.png?alt=media&token=2db18f84-9d07-434f-ab29-67d66d72b216", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fnasams%2Fnasams3.png?alt=media&token=2891d195-0eb6-4eef-bb6a-e3327535baf5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fnasams%2FnasamsMain.png?alt=media&token=3298ef92-4797-4f2a-a2d3-be5f379638a1"],
         "name": "NASAMS",
         "yearValue": 60,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Норвегія"], ["На озброєнні:","з 1998."], ["Зона дії за відстанню:","до 25 км"], ["Зона дії за висотою:","до 15 км"]],
         "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
         "resources": {
-          "youtube": "youtube.com/embed/9ORvFdac40s",
-          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
-          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+          "youtube": "youtube.com/embed/iAhd4pnH9BQ",
+          "wiki": "https://uk.wikipedia.org/wiki/NASAMS",
+          "mil": "https://mil.in.ua/uk/tag/zrk-nasams/"
         }
       },
       {
@@ -1690,17 +1823,17 @@
         "additionalFiltres": "Ракетний комплекс",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "description": "Стріла-10— радянський зенітно-ракетний комплекс. Комплекс призначений для візуального спостереження та знищення повітряних цілей на малих висотах. Прийнятий на озброєння в 1976 році. Зенітні ракетні комплекси «Стріла-10СВ» поставлялися у деякі зарубіжні країни і використовувалися у близькосхідних і африканських військових конфліктах. ЗРК цілком виправдали своє призначення як на навчаннях, так і у бойових діях. Окрім російсько - української війни брала участь під час «Бурі в пустелі», Бомбардування Югославії силами НАТО та Другої Карабаської війни.",
         "id": 11,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fstrila%2Fstrila1.png?alt=media&token=441fe7ca-8c1f-4e83-9ba7-83cb828113f9", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fstrila%2Fstrila2.png?alt=media&token=d4772df7-a819-4264-a66a-348ac4a969f6", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fstrila%2Fstrila3.png?alt=media&token=643676eb-1a1d-4284-9c47-e35b4c3b79dd", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fstrila%2FstrilaMain.png?alt=media&token=4d48f1d7-2b30-4972-b974-4c1fb6a923af"],
         "name": "Стріла-10",
         "yearValue": 20,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
-        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","СРСР"], ["На озброєнні:","з 1976р."], ["Зона дії за відстанню:","до 5 км"], ["Зона дії за висотою:","до 3.5 км"]],
+        "uaInfo": ["19 березня 2022 року було захоплено трофейний комплекс «Стріла-10» російських окупантів"],
         "resources": {
-          "youtube": "youtube.com/embed/8_b9-WnoBHc",
-          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
-          "mil": "https://mil.in.ua/uk/tag/patriot/"
+          "youtube": "youtube.com/embed/WqNHxLxR0fw",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D1%96%D0%BB%D0%B0-10",
+          "mil": "https://mil.in.ua/uk/tag/strila-10/"
         }
       },
       {
@@ -1718,17 +1851,17 @@
         "additionalFiltres": "Ракетний комплекс",
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/icons%2FitFr.png?alt=media&token=fac5aea7-03bb-4fbb-ab30-66d5fffca694",
-        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "description": "SAMP/T - наземна система, призначена для захисту території від звичайних повітряних загроз, таких як літаки або крилаті ракети. Це також єдина європейська оборонна система з протибалістичною здатністю. SAMP/T призначений для протиповітряного захисту механізованих підрозділів, а також протиповітряного прикриття важливих стаціонарних об'єктів від масованого нападу широкого класу повітряних цілей. Спільна розбробка Франції та Італії",
         "id": 13,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fsamp%2Fsamp1.png?alt=media&token=e9551a7c-74a5-4b08-8398-b80ba0ccac52", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fsamp%2Fsamp2.png?alt=media&token=822a7b22-86af-43a5-950a-65fa935334ca", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fsamp%2Fsamp3.png?alt=media&token=6fb2fca6-9d3d-40fa-8e0a-dfe50dff678c", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fsamp%2FsampMain.png?alt=media&token=ef9664c0-7f71-4cbc-af56-776cfe3705ee"],
         "name": "SAMP-T",
         "yearValue": 100,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
-        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Франція та Італія"], ["На озброєнні:","з 2011р."], ["Зона дії за відстанню:","до 120 км"], ["Зона дії за висотою:","до 25 км"]],
+        "uaInfo": [" 3 лютого 2023 року останні деталі передачі комплекса Україні були погоджені у телефонній розмові між міністрами оборони Італії та Франції. Передача Україні запланована на весну 2023 року"],
         "resources": {
-          "youtube": "youtube.com/embed/9ORvFdac40s",
-          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
-          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+          "youtube": "youtube.com/embed/y9iw_m-P-LY",
+          "wiki": "https://uk.wikipedia.org/wiki/FSAF_SAMP/T",
+          "mil": "https://mil.in.ua/uk/tag/samp-t/"
         }
       },
       {
@@ -1736,17 +1869,17 @@
         "additionalFiltres": "Ракетний комплекс",
         "country": "nt",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/usa.png?alt=media&token=af9ae9d5-6133-4aa9-8b2a-e62f73b80f11",
-        "description": "IRIS-T SLM — зенітний ракетний комплекс ППО і ПРО середнього радіусу дії розробки німецької компанії Diehl Defence. Призначений для знищення літаків, вертольотів, безпілотних літальних апаратів, крилатих та балістичних ракет. Пускова установка безлюдна, має вісім ракет (ефекторів) типу IRIS-T SL. Пуск відбувається вертикально для можливості обстрілу цілей на всі 360 градусів за азимутом. Пускова установка обладнана всіма необхідними підсистемами (електричний генератор, система управління вогнем, радіостанція тощо) та може знаходитись на відстані до 20 км від центру управління. В комплексі використана потужніша версія зенітних керованих ракет IRIS-T. У цій версії встановлено потужніший ракетний рушій, завдяки чому збільшено ефективну зону роботи до цілі до 25 км за висотою та до 40 км за відстанню. Цілевказання можливе шляхом передачі координат GPS та через канал передачі даних з ракетою",
+        "description": "MIM-23 HAWK — це американська зенітна ракета середнього радіусу дії. Її спроєктували як більш мобільний відповідник MIM-14 Nike Hercules, поступившись далекобійністю за значно менші розміри і вагу. Її низька дієвість була значно підвищена у порівнянні з Nike завдяки застосуванню нових радарів і системи напівактивного радарного самонаведення безперервної хвилі. Вона стала на службу армії США у 1959.У 1971 провели програму її ґрунтовного покращення, яка включала кілька покращень для ракети і замінила всі радарні системи на нові моделі. Покращення тривали наступні двадцять років, зокрема додали покращений радіоелектронний захист, можливість наводитись на глушилки, а в 1995 додали нову боєголовку, яка уможливила дію проти тактичних ракет близької дії.",
         "id": 14,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fhawk%2Fhawk1.png?alt=media&token=2c8526a6-dc40-4f3c-a52a-27ba55010a27", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fhawk%2Fhawnk2.png?alt=media&token=a967ac58-de6d-4a59-9597-4d69923565f8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fhawk%2Fhawk3.png?alt=media&token=02751a53-aac4-4f6d-a222-15e14442a4ce", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fhawk%2FhawkMain.png?alt=media&token=61ed3890-4ba6-46bd-8639-e70cfbf6c548"],
         "name": "MIM-23 Hawk",
         "yearValue": 1,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","Німеччина"], ["На озброєнні:","з 2017р."], ["Зона дії за відстанню:","до 40 км"], ["Зона дії за висотою:","до 40 км"]],
-        "uaInfo": ["Всього замовлено 4 батареї: на початку червня 2022 року федеральний уряд Німеччини ухвалив рішення передати один комплекс Iris-T SLM згодом було додатково замовлено іще три системи"],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1960р."], ["Зона дії за відстанню:","до 50 км"], ["Зона дії за висотою:","до 20 км"]],
+        "uaInfo": ["Шість пускових установок було передано Іспанією", "У межах пакету військової допомоги, оголошеного США 4 листопада 2022 року, було виділено кошти на модернізацію ракет HAWK для їх включення до майбутньої допомоги"],
         "resources": {
-          "youtube": "youtube.com/embed/9ORvFdac40s",
-          "wiki": "https://uk.wikipedia.org/wiki/IRIS-T_SLM",
-          "mil": "https://mil.in.ua/uk/tag/iris-t/"
+          "youtube": "youtube.com/embed/vRNuST-y9EM",
+          "wiki": "https://uk.wikipedia.org/wiki/MIM-23_Hawk",
+          "mil": "https://mil.in.ua/uk/tag/zrk-hawk/"
         }
       },
       {
@@ -1764,30 +1897,18 @@
         "additionalFiltres": "Ракетний комплекс",
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "MIM-104 «Patriot» — зенітно-ракетна система (ЗРК), основна у своєму роді, що використовується армією Сполучених Штатів і кількома союзними державами. Система Patriot замінила систему Nike Hercules в якості основної системи протиповітряної оборони високого та середнього рівня армії США (HIMAD) і систему MIM-23 Hawk як тактичну систему протиповітряної оборони армії США середнього рівня. На додаток до цих ролей, Patriot отримав функцію системи протиракетної оборони (ПРО) армії США, яка зараз є основною місією Patriot. Очікується, що система працюватиме щонайменше до 2040 року. ",
+        "description": "С-125 «Нева» — радянський зенітно-ракетний комплекс малого радіусу дії. Був прийнятим на озброєння в СРСР 1961 року. Продано на експорт понад 400 комплексів С-125.",
         "id": 16,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc125%2Fc125_1.png?alt=media&token=ad0b18e9-974e-4d38-93a7-6baa8d461bf8", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc125%2Fc125_2.png?alt=media&token=3e1bbf81-be41-4727-8ad0-cf27329e774b", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc125%2Fc125_3.png?alt=media&token=5ab73f8c-3722-4f8f-8e99-0462d569220e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/aaw%2Fc125%2Fc125Main.png?alt=media&token=3a2dcf30-4720-4496-be3c-5f533d1f37aa"],
         "name": "С-125",
         "yearValue": 1,
-        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1981р."], ["Зона дії за відстанню:","до 160 км"], ["Зона дії за висотою:","до 24 км"]],
-        "uaInfo": ["Наприкінці 2022 року президент США Джо Байден оголосив про передачу Україні однієї батареї системи ПРО Patriot"],
+        "introInfo": [["Тип:","Ракетний комплекс"], ["Походження:","США"], ["На озброєнні:","з 1961р."], ["Зона дії за відстанню:","до 12 км"], ["Зона дії за висотою:","до 5 км"]],
+        "uaInfo": ["В грудні 2022 року в соціальних мережах були поширені фотографії польських зенітно-ракетних комплексів С-125 «Newa SC» в Україні. Раніше про передачу таких комплексів ані Польща, ані Україна не повідомляли"],
         "resources": {
-          "youtube": "youtube.com/embed/8_b9-WnoBHc",
-          "wiki": "https://uk.wikipedia.org/wiki/MIM-104_Patriot",
-          "mil": "https://mil.in.ua/uk/tag/patriot/"
+          "youtube": "youtube.com/embed/_CvlsfMZNAg",
+          "wiki": "https://uk.wikipedia.org/wiki/%D0%A1-125",
+          "mil": "https://mil.in.ua/uk/tag/s-125/"
         }
-      },
-      {
-        "additionalFiltres": 120,
-        "country": "ua",
-        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
-        "description": "",
-        "id": 2,
-        "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/trk%2Ftochka.jpg?alt=media&token=09725b5d-bbef-419d-b54d-37fdb4f3b551",
-        "name": "Точка",
-        "type": "trk",
-        "year": "1986",
-        "yearValue": 40
       }
     ]
   },
