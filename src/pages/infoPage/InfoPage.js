@@ -6,15 +6,22 @@ import Links from "../../components/links/Links";
 import { useEffect } from "react";
 import { fetchedInfoPage } from "./infoPageSlice";
 import { useDispatch, useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
 
 const InfoPage = () => {
 
     const { pageInfo, restOfLink } = useSelector(state => state.infoPage)
     const dispatch = useDispatch();
 
+    const { type, id } = useParams();
+
+    // const originType = type.replace(/__/g, ' ');
+    // console.log(type)
+    // console.log(originType)
+
     useEffect(() => {
         window.scrollTo(0, 0)
-        dispatch(fetchedInfoPage(restOfLink))
+        dispatch(fetchedInfoPage({type, id}))
     }, [])
 
     // const { name, introInfo, country_icon, description, img } = pageInfo 

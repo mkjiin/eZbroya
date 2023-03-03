@@ -28,7 +28,7 @@ const AdditionalFiltres = () => {
             onClick={() => handleFilterClick(el)}
             >
               <div className="content__sec-filters__button-country-name">
-              {(activeCategory === 'trk' || activeCategory === 'mrl') ? el + ' km' : (activeCategory === 'aviation' || activeCategory === 'zrk') ? el : el + ' mm'}
+              {(activeCategory === 'Реактивні Системи Залпового Вогню') ? el + ' km' : (activeCategory === 'Авіація' || activeCategory === 'Протиповітрянна Оборона') ? el : el + ' mm'}
               </div>
             </li>
           );

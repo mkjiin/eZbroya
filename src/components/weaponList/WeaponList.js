@@ -13,7 +13,8 @@ const WeaponList = () => {
 
     const [displayLoading, setDisplayLoading] = useState(false);
     const { weapons, weaponsLoadingStatus, activeCategory, activeFilter, weaponsEnded, start, end, yearValue, activeAdditionalFilter, activeStatus} = useSelector(state => state.weapons)
-    
+    const { restOfLink} = useSelector(state => state.infoPage)
+
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -64,7 +65,6 @@ const WeaponList = () => {
       return filtredWeapons;
     }, [weapons]);
     
-    console.log(weapons)
 
     useEffect(() => {
         if (weaponsLoadingStatus !== 'loading') {
@@ -76,8 +76,8 @@ const WeaponList = () => {
         return <h5 className='content__weapon_loading'>Завантаження..</h5>
     }
   
-    const onClick = (activeCategory, i) => {
-      dispatch(getRestOfLink(`${activeCategory}/${i}`));
+    const onClick = (activeCategory, id) => {
+      dispatch(getRestOfLink(`/${activeCategory}/${id}`));
       dispatch(reset())
     }
 
@@ -87,8 +87,9 @@ const WeaponList = () => {
             return <h5 className='content__weapon_error'>Нажаль, ми не знайшли нічого під ваши фільтри</h5>
         }
 
-        return arr.map(({name, id, img, country_icon, country}, i) => {
+        return arr.map(({name, id, img, country_icon, country, type}, i) => {
             const formattedName = name.replace(/\s+/g, '__');
+            // const formattedType = type.replace(/\s+/g, '__');
             return <li className='content__weapon_item'
                     tabIndex={0}
                     key={i}
@@ -99,7 +100,7 @@ const WeaponList = () => {
                             <img src={country_icon} alt={country} className='content__weapon_item_country'/>
                         </div>
                         <div>
-                        <Link to={`/${formattedName}`} className='content__weapon_item_link' onClick={() => onClick(activeCategory, (id - 1))}>
+                        <Link to={`/${encodeURIComponent(type)}/${encodeURIComponent(formattedName)}/${encodeURIComponent(id-1)}`} className='content__weapon_item_link' onClick={() => onClick(activeCategory,(id - 1))}>
                             <img src={img} alt="tank" className='content__weapon_item_link_img'/>
                             <div className='content__weapon_item_link_overlay'>
                                 <h2 className='content__weapon_item_more'>Подробиці</h2>

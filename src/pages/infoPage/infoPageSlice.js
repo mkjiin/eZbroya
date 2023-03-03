@@ -19,9 +19,10 @@ const initialState = {
 
 export const fetchedInfoPage = createAsyncThunk(
     'infoPage/fetchedInfoPage',
-    (restOfLink) => {
+    (args) => {
+        const { type, id } = args
         const { request } = useHttp();
-        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${restOfLink}.json`)
+        return request(`https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${type}/${id}.json`)
     }
 );
 

@@ -11,27 +11,24 @@ const AdditionalInfoSecPage = () => {
     const { img , uaInfo, name} = pageInfo;
 
     const renderList = (arr) => {
-        // if (typeof arr !== 'undefined') {
             return arr.map((el, i) => {
                 return <li className='info__ua__text-item' key={i}>
                     <h2 className='info__ua__text'>{el}</h2>
                 </li>
             })
-        // }
     }
 
     const renderSlider = (arr) => {
-        // if (typeof arr !== 'undefined') {
         const cuttedArr = arr.slice(0, 3)
 
         return cuttedArr.map((el , i) => {
             return (
-                <div>
+                <div
+                key={i}>
                     <img src={el} alt="sliderPhoto" />
                 </div>
             )
         })
-        // }
     }
 
     const listItem = renderList(uaInfo)

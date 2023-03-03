@@ -21,14 +21,14 @@ const SecondaryFilters = () => {
         <div className='content__sec-filters'>
             <Countries/>
             {
-                (activeCategory === "tanks" ||
-                activeCategory === "ahs" ||
-                activeCategory === "av" ||
-                activeCategory === "zrk")
+                (activeCategory === "Танки" ||
+                activeCategory === "Самохідні Артилерійські Установки" ||
+                activeCategory === "Бойові Машини Піхоти" ||
+                activeCategory === "Протиповітрянна Оборона")
                 ? <Status />
                 : ''
             }
-            {activeCategory === 'other' ? '' : <AdditionalFiltres/>}
+            {activeCategory === 'Інше' ? '' : <AdditionalFiltres/>}
             <YearFilter/>
             {/* <button className='content__sec-filters__button-country'></button> */}
         </div>

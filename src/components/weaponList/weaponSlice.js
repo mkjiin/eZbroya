@@ -4,7 +4,7 @@ import { useHttp } from "../../hooks/http.hook";
 const initialState = {
     weaponsLoadingStatus: 'idle',
     weapons: [],
-    activeCategory: 'tanks',
+    activeCategory: 'Танки',
     turnedCategory: false,
     start: 0,
     end: 8,
@@ -160,7 +160,6 @@ const filtersSlice = createSlice({
                 state.weaponsEnded = true;
             }
               
-            console.log(action.payload)
             
             if(state.weapons.length === 0) {
                 state.weapons = action.payload
