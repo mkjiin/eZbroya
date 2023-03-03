@@ -93,13 +93,13 @@ const WeaponList = () => {
                     tabIndex={0}
                     key={i}
                     id={id}
-                    onClick={() => onClick(activeCategory, (id - 1))}>
+                    >
                         <div className='content__weapon_item_title'>
                             <div className='content__weapon_item_name'>{name}</div>
                             <img src={country_icon} alt={country} className='content__weapon_item_country'/>
                         </div>
                         <div>
-                        <Link to={`/${formattedName}`} className='content__weapon_item_link'>
+                        <Link to={`/${formattedName}`} className='content__weapon_item_link' onClick={() => onClick(activeCategory, (id - 1))}>
                             <img src={img} alt="tank" className='content__weapon_item_link_img'/>
                             <div className='content__weapon_item_link_overlay'>
                                 <h2 className='content__weapon_item_more'>Подробиці</h2>
