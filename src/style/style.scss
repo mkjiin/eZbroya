@@ -9,10 +9,6 @@
     width: 100%;
     margin: 0 auto;
     position: relative;
-    .bg-decoration {
-        position: absolute;
-        right: -174px;
-        bottom: -70px;
-        z-index: -1;
-    }
 }
+
+@import url(./_media.scss);

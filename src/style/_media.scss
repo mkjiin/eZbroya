@@ -1,0 +1,29 @@
+@media (max-width: 1440px) {
+    .content__main {
+        padding: 0px 0px 0px 24px;
+        column-gap: 13px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .main_filters {
+        padding: 20px 40px 30px 55px;
+    }
+    .content__main {
+        grid-template-columns: 257px 361px;
+    }
+    .content__sec-filters {
+        &__button-country {
+            width: 243px;
+        }
+        &__horizontal {
+            width: 242px;
+        }
+        &__vertical {
+            left: 6px;
+        }
+    }
+    .css-1k4uzxx {
+        width: 226px;
+    }
+}

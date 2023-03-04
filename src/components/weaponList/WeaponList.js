@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchedWeapons } from './weaponSlice';
 import { reset, weaponsPaginate } from '../weaponList/weaponSlice';
 import { getRestOfLink } from '../../pages/infoPage/infoPageSlice';
+import Spinner from '../spinner/Spinner';
 
 const WeaponList = () => {
 
@@ -66,16 +67,12 @@ const WeaponList = () => {
     }, [weapons]);
     
 
-    useEffect(() => {
-        if (weaponsLoadingStatus !== 'loading') {
-          setDisplayLoading(false);
-        }
-      }, [weaponsLoadingStatus])
-
-      if (displayLoading) {
-        return <h5 className='content__weapon_loading'>Завантаження..</h5>
+    useMemo(() => {
+      if (weaponsLoadingStatus !== 'loading') {
+        setDisplayLoading(false);
     }
-  
+    }, [weaponsLoadingStatus])
+
     const onClick = (activeCategory, id) => {
       dispatch(getRestOfLink(`/${activeCategory}/${id}`));
       dispatch(reset())
@@ -116,6 +113,7 @@ const WeaponList = () => {
     return (
         <div className='content__weapon'>
             <ul className='content__weapon_grid'>
+                {displayLoading ? <Spinner/> : ''}
                 {element}
             </ul>
             <button className='content__weapon_item_paggin' 

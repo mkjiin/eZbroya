@@ -1,5 +1,6 @@
 import { MainPage, InfoPage } from "../../pages";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import '../../style/style.scss'
 
 const App = () => {
 
@@ -8,7 +9,6 @@ const App = () => {
             <div className="app">
                 <Routes>
                     <Route path='/' element={<MainPage/>}/>
-                    {/* <Route path='/:id' element={<InfoPage/>}/> */}
                     <Route path='/:type/:name/:id' element={<InfoPage/>}/>
                 </Routes>
             </div>

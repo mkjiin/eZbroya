@@ -1,0 +1,13 @@
+.loading-page {
+    background-color: #CDC5AC;
+    min-height: 100vh;
+    &__text {
+            margin-top: 100px;
+            font-family: 'e-Ukraine';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 50px;
+            line-height: 20px;
+            text-align: center;
+    }
+}

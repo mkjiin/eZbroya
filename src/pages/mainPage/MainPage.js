@@ -9,6 +9,8 @@ import IntroSecPage from "../../components/introSecPage/IntroSecPage";
 import AdditionalInfoSecPage from "../../components/additionalInfoSecPage/AdditionalInfoSecPage";
 import YouTube from "../../components/youTube/YouTube";
 import Links from "../../components/links/Links";
+// import '../../style/_media.scss';
+
 
 const MainPage = () => {
     return (
