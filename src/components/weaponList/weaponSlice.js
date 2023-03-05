@@ -126,7 +126,7 @@ const filtersSlice = createSlice({
         activeStatusReset: (state) => {
             state.weaponsEnded = true;
             state.start = 0;
-            state.end = 8;
+            state.end = 11;
             if(state.yearValue !== null) {
                 state.start = 0;
                 state.end = 25;
