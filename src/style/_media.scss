@@ -21,9 +21,9 @@
     .content__weapon_item {
         width: 325px;
         &_link {
-            width: 288px;
+            width: 286px;
             &_img {
-                width: 288px;
+                width: 286px;
             }
         }
     }
@@ -56,7 +56,7 @@
 @media (max-width: 1348px) {
     .content__main {
         column-gap: 14px;
-        grid-template-columns: 259px 624px;
+        grid-template-columns: 259px 641px;
     }
     .content__sec-filters {
         &__button-country {
@@ -70,14 +70,14 @@
         }
     }
     .content__weapon_grid {
-        grid-template-columns: repeat(2, 307px);
+        grid-template-columns: repeat(2, 317px);
     }
     .content__weapon_item {
-        width: 307px;
+        width: 317px;
         &_link {
-            width: 270px;
+            width: 281px;
             &_img {
-                width: 270px;
+                width: 281px;
             }
         }
     }
