@@ -1,9 +1,15 @@
 .info {
     height: 422px;
     background-color: #CDC5AC;
-    padding: 22px 96px 0 96px;
-    display: flex;
-    justify-content: space-between;
+    padding: 22px 0 0 0;
+    // display: flex;
+    // justify-content: space-between;
+    &__wrapper {
+        width: 1327px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
     &__ua {
         width: 667px;
         // height: 333px;

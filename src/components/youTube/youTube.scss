@@ -1,7 +1,11 @@
 .youtube {
+    &__wrapper {
+        width: 1327px;
+        margin: 0 auto;
+    }
     height: 693px;
     background-color: #CDC5AC;
-    padding: 22px 96px 0 96px;
+    padding: 22px 0 0 0;
     iframe {
         border-radius: 20px !important;
     }

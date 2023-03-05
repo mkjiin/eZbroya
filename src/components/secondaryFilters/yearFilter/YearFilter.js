@@ -23,7 +23,9 @@ const StyledSlider = styled(Slider)`
   .MuiSlider-mark {
     color: #000000;
   }
-
+  .MuiSlider-root {
+    width: 260px
+  }
 `;
   
 const YearFilter = () => {
@@ -64,22 +66,29 @@ const YearFilter = () => {
       };
     
 
-    return (
+      return (
         <div className="content__form">
-            <h5 className="content__form__title">Рік виготовлення</h5>
-            <Box sx={{ width: 260 }}>
-                <StyledSlider
-                track={false}
-                aria-label="Restricted values"
-                step={null}
-                marks={marks}
-                onChange={handleChange}
-                disableSwap={true}
-                />
-            </Box>
-            {/* <button onClick={() => dispatch(yearChanging('reset'))}> Скинути</button> */}
+          <h5 className="content__form__title">Рік виготовлення</h5>
+          <Box sx={{ width: "100%" }}>
+            <StyledSlider
+              track={false}
+              aria-label="Restricted values"
+              step={null}
+              marks={marks}
+              onChange={handleChange}
+              disableSwap={true}
+              sx={{
+                width: "260px",
+                "@media (max-width: 1462px)": {
+                  width: "220px",
+                  marginLeft: "10px",
+                },
+              }}
+            />
+          </Box>
         </div>
-    )
+      );
+      
 }
 
 export default YearFilter;

@@ -1,8 +1,12 @@
 .app {
     &__header-info {
-    padding: 17px 96px 0 96px;
+    padding: 17px 0 0 0;
     height: 112px;
     background-color: #CDC5AC;
+    &__wrapper {
+        width: 1327px;
+        margin: 0 auto;
+    }
     img {
         width: 190px;
         height: 79px;

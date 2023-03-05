@@ -36,19 +36,21 @@ const AdditionalInfoSecPage = () => {
 
     return (
         <div className='info'>
-            <div className='info__ua'>
-                <div className='info__ua__title'>
-                    <h2 className='info__ua__title-dynamic'>{name}</h2>
-                    <h2 className='info__ua__title-static'>та Україна</h2>
-                    <img src={logo} alt="ua" className='info__ua__title-logo'/>
+            <div className='info__wrapper'>
+                <div className='info__ua'>
+                    <div className='info__ua__title'>
+                        <h2 className='info__ua__title-dynamic'>{name}</h2>
+                        <h2 className='info__ua__title-static'>та Україна</h2>
+                        <img src={logo} alt="ua" className='info__ua__title-logo'/>
+                    </div>
+                    <ul className='info__ua__text-block'>
+                        {listItem}
+                    </ul>
                 </div>
-                <ul className='info__ua__text-block'>
-                    {listItem}
-                </ul>
+                <Carousel className='info__carousel'>
+                {slides}
+                </Carousel>
             </div>
-            <Carousel className='info__carousel'>
-            {slides}
-            </Carousel>
         </div>
     )
 }

@@ -1,41 +1,87 @@
-@media (max-width: 1440px) {
-    .content__main {
-        padding: 0px 0px 0px 24px;
-        column-gap: 13px;
-    }
-    .intro {
-        padding: 0 55px 0 55px;
-    }
-    .app__header-info {
-        padding: 0 55px 0 55px;
-    }
-    .info {
-        padding: 22px 55px 0 55px;
-    }
-    .youtube {
-        padding: 22px 55px 0 55px;
-    }
-}
 
-@media (max-width: 1025px) {
-    .main_filters {
-        padding: 20px 40px 30px 55px;
-    }
+@media (max-width: 1462px) {
     .content__main {
-        grid-template-columns: 257px 361px;
+        column-gap: 10px;
+        grid-template-columns: 259px 1017px;
     }
     .content__sec-filters {
         &__button-country {
             width: 243px;
         }
         &__horizontal {
-            width: 242px;
+            width: 243px;
         }
         &__vertical {
-            left: 6px;
+            left: 9px;
         }
     }
-    .css-1k4uzxx {
-        width: 226px;
+    .content__weapon_grid {
+        grid-template-columns: repeat(3, 325px);
+    }
+    .content__weapon_item {
+        width: 325px;
+        &_link {
+            width: 288px;
+            &_img {
+                width: 288px;
+            }
+        }
+    }
+    .content__weapon_item_paggin {
+        margin-left: 466px;
+    }
+    .intro__wrapper {
+        width: 1315px;
+    }
+    .app__header-info__wrapper {
+        width: 1315px;
+    }
+    .app__header-info hr {
+        width: 1315px;
+    }
+    .info__wrapper {
+        width: 1315px
+    }
+    .info__ua__text-block {
+        width: 651px;
+    }
+    .youtube__wrapper {
+        width: 1315px;
+    }
+    .youtube hr {
+        width: 1315px;
+    }
+}
+
+@media (max-width: 1348px) {
+    .content__main {
+        column-gap: 14px;
+        grid-template-columns: 259px 624px;
+    }
+    .content__sec-filters {
+        &__button-country {
+            width: 243px;
+        }
+        &__horizontal {
+            width: 243px;
+        }
+        &__vertical {
+            left: 9px;
+        }
+    }
+    .content__weapon_grid {
+        grid-template-columns: repeat(2, 307px);
+    }
+    .content__weapon_item {
+        width: 307px;
+        &_link {
+            width: 270px;
+            &_img {
+                width: 270px;
+            }
+        }
+    }
+    .content__weapon_item_paggin {
+        margin-left: 229px;
     }
 }

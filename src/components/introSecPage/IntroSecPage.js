@@ -25,6 +25,7 @@ const IntroSecPage = () => {
 
     return (
         <div className='intro'>
+            <div className='intro__wrapper'>
             <div className='intro__title_flex'>
                 <h1 className='intro__title'>{name}</h1>
                 <img src={country_icon} alt="country" className='intro__title_img'/>
@@ -44,6 +45,7 @@ const IntroSecPage = () => {
                 <p className='intro__description'>
                     {description}
                 </p>
+            </div>
             </div>
         </div>
         

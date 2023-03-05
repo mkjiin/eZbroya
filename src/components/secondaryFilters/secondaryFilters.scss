@@ -1,10 +1,11 @@
 .content {
     &__main {
-        padding: 0 50px 0 50px;
+        // padding: 0 50px 0 50px;
         background-color: #CDC5AC;
         // background-color: #727C46;
+        justify-content: center;
         display: grid;
-        grid-template-columns: 286px 361px;
+        grid-template-columns: 286px 1107px;
         column-gap: 29px;
         align-items: start;
         min-height: 756px;

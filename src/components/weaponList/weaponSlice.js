@@ -7,7 +7,7 @@ const initialState = {
     activeCategory: 'Танки',
     turnedCategory: false,
     start: 0,
-    end: 8,
+    end: 11,
     weaponsEnded: true,
     activeFilter: 'all',
     activeAdditionalFilter: 'all',
@@ -34,7 +34,7 @@ const filtersSlice = createSlice({
     reducers: {
         activeCategoryChanged: (state, action) => {
             state.start = 0;
-            state.end = 8;
+            state.end = 11;
             state.weapons = [];
             state.weaponsEnded = true;
             state.activeFilter = 'all';
@@ -45,7 +45,7 @@ const filtersSlice = createSlice({
         },
         weaponsPaginate: (state, action) => {
 
-            if(action.payload.length <= 5) {
+            if(action.payload.length <= 10) {
                 state.weaponsEnded = true
             }
 
@@ -61,7 +61,7 @@ const filtersSlice = createSlice({
         activeFilterReset: (state) => {
             state.weaponsEnded = true;
             state.start = 0;
-            state.end = 8;
+            state.end = 11;
             if(state.yearValue !== null) {
                 state.start = 0;
                 state.end = 25;
@@ -100,7 +100,7 @@ const filtersSlice = createSlice({
         activeAdditionalFilterReset: (state) => {
             state.weaponsEnded = true;
             state.start = 0;
-            state.end = 8;
+            state.end = 11;
             if(state.yearValue !== null) {
                 state.start = 0;
                 state.end = 25;
@@ -145,7 +145,7 @@ const filtersSlice = createSlice({
         reset: (state) => {
             state.weapons = [];
             state.start = 0;
-            state.end = 8;
+            state.end = 11;
         }
     },
     extraReducers: (builder) => {
@@ -153,10 +153,10 @@ const filtersSlice = createSlice({
         .addCase(fetchedWeapons.pending, state => {state.weaponsLoadingStatus = 'loading'})
         .addCase(fetchedWeapons.fulfilled, (state, action) => {
             state.weaponsEnded = false;
-            state.start = state.start + 9;
-            state.end = state.end + 9
+            state.start = state.start + 12;
+            state.end = state.end + 12
 
-            if (action.payload.length < 9 || action.payload.length > 9) {
+            if (action.payload.length < 12 || action.payload.length > 12) {
                 state.weaponsEnded = true;
             }
               

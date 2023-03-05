@@ -1,7 +1,10 @@
 .intro {
     min-height:636px;
-    padding: 0 96px 0px 96px;
     background-color: #CDC5AC;
+    &__wrapper {
+        width: 1327px;
+        margin: 0 auto;
+    }
     &__title {
         font-family: 'e-Ukraine Head';
         font-style: normal;
@@ -20,6 +23,7 @@
         }
     }
     &__content {
+        // width: 1327px;
         margin-top: 5px;
         min-height: 550px;
         background: #D9D9D9;
