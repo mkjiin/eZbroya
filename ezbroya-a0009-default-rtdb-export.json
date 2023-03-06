@@ -1023,11 +1023,30 @@
         }
       },
       {
+        "additionalFiltres": 105,
+        "country": "nt",
+        "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/italy.png?alt=media&token=e47e2628-0376-455e-80a1-e1c6017fe175",
+        "description": "OTO Melara Mod 56 – італійська 105-мм гаубиця, яку створювали для гірсько-піхотних підрозділів. Довжина ствола – 14 калібрів. Гаубиця може вести вогонь на відстань понад 10 км з інтенсивністю 10 пострілів на хвилину. Кут пострілу може змінюватися від -7 до +65 градусів. Зброя легко розділяється обслугою на 12 складових, які можуть транспортуватися окремо. В італійській армії така особливість була передбачена для можливості переміщати вогневу міць, навіть, за допомогою мулів. Без захисного щита гаубицю можна перевозити всередині десантного відділення гусеничного бронетранспортера M113. Загалом було вироблено понад 2300 зразків, які перебували і дості стоять на озброєнні близько 30 країн.",
+        "id": 11,
+        "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmelara%2Fmelara1.png?alt=media&token=9a87899e-45bd-4128-a170-5c9ef4080767", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmelara%2Fmelara2.png?alt=media&token=f694f8a1-541c-4d50-ae0c-d31766db4fcc", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmelara%2Fmelara3.png?alt=media&token=089f1dbe-5e20-4749-887a-b9e4b33058b9", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fmelara%2FmelaraMain.png?alt=media&token=2e479977-2501-4e92-a3be-90bf3873d225"],
+        "name": "OTO Melara",
+        "type": "Гаубиці",
+        "year": "1956",
+        "yearValue": 1,
+        "introInfo": [["Тип:","Гаубиця"], ["Походження:","Італія"], ["На озброєнні:","з 1956р."], ["Калібр:","105 мм"]],
+        "uaInfo": ["У листопаді 2022 міністерка оборони Іспанії анонсувала поставку в Україну батереї із шести таких гаубиць", "У лютому 2023 року OTO Melara Mod 56 потрапили в об’єктив фотографа Associated Press у Авдіївці, Донецької області"],
+        "resources": {
+          "youtube": "youtube.com/embed/ac4a1te3SqQ",
+          "wiki": "https://uk.wikipedia.org/wiki/OTO_Melara_Mod_56",
+          "mil": "https://mil.in.ua/pl/tag/oto-melara/"
+        }
+      },
+      {
         "additionalFiltres": 152,
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "152-мм гаубиця «Мста-Б» — радянська 152-мм причіпна гаубиця, призначена для знищення тактичних засобів ядерного нападу, артилерійських і мінометних батарей, танків та інших броньованих засобів, руйнування польових фортифікаційних та інших оборонних споруд, придушення живої сили і вогневих засобів, пунктів управління, засобів протиповітряної і протиракетної оборони. Для забезпечення автоматизованого управління вогнем артилерійських дивізіонів, озброєних гаубицями «Мста-Б», розроблені комплекси «Фальцет» і «Капустнік». Гаубиця стоїть на озброєнні України і низки країн пострадянського простору.",
-        "id": 11,
+        "id": 12,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65_1.png?alt=media&token=efb5ef67-abc8-468f-aa60-66a6f35b3db2", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65_2.png?alt=media&token=620d4d30-1384-4162-ac88-112b846bb820", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65_3png.png?alt=media&token=9a5cedba-af3a-462a-9927-9790ff643fde", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65Main.png?alt=media&token=0c49517b-3a81-429a-ad72-3948bd8f173c"],
         "name": "2А65 «Мста-Б»",
         "type": "Гаубиці",
@@ -1058,7 +1077,7 @@
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "2Б16 «Нона-К» — радянська буксирована артилерійська система калібру 120 мм. 2Б16 містить в собі можливості гармати, гаубиці та міномета. Гармата 2Б16 «Нона-К» була розроблена з урахуванням досвіду бойових дій сухопутних військ Радянської армії у Афганістані. У 1986 році гармата була прийнята на озброєння. Гармата 2Б16 є буксированим варіантом гармати 2А51, встановленого на самохідну артилерійську установку 2С9 «Нона-С», та зберігає усі якості та особливості базової гармати. Призначена для артилерійських дивізіонів десантно-штурмових бригад",
-        "id": 13,
+        "id": 14,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2b16%2F2b16_1.png?alt=media&token=bd72ac01-f20c-4556-8eb8-3bf0facafebb", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2b16%2F2b16_2.png?alt=media&token=e5c31b20-e476-41cc-a6d9-b831a1c0f711", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2b16%2F2b16_3.png?alt=media&token=b3e3c676-64fb-456a-94dc-c77ba2531796", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2b16%2F2b16Mainpng.png?alt=media&token=fbfaa798-2801-486c-bb3c-b61fd9ce09bf"],
         "name": "2Б16 «Нона-К»",
         "type": "Гаубиці",
@@ -1077,7 +1096,7 @@
         "country": "ua",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/ukraine.png?alt=media&token=87944fa5-e2c1-4edb-8886-e29d12937f40",
         "description": "85-мм дивізійна гармата Д-44  — радянська дивізійна польова артилерійська гармата калібру 85 мм, яка використовувалася в останніх епізодах Другої світової війни. Д-44 випускалася з 1945 по 1953 рік. Протягом 1948—1950 років випускалося понад дві тисячі Д-44 на рік. Гармата Д-44 послужила основою для створення 85-мм протитанкової гармати Д-48, а також реактивна система залпового вогню РПУ-14 використовує лафет від Д-44. До 1950-х років Д-44 було експортовано для використання країнами Варшавського договору, і гармата залишалася на озброєнні Національної народної армії Східної Німеччини до падіння Східної Німеччини.",
-        "id": 14,
+        "id": 15,
         "img":  ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44%2Fd44_1.png?alt=media&token=a4439b9e-411d-48dc-9b1d-42e487c400fa", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44%2Fd44_2.png?alt=media&token=0f4ee30d-5f1e-4099-b18c-359456618a2e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44%2Fd44_3.png?alt=media&token=f0fded1e-571c-4a86-bb49-68c33411cb4d", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2Fd44%2Fd44_main.png?alt=media&token=0cb8770b-6704-4fdf-b281-f9d81038e9b8"],
         "name": "Д-44",
         "type": "Гаубиці",
@@ -1097,7 +1116,7 @@
         "additionalFiltres": "152",
         "country": "tr",
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
-        "id": 11,
+        "id": 12,
         "img": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/howitzer%2F2a65%2F2a65_3png.png?alt=media&token=9a5cedba-af3a-462a-9927-9790ff643fde",
         "name": "2А65 «Мста-Б»",
         "yearValue": 40
@@ -2001,9 +2020,22 @@
   ],
   "slider": [
     {
-      "sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2Fslider1.png?alt=media&token=05f4122d-2092-4178-b74c-f523fa7e3d7a"
+      "sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2FMelaraSlider.png?alt=media&token=cb5e7790-9e1d-4ed6-968e-9df9f60453eb",
+      "id": 11,
+      "type": "Гаубиці",
+      "name": "OTO Melara Mod 56"
     },
-    {"sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2Fslider2.png?alt=media&token=85296fea-c7f8-42e3-8c8d-559dd35d3687"},
-    {"sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2Fslider3.png?alt=media&token=cb445b34-d913-4a07-bf48-84325ab22e19"}
+    {
+      "sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2FchallengerSlider.png?alt=media&token=c534f05f-8a3d-4eea-bc65-0c262a1b0529",
+      "id": 9,
+      "type": "Танки",
+      "name": "Challenger 2"
+    },
+    {
+      "sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2FcroatiaSlider.png?alt=media&token=07de5f21-9542-4ecc-ae42-4cb4c0c42405",
+      "id": 4,
+      "type": "Авіація",
+      "name": "Мі-8"
+    }
   ]
 }

@@ -13,8 +13,7 @@ const initialState = {
             mil: ''
         }
 
-    },
-    restOfLink: null
+    }
 }
 
 export const fetchedInfoPage = createAsyncThunk(
@@ -29,10 +28,6 @@ export const fetchedInfoPage = createAsyncThunk(
 const infoPageSlice = createSlice({
     name: 'infoPage',
     initialState,
-    reducers: {
-        getRestOfLink: (state, action) => {state.restOfLink = action.payload;
-        console.log(action.payload)}
-    },
     extraReducers: (builder) => {
         builder
             .addCase(fetchedInfoPage.pending, state => {state.pageLoadingStatus = 'loading'})
@@ -53,5 +48,4 @@ export const {
     infoPageFetching, 
     infoPageFetched, 
     infoPageError,
-    getRestOfLink
 } = actions;

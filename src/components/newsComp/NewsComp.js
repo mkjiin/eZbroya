@@ -3,6 +3,7 @@ import { Carousel } from 'antd';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchedSlider } from './newsSlice';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const NewsComp = () => {
 
@@ -14,16 +15,17 @@ const NewsComp = () => {
     }, [])
        
     const renderSlider = (arr) => {
-        return arr.map(({sliderPhoto}, i) => {
+        return arr.map(({sliderPhoto, id, name, type}) => {
+            const formattedName = name.replace(/\s+/g, '__');
             return (
             <div
-            key={i}>
-                <a href="#" className='news__link'>
+            key={id}>
+                <Link to={`/${encodeURIComponent(type)}/${encodeURIComponent(formattedName)}/${encodeURIComponent(id-1)}`} className='news__link'>
                     <img src={sliderPhoto} alt="tank" className='news__link_img'/>
                     <div className='news__link_overlay'>
-                        <h2 className='news__more'>Дізнатися про техніку</h2>
+                        <h2 className='news__more'>Дізнатися більше про {name}</h2>
                     </div>
-                </a>
+                </Link>
             </div>
             )
         })

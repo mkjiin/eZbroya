@@ -7,7 +7,6 @@ import { useEffect, useState, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchedWeapons } from './weaponSlice';
 import { reset, weaponsPaginate } from '../weaponList/weaponSlice';
-import { getRestOfLink } from '../../pages/infoPage/infoPageSlice';
 import Spinner from '../spinner/Spinner';
 
 const WeaponList = () => {
@@ -73,10 +72,10 @@ const WeaponList = () => {
     }
     }, [weaponsLoadingStatus])
 
-    const onClick = (activeCategory, id) => {
-      dispatch(getRestOfLink(`/${activeCategory}/${id}`));
-      dispatch(reset())
-    }
+    // const onClick = (activeCategory, id) => {
+    //   dispatch(getRestOfLink(`/${activeCategory}/${id}`));
+    //   dispatch(reset())
+    // }
 
     const renderWeapons = (arr) => {
         
@@ -97,7 +96,7 @@ const WeaponList = () => {
                             <img src={country_icon} alt={country} className='content__weapon_item_country'/>
                         </div>
                         <div>
-                        <Link to={`/${encodeURIComponent(type)}/${encodeURIComponent(formattedName)}/${encodeURIComponent(id-1)}`} className='content__weapon_item_link' onClick={() => onClick(activeCategory,(id - 1))}>
+                        <Link to={`/${encodeURIComponent(type)}/${encodeURIComponent(formattedName)}/${encodeURIComponent(id-1)}`} className='content__weapon_item_link' onClick={() => dispatch(reset())}>
                             <img src={img} alt="tank" className='content__weapon_item_link_img'/>
                             <div className='content__weapon_item_link_overlay'>
                                 <h2 className='content__weapon_item_more'>Подробиці</h2>

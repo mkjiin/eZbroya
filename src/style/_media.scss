@@ -85,3 +85,79 @@
         margin-left: 229px;
     }
 }
+
+@media (max-width: 991px) {
+    .app__header hr {
+        width: 550px;
+    }
+    .news {
+        height: 495px;
+    }
+    .news__link_overlay h2 {
+        width: 728px;
+    }
+    .news__link {
+        width: 728px;
+        height: 450px;
+    }
+    .news__link_img {
+        width: 728px;
+        height: 450px;
+    }
+    .news__link_overlay {
+        height: 450px;
+        width: 728px;
+    }
+    .main_filters {
+        height: 500px;
+    }
+    .main_filters__grid {
+        grid-template-columns: repeat(4, 170px);
+        justify-content: center;
+    }
+    .main_filters__item {
+        height: 170px;
+    }
+    .main_filters__item img {
+        width: 90px;
+        height: 90px;
+    }
+    .main_filters__item h3 {
+        font-size: 22px;
+    }
+    .main_filters__second-line {
+        width: 550px;
+    }
+    .content__main {
+        column-gap: 14px;
+        grid-template-columns: 641px;
+    }
+    .content__sec-filters {
+        display: none;
+    }
+    .content__weapon_grid {
+        grid-template-columns: repeat(2, 361px);
+    }
+    .content__weapon_item {
+        width: 361px;
+        &_link {
+            width: 323px;
+            &_img {
+                width: 323px;
+            }
+        }
+    }
+    .content__main {
+        grid-template-columns: 734px;
+    }
+    .content__weapon_item_paggin {
+        margin-left: 277px;
+    }
+    .content__weapon_item_paggin {
+        width: 197px;
+        height: 56px;
+        border-radius: 17px;
+        font-size: 23px;
+        margin-left: 277px;
+    }
+}

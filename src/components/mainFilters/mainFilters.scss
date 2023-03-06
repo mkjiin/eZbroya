@@ -29,11 +29,12 @@
         display: grid;
         grid-template-columns: repeat(4, 220px);
         grid-gap: 10px;
-        width: 917px;
+        // width: 917px;
         margin: 0 auto;
         margin-top: 20px;
         row-gap: 12px;
         // margin-left: 43px;
+        justify-content: center;
     }
     &__item {
         list-style: none;
