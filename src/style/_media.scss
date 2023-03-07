@@ -129,14 +129,46 @@
         width: 550px;
     }
     .content__main {
-        column-gap: 14px;
-        grid-template-columns: 641px;
+        display: block;
+        padding-bottom: 15px;
     }
     .content__sec-filters {
-        display: none;
+        // display: none;
+        position: fixed;
+        left: -50%;
+        transform: translateX(50%);
+        &__vertical {
+            display: none
+        }
+        &__horizontal {
+            width: 44vw;
+        }
+        &__button-country {
+            width: 44vw;
+        }
+        &__back-button {
+            display: block;
+        }
+    }
+    .content__sec-filters_active {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        background-color: #CDC5AC;
+        width: 50%;
+        padding: 50px 20px 20px 20px;
+        overflow-y: auto;
+        max-height: 100vh;
+        transition: 0.6s all;
+        //
+        
     }
     .content__weapon_grid {
         grid-template-columns: repeat(2, 361px);
+        justify-content: center;
+        margin-top: 20px;
     }
     .content__weapon_item {
         width: 361px;
@@ -158,6 +190,15 @@
         height: 56px;
         border-radius: 17px;
         font-size: 23px;
-        margin-left: 277px;
+        margin: 0 auto;
+        margin-bottom: 0px;
+    }
+    .content__main__button {
+        display: flex;
+    }
+    .content__overflow-hide {
+        opacity: 0; 
+        pointer-events: none;
+        transition: 0.6s opacity;
     }
 }

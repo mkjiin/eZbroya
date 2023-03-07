@@ -7,7 +7,8 @@ const initialState = {
         filtersLabels: []
     },
     additionalFiltresLoadingStatus: 'idle',
-    additionalFiltresId: 0
+    additionalFiltresId: 0,
+    filterShowStatus: false
 }
 
 export const fetchedAdditionalFiltres = createAsyncThunk(
@@ -22,7 +23,13 @@ const additionalFiltresSlice = createSlice({
     name: 'additionalFiltres',
     initialState,
     reducers: {
-        additionalFiltresIdChange: (state, action) => {state.additionalFiltresId = action.payload}
+        additionalFiltresIdChange: (state, action) => {state.additionalFiltresId = action.payload},
+        showFilter: (state) => {
+            state.filterShowStatus = true
+        },
+        hideFilter: (state) => {
+            state.filterShowStatus = false
+        }
     },
     extraReducers: (builder) => {
         builder
@@ -46,4 +53,6 @@ export const {
     additionalFiltresFetched,
     additionalFiltresFetchingError,
     additionalFiltresIdChange,
+    showFilter,
+    hideFilter
 } = actions;

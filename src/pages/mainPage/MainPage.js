@@ -3,6 +3,7 @@ import NewsComp from "../../components/newsComp/NewsComp";
 import MainFilters from "../../components/mainFilters/MainFilters";
 import SecondaryFilters from "../../components/secondaryFilters/SecondaryFilters";
 import WeaponList from "../../components/weaponList/WeaponList";
+import FilterButton from "../../components/filterButton/FilterButton";
 ///////
 import AppHeaderInfoPage from "../../components/appHeaderInfoPage/AppHeaderInfoPage";
 import IntroSecPage from "../../components/introSecPage/IntroSecPage";
@@ -19,6 +20,7 @@ const MainPage = () => {
             <NewsComp/>
             <MainFilters/>
             <div className='content__main'>
+                <FilterButton/>
                 <SecondaryFilters/>
                 <WeaponList/>
             </div>

@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchedSlider } from './newsSlice';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { reset } from '../weaponList/weaponSlice';
 
 const NewsComp = () => {
 
@@ -20,7 +21,7 @@ const NewsComp = () => {
             return (
             <div
             key={id}>
-                <Link to={`/${encodeURIComponent(type)}/${encodeURIComponent(formattedName)}/${encodeURIComponent(id-1)}`} className='news__link'>
+                <Link to={`/${encodeURIComponent(type)}/${encodeURIComponent(formattedName)}/${encodeURIComponent(id-1)}`} className='news__link'  onClick={() => dispatch(reset())}>
                     <img src={sliderPhoto} alt="tank" className='news__link_img'/>
                     <div className='news__link_overlay'>
                         <h2 className='news__more'>Дізнатися більше про {name}</h2>
