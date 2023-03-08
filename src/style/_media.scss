@@ -263,3 +263,82 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+    .app__header {
+        &__title {
+            font-size: 22px;
+        }
+        hr {
+            width: 300px;
+        }
+    }
+    .news {
+        height: 258px;
+        &__link {
+            width: 300px;
+            height: 225px;
+            &_img {
+                width: 300px;
+                height: 225px;
+            }
+            &_overlay {
+                width: 300px;
+                height: 225px;
+            }
+        }
+    }
+    .main_filters {
+        height: 814px;
+        &__grid {
+            grid-template-columns: repeat(2, 145px);
+        }
+        &__item {
+            height: 145px;
+            img {
+                width: 90px;
+                height: 90px;
+            }
+            h3 {
+                font-size: 21px;
+            }
+        }
+        &__first-line {
+            width: 300px;
+        }
+        &__second-line {
+            width: 300px;
+        }
+    }
+    .content__main {
+        &__button {
+            width: 256px;
+            &__title {
+                font-size: 22px;
+                margin-left: 68px;
+                img {
+                    width: 27px;
+                    height: 27px;
+                }
+            }
+        }
+    }
+    .content__weapon {
+        &_grid {
+            grid-template-columns: repeat(1, 300px);
+        }
+        &_item {
+            width: 300px;
+            padding: 9px 16px 16px 16px;
+            height: 227px;
+            &_link {
+                width: 270px;
+                height: 166px;
+                &_img {
+                    width: 270px;
+                    height: 166px;
+                }
+            }
+        }
+    }
+}
