@@ -85,7 +85,10 @@ const YearFilter = () => {
                 },
                 "@media (max-width: 991px)": {
                   width: '41vw'
-                }
+                },
+                "@media (max-width: 575px)": {
+                  width: '81vw'
+                } 
               }}
             />
           </Box>

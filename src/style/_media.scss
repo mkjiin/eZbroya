@@ -104,12 +104,14 @@
         width: 728px;
         height: 450px;
     }
+    .news__more {
+        display: none;
+    }
     .news__link_overlay {
-        height: 450px;
-        width: 728px;
+        display: none;
     }
     .main_filters {
-        height: 500px;
+        height: 497px;
     }
     .main_filters__grid {
         grid-template-columns: repeat(4, 170px);
@@ -214,13 +216,12 @@
                 height: 360px;
             }
             &_overlay {
-                width: 550px;
-                height: 360px;
+                display: none;
             }
         }
     }
     .main_filters {
-        height: 1117px;
+        height: 1114px;
         &__grid {
             grid-template-columns: repeat(2, 232px);
         }
@@ -244,8 +245,11 @@
             width: 269px;
             padding: 8px 16px 16px 16px;
             height: 218px;
+            &_title {
+                width: 246px;
+            }
             &_name {
-                font-size: 232x;
+                font-size: 21px;
             }
             &_country {
                 width: 23px;
@@ -266,7 +270,7 @@
 
 @media (max-width: 575px) {
     .app__header {
-        &__title {
+        &-title {
             font-size: 22px;
         }
         hr {
@@ -283,15 +287,20 @@
                 height: 225px;
             }
             &_overlay {
-                width: 300px;
-                height: 225px;
+                display: none;
             }
+        }
+        &__more {
+            display: none;
         }
     }
     .main_filters {
-        height: 814px;
+        height: 762px;
         &__grid {
             grid-template-columns: repeat(2, 145px);
+        }
+        &__title {
+            font-size: 30px;
         }
         &__item {
             height: 145px;
@@ -331,6 +340,9 @@
             width: 300px;
             padding: 9px 16px 16px 16px;
             height: 227px;
+            &_title {
+                width: 273px;
+            }
             &_link {
                 width: 270px;
                 height: 166px;
@@ -340,5 +352,30 @@
                 }
             }
         }
+    }
+    .content__sec-filters_active {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        background-color: #CDC5AC;
+        width: 100%;
+        padding: 50px 20px 20px 20px;
+        overflow-y: auto;
+        max-height: 100vh;
+        transition: 0.6s all;
+    }
+    .content__sec-filters__title-country {
+        font-size: 23px;
+    }
+    .content__sec-filters__button-country {
+        width: 85vw;
+    }
+    .content__sec-filters__horizontal {
+        width: 85vw;
+    }
+    .content__sec-filters__back-button {
+        width: 85vw;
     }
 }
