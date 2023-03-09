@@ -23,6 +23,10 @@ const IntroSecPage = () => {
 
     const elements = renderList(introInfo);
 
+    const introFlexInfoStyle = {
+        height: status === 'no' ? '245px' : '206px'
+    };
+
     return (
         <div className='intro'>
             <div className='intro__wrapper'>
@@ -33,12 +37,13 @@ const IntroSecPage = () => {
             </div>
             <div className='intro__content'>
                 <div className='intro__flex'>
-                   <div className='intro__flex__info'>
+                   <div className='intro__flex__info' style={introFlexInfoStyle}>
                     <ul className='intro__flex__info__list'>
                         {elements}
                     </ul>
-                    <hr/>
+                    {window.innerWidth > 990 ? <hr/> : ''}
                     {status === 'no' ? <h3 className='intro__status'>Очікується Збройними Силами</h3> : ''}
+                    {window.innerWidth < 991 ? <hr/> : ''}
                 </div>
                 <img src={img[3]} alt={name} className='intro__flex__img'/>
                 </div>
@@ -48,7 +53,6 @@ const IntroSecPage = () => {
             </div>
             </div>
         </div>
-        
     )
 }
 

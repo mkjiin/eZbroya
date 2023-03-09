@@ -25,7 +25,7 @@ const AdditionalInfoSecPage = () => {
             return (
                 <div
                 key={i}>
-                    <img src={el} alt="sliderPhoto" />
+                    <img src={el} alt="sliderPhoto" className='info__ua__img'/>
                 </div>
             )
         })

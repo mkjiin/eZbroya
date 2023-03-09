@@ -1186,13 +1186,13 @@
         "country_icon": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/devil.png?alt=media&token=1c3a275b-2f91-4840-9733-042379f6ea92",
         "description": "ТОС — сімейство російських важких вогнеметних систем залпового вогню калібру 220-мм. Ведуть вогонь запалювальними або термобаричними боєприпасами. Комплекс призначався для виведення з ладу легкоброньованої й автомобільної техніки, підпалу та руйнування споруд та будівель, знищення живої сили супротивника (розташованої на відкритій місцевості і в фортифікаційних спорудах) осколками та ударною хвилею, а також виникнення пожеж. Навіть на 2022 рік, після її неодноразового застосування у кількох війнах, система офіційно не прийнята на озброєння артилерійських частин, а числиться в штатах допоміжних підрозділів: військ радіаційного, хімічного і біологічного захисту. У військах комплекс мав неофіційну назву «Буратіно» за характерний зовнішній вигляд.",
         "id": 4,
-        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2Ftoc1.png?alt=media&token=e43249ff-ac0f-49a3-89cc-73ada06f938e", "hhttps://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2Ftoc2.png?alt=media&token=ddbb1c26-e69e-4cb8-99d4-26c3ccc08ac5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2Ftoc3.png?alt=media&token=9af695bd-c7e2-47ff-9ad5-c9eb509465a6", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2FtocMain.png?alt=media&token=e2ed2504-035a-4029-94e8-91fec25c124c"],
+        "img": ["https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2Ftoc1.png?alt=media&token=e43249ff-ac0f-49a3-89cc-73ada06f938e", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2Ftoc2.png?alt=media&token=ddbb1c26-e69e-4cb8-99d4-26c3ccc08ac5", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2Ftoc3.png?alt=media&token=9af695bd-c7e2-47ff-9ad5-c9eb509465a6", "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/mrl%2Ftoc%2FtocMain.png?alt=media&token=e2ed2504-035a-4029-94e8-91fec25c124c"],
         "name": "ТОС-1",
         "type": "Реактивні Системи Залпового Вогню",
         "year": "1988",
         "yearValue": 60,
         "introInfo": [["Тип:","РЗСВ"], ["Походження:","СРСР"], ["На озброєнні:","з 1988р."], ["Дальнобійність:","до 6 км"]],
-        "uaInfo": ["2 березня була захоплена ТЗМ-Т система ТОС-1А «Солнцепьок» українськими військовими у Чернігівській області", "5 квітня 2022 року українські військові вперше застосували захоплені російські ТОС-1А «Солнцепьок» в Ізюмському напрямку проти російських загарбників"],
+        "uaInfo": ["2 березня була захоплена ТЗМ-Т система ТОС-1А «Солнцепьок» українськими військовими у Чернігівській області", "5 квітня 2022 року українські військові вперше застосували захоплені російські ТОС-1А «Солнцепьок» в Ізюмському напрямку проти російських загарбників", "8 березня 2022 Спецпризначенці СБУ знищили російську систему «Сонцепьок» FPV-дроном"],
         "resources": {
           "youtube": "youtube.com/embed/OkkdjmQqnhk",
           "wiki": "https://uk.wikipedia.org/wiki/%D0%A2%D0%9E%D0%A1_(%D0%A0%D0%A1%D0%97%D0%92)",
@@ -2020,6 +2020,12 @@
   ],
   "slider": [
     {
+      "sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2Ftoc.png?alt=media&token=348dcc10-c7fe-4af1-8a97-45cf077ac2b6",
+      "id": 4,
+      "type": "Реактивні Системи Залпового Вогню",
+      "name": "ТОС-1"
+    },
+    {
       "sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2FMelaraSlider.png?alt=media&token=cb5e7790-9e1d-4ed6-968e-9df9f60453eb",
       "id": 11,
       "type": "Гаубиці",
@@ -2030,12 +2036,6 @@
       "id": 9,
       "type": "Танки",
       "name": "Challenger 2"
-    },
-    {
-      "sliderPhoto": "https://firebasestorage.googleapis.com/v0/b/ezbroya-a0009.appspot.com/o/slider%2FcroatiaSlider.png?alt=media&token=07de5f21-9542-4ecc-ae42-4cb4c0c42405",
-      "id": 4,
-      "type": "Авіація",
-      "name": "Мі-8"
     }
   ]
 }

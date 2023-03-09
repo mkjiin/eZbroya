@@ -51,6 +51,9 @@
     .youtube hr {
         width: 1315px;
     }
+    .youtube {
+        height: 764px;
+    }
 }
 
 @media (max-width: 1348px) {
@@ -83,6 +86,90 @@
     }
     .content__weapon_item_paggin {
         margin-left: 229px;
+    }
+    .app__header-info {
+        &__wrapper {
+            width: 956px;
+        }
+        hr {
+            width: 950px;
+        }
+    }
+    .intro {
+        &__content {
+            padding: 11px 25px 20px 25px;
+        }
+        &__wrapper {
+            width: 950px;
+        }
+        &__flex{
+            &__info {
+                width: 386px;
+                height: 350px;
+                &__list__item {
+                    width: 378px;
+                    &-title {
+                        font-size: 20px;
+                    }
+                    &-text {
+                        font-size: 20px;
+                    }
+                }
+                hr {
+                    width: 378px;
+                }
+            }
+            &__img {
+                width: 515px;
+                height: 330px;
+            }
+        }
+    }
+    .info {
+        height: 363px;
+        &__wrapper {
+            width: 950px;
+        }
+        &__ua {
+            width: 434px;
+            &__title {
+                &-dynamic {
+                    font-size: 24px;
+                }
+                &-static {
+                    font-size: 24px;
+                }
+                &-logo {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            &__text-block {
+                width: 434px;
+                height: 293px;
+                margin-top: 5px;
+                padding: 0px 10px 0px 26px;
+            }
+            &__text {
+                font-size: 13px
+            }
+           
+        }
+        &__carousel {
+            width: 500px;
+            height: 340px;
+            img {
+                width: 500px;
+                height: 340px;
+            }
+        }
+    }
+    .youtube {
+        height: 558px;
+        &__wrapper {
+            width: 950px;
+        }
+        hr {width: 950px;}
     }
 }
 
@@ -203,6 +290,103 @@
         pointer-events: none;
         transition: 0.6s opacity;
     }
+    .app__header-info {
+        &__wrapper {
+            width: 732px;
+        }
+        hr {
+            width: 721px;
+        }
+    }
+    .intro {
+        &__title {
+            font-size: 55px;
+            &_img {
+                width: 57px;
+                height: 57px;
+            }
+        }
+        &__description {
+            font-size: 19px;
+        }
+        &__content {
+            padding: 0px 13px 13px 13px;
+        }
+        &__wrapper {
+            width: 721px;
+        }
+        &__flex {
+            flex-direction: column-reverse;
+            &__img {
+                width: 695px;
+                height: 360px;
+            }
+            &__info {
+                width: 695px;
+                &__list {
+                    &__item {
+                        width: 695px;
+                    }
+                }
+            }
+        }
+        hr {
+            width: 695px;
+        }
+    }
+    .info {
+        padding-top: 14px;
+        height: 810px;
+        &__wrapper {
+        width: 721px;
+        flex-direction: column-reverse;
+        }
+        &__carousel {
+            width: 721px;
+            height: 444px;
+            border-radius: 25px;
+            img {
+                border-radius: 25px;
+                width: 721px;
+                height: 444px;
+            }
+        }
+        &__ua {
+            margin-top: 11px;
+            width: 721px;
+            &__text-block {
+                width: 721px;
+                margin-top: 11px;
+                padding: 8px 18px 0px 28px;
+                border-radius: 25px;
+            }
+            &__title {
+                &-dynamic {
+                    font-size: 36px;
+                }
+                &-static {
+                    font-size: 36px;
+                }
+                &-logo {
+                    width: 36px;
+                    height: 36px;
+                }
+            }
+            &__text {
+                font-size: 19px;
+            }
+        }
+    }
+    .youtube {
+        height: 435px;
+        &__wrapper {
+            width: 721px;
+        }
+        hr {
+            width: 721px;
+        }
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -264,6 +448,63 @@
                     height: 153px;
                 }
             }
+        }
+    }
+    .app__header-info {
+        &__wrapper {
+            width: 540px;
+        }
+        hr {
+            width: 545px;
+        }
+    }
+    .intro {
+        &__wrapper {
+            width: 545px;
+        }
+        &__flex {
+            &__img {
+                width: 519px;
+                height: 306px;
+            }
+            &__info {
+                width: 519px;
+                &__list__item {
+                    width: 519px;
+                }
+            }
+        }
+        hr {
+            width: 519px;
+        }
+    }
+    .info {
+        height: 734px;
+        &__wrapper {
+            width: 545px;
+        }
+        &__carousel {
+            width: 545px;
+            height: 332px;
+            img {
+                width: 545px;
+                height: 332px; 
+            }
+        }
+        &__ua {
+            &__text-block {
+                width: 545px;
+                height: 328px;
+            }
+        }
+    }
+    .youtube {
+        height: 339px;
+        &__wrapper {
+            width: 545px;
+        }
+        hr {
+            width: 545px;
         }
     }
 }
@@ -377,5 +618,62 @@
     }
     .content__sec-filters__back-button {
         width: 85vw;
+    }
+    .app__header-info {
+        &__wrapper {
+            width: 295px;
+        }
+        hr {
+            width: 300px;
+        }
+    }
+    .intro {
+        &__wrapper {
+            width: 300px;
+        }
+        &__flex {
+            &__img {
+                width: 274px;
+                height: 159px;
+            }
+            &__info {
+                width: 274px;
+                &__list__item {
+                    width: 274px;
+                }
+            }
+        }
+        hr {
+            width: 274px;
+        }
+    }
+    .info {
+        height: 734px;
+        &__wrapper {
+            width: 545px;
+        }
+        &__carousel {
+            width: 545px;
+            height: 332px;
+            img {
+                width: 545px;
+                height: 332px; 
+            }
+        }
+        &__ua {
+            &__text-block {
+                width: 545px;
+                height: 328px;
+            }
+        }
+    }
+    .youtube {
+        height: 339px;
+        &__wrapper {
+            width: 545px;
+        }
+        hr {
+            width: 545px;
+        }
     }
 }
