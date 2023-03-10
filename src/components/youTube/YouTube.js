@@ -31,15 +31,15 @@ const YouTube = () => {
               : "1328"
           }
           height={
-            isLargeScreen || isMediumScreen
-              ? "650"
+           isMediumScreen
+              ? "550"
               : isSmallScreen
               ? "500"
               : isXSmallScreen
               ? "294"
               : isPhoneScreen
               ? "174"
-              : "550"
+              : "700"
           }
           src={`https://www.${resources.youtube}`}
           title="YouTube video player"
