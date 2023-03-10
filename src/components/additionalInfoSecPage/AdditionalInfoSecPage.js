@@ -43,9 +43,11 @@ const AdditionalInfoSecPage = () => {
                         <h2 className='info__ua__title-static'>та Україна</h2>
                         <img src={logo} alt="ua" className='info__ua__title-logo'/>
                     </div>
-                    <ul className='info__ua__text-block'>
-                        {listItem}
-                    </ul>
+                    <div className='info__ua__text-block'>
+                        <ul className='info__ua__text-ul'>
+                            {listItem}
+                        </ul>
+                    </div>
                 </div>
                 <Carousel className='info__carousel'>
                 {slides}

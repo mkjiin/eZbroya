@@ -105,7 +105,7 @@
         &__flex{
             &__info {
                 width: 386px;
-                height: 350px;
+                // height: 350px;
                 &__list__item {
                     width: 378px;
                     &-title {
@@ -126,7 +126,7 @@
         }
     }
     .info {
-        height: 363px;
+        min-height: 363px;
         &__wrapper {
             width: 950px;
         }
@@ -146,9 +146,9 @@
             }
             &__text-block {
                 width: 434px;
-                height: 293px;
+                min-height: 293px;
                 margin-top: 5px;
-                padding: 0px 10px 0px 26px;
+                padding: 1px 10px 0px 26px;
             }
             &__text {
                 font-size: 13px
@@ -336,7 +336,7 @@
     }
     .info {
         padding-top: 14px;
-        height: 810px;
+        min-height: 810px;
         &__wrapper {
         width: 721px;
         flex-direction: column-reverse;
@@ -477,9 +477,16 @@
         hr {
             width: 519px;
         }
+        &__title {
+            font-size: 43px;
+            &_img {
+                width: 44px;
+                height: 44px;
+            }
+        }
     }
     .info {
-        height: 734px;
+        min-height: 734px;
         &__wrapper {
             width: 545px;
         }
@@ -494,7 +501,7 @@
         &__ua {
             &__text-block {
                 width: 545px;
-                height: 328px;
+                min-height: 328px;
             }
         }
     }
@@ -620,60 +627,148 @@
         width: 85vw;
     }
     .app__header-info {
+        padding: 15px 0 0 0;
+        height: 84px;
         &__wrapper {
-            width: 295px;
+            width: 305px;
         }
         hr {
-            width: 300px;
+            width: 310px;
+            margin-top: 4px;
+        }
+        img {
+            width: 138px;
+            height: 57px;
         }
     }
     .intro {
+        min-height: 617px;
         &__wrapper {
-            width: 300px;
+            width: 310px;
         }
         &__flex {
             &__img {
-                width: 274px;
-                height: 159px;
+                width: 284px;
+                height: 169px;
             }
             &__info {
-                width: 274px;
+                width: 284px;
                 &__list__item {
-                    width: 274px;
+                    width: 284px;
+                    margin-top: 9px;
+                    &-title {
+                        font-size: 15px;
+                    }
+                    &-text {
+                        font-size: 15px;
+                    }
                 }
             }
         }
         hr {
-            width: 274px;
+            width: 284px;
+            margin-top: 10px;
+        }
+        &__title {
+            font-size: 24px;
+            &_img {
+                width: 24px;
+                height: 24px;
+                margin-left: 6px;
+            }
+        }
+        &__status {
+            font-size: 21px;
+        }
+        &__description {
+            margin-top: 10px;
+            font-size: 16px;
         }
     }
     .info {
-        height: 734px;
+        min-height: 363px;
+        padding-top: 10px;
         &__wrapper {
-            width: 545px;
+            width: 310px;
         }
         &__carousel {
-            width: 545px;
-            height: 332px;
+            width: 310px;
+            height: 186px;
             img {
-                width: 545px;
-                height: 332px; 
+                width: 310px;
+                height: 186px; 
             }
         }
         &__ua {
-            &__text-block {
-                width: 545px;
-                height: 328px;
+            margin-top: 7px;
+            width: 310px;
+            &__text {
+                font-size: 16px;
+            }
+            &__text {
+                &-item {
+                    margin-top: 9px;
+                }
+                &-block {
+                margin-top: -5px;
+                width: 310px;
+                min-height: 140px;
+                padding: 0px 18px 0px 28px;
+                }
+                &-ul {
+                    height: 100%;
+                }
+            }
+            &__title {
+                &-dynamic {
+                    font-size: 17px;
+                    line-height: 0;
+                }
+                &-static {
+                    font-size: 17px;
+                    margin-left: 6px;
+                    line-height: 0;
+                }
+                &-logo {
+                    width: 22px;
+                    height: 22px;
+                    margin-bottom: 3px;
+                }
             }
         }
     }
     .youtube {
-        height: 339px;
+        padding: 10px 0 0 0;
+        height: 198px;
         &__wrapper {
-            width: 545px;
+            width: 310px;
         }
         hr {
-            width: 545px;
+            width: 310px;
+            margin-top: 7px;
+        }
+    }
+    .links {
+        height: 50px;
+        padding-top: 10px;
+        &__buttons {
+            width: 310px;
+        }
+        &__button {
+            width: 150px;
+            height: 30px;
+            h2 {
+                font-size: 16px;
+            }
+            img {
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+    .loading-page {
+        &__text {
+                font-size: 30px;
         }
     }
 }

@@ -1,3 +1,5 @@
+
+
 import './youTube.scss'
 import { useSelector } from 'react-redux'
 
@@ -8,7 +10,8 @@ const YouTube = () => {
   const isLargeScreen = screenWidth > 1348 && screenWidth < 1462;
   const isMediumScreen = screenWidth > 990 && screenWidth < 1349;
   const isSmallScreen = screenWidth > 767 && screenWidth < 991;
-  const isXSmallScreen = screenWidth <= 767;
+  const isXSmallScreen = screenWidth > 575 && screenWidth < 768;
+  const isPhoneScreen = screenWidth <= 575;
 
   return (
     <div className='youtube'>
@@ -23,6 +26,8 @@ const YouTube = () => {
               ? "721"
               : isXSmallScreen
               ? "545"
+              : isPhoneScreen
+              ? "310"
               : "1328"
           }
           height={
@@ -32,6 +37,8 @@ const YouTube = () => {
               ? "500"
               : isXSmallScreen
               ? "294"
+              : isPhoneScreen
+              ? "174"
               : "550"
           }
           src={`https://www.${resources.youtube}`}
@@ -47,4 +54,5 @@ const YouTube = () => {
 };
 
 export default YouTube;
+
 

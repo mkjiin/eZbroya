@@ -23,9 +23,6 @@ const IntroSecPage = () => {
 
     const elements = renderList(introInfo);
 
-    const introFlexInfoStyle = {
-        height: status === 'no' ? '245px' : '206px'
-    };
 
     return (
         <div className='intro'>
@@ -37,7 +34,7 @@ const IntroSecPage = () => {
             </div>
             <div className='intro__content'>
                 <div className='intro__flex'>
-                   <div className='intro__flex__info' style={introFlexInfoStyle}>
+                   <div className='intro__flex__info'>
                     <ul className='intro__flex__info__list'>
                         {elements}
                     </ul>

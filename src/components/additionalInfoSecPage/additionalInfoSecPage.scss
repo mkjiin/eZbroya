@@ -1,5 +1,5 @@
 .info {
-    height: 422px;
+    min-height: 422px;
     background-color: #CDC5AC;
     padding: 22px 0 0 0;
     // display: flex;
@@ -50,9 +50,9 @@
             line-height: 29px;
             color: #000000;
             &-block {
-                position: absolute;
+                // position: absolute;
                 width: 666px;
-                height: 344px;
+                min-height: 344px;
                 margin-top: 13px;
                 padding: 1px 30px 25px 40px;
                 background: #D9D9D9;
