@@ -167,13 +167,12 @@ const WeaponList = () => {
 
         return arr.map(({ name, id, img, country_icon, country, type }, i) => {
             const formattedName = name.replace(/\s+/g, "__");
-            // const formattedType = type.replace(/\s+/g, '__');
             return (
                 <li
                     className="content__weapon_item"
                     tabIndex={0}
                     key={i}
-                    id={id}
+                    id={id.toString()}
                 >
                     <div className="content__weapon_item_title">
                         <div className="content__weapon_item_name">{name}</div>
@@ -225,7 +224,7 @@ const WeaponList = () => {
                         fetchedWeapons({ activeCategory, start, end })
                     );
                     // console.log(fetchedData)
-                    dispatch(weaponsPaginate(fetchedData.payload));
+                    dispatch(weaponsPaginate(fetchedData.payload as Weapon[]));
                 }}
                 style={{ display: weaponsEnded ? "none" : "block" }}
             >

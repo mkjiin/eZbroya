@@ -57,8 +57,7 @@ const SecondaryFilters = () => {
                 <Countries />
                 {activeCategory === "Танки" ||
                 activeCategory === "Самохідні Артилерійські Установки" ||
-                activeCategory === "Бойові Машини Піхоти" ||
-                activeCategory === "Протиповітрянна Оборона" ? (
+                activeCategory === "Бойові Машини Піхоти" ? (
                     <Status />
                 ) : (
                     ""
