@@ -1,14 +1,17 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { useHttp } from "../../hooks/http.hook";
 
+export type UaInfoArray = string[];
+export type ImgArray = string[];
+
 export type PageInfo = {
     name: string;
     country_icon: string;
     description: string;
     status: string;
     introInfo: string[][];
-    uaInfo: string[];
-    img: string[];
+    uaInfo: UaInfoArray;
+    img: ImgArray;
     resources: {
         youtube: string;
         wiki: string;
@@ -41,12 +44,12 @@ const initialState: InfoPageInitialState = {
 
 export const fetchedInfoPage = createAsyncThunk<
     PageInfo,
-    { type: string; id: number }
+    { typingType: string; typingId: string }
 >("infoPage/fetchedInfoPage", (args) => {
-    const { type, id } = args;
+    const { typingType, typingId } = args;
     const { request } = useHttp();
     return request(
-        `https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${type}/${id}.json`
+        `https://ezbroya-a0009-default-rtdb.europe-west1.firebasedatabase.app/categories/${typingType}/${typingId}.json`
     );
 });
 
