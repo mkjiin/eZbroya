@@ -1,9 +1,9 @@
-import AppHeader from "../../components/appHeader/AppHeader.js";
-import NewsComp from "../../components/newsComp/NewsComp.js";
-import MainFilters from "../../components/mainFilters/MainFilters.js";
-import SecondaryFilters from "../../components/secondaryFilters/SecondaryFilters.js";
-import WeaponList from "../../components/weaponList/WeaponList.js";
-import FilterButton from "../../components/filterButton/FilterButton.js";
+import AppHeader from "../../components/appHeader/AppHeader";
+import NewsComp from "../../components/newsComp/NewsComp";
+import MainFilters from "../../components/mainFilters/MainFilters";
+import SecondaryFilters from "../../components/secondaryFilters/SecondaryFilters";
+import WeaponList from "../../components/weaponList/WeaponList";
+import FilterButton from "../../components/filterButton/FilterButton";
 ///////
 
 const MainPage = () => {
